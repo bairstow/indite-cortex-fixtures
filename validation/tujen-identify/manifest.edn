@@ -1,0 +1,7 @@
+{:manifest/set :tujen-identify
+ :manifest/v1-commit "f3354a4"
+ :manifest/note "Tujen offer-grid frame used by the v1 Tujen identity spike."
+ :manifest/roles
+ {:frame/raw "Recorded game screen frame or crop (PNG), input to a vision stage."}
+ :manifest/files
+ [{:file "offer-1.png" :role :frame/raw :v1-path "resources/capture/spike/tujen-identify/offer-1.png"}]}

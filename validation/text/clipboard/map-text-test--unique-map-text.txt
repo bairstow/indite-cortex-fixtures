@@ -1,0 +1,6 @@
+Item Class: Maps
+Rarity: Unique
+Untainted Paradise
+Glacier Map (Tier 16)
+--------
+Item Quantity: +100% (augmented)

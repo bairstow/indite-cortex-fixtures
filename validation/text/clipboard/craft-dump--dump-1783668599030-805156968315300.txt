@@ -1,0 +1,26 @@
+Item Class: Rings
+Rarity: Rare
+Corruption Knuckle
+Organic Ring
+--------
+Requirements:
+Level: 63
+--------
+Item Level: 85
+--------
+{ Implicit Modifier � Physical }
+3% additional Physical Damage Reduction
+Cannot roll Modifiers of Non-Physical Damage Types � Unscalable Value
+(The Damage Types are Physical, Fire, Cold, Lightning, and Chaos)
+--------
+{ Prefix Modifier "Seething" (Tier: 5) � Defences, Energy Shield }
++25(23-26) to maximum Energy Shield
+{ Prefix Modifier "Glinting" (Tier: 6) � Damage, Physical, Attack }
+Adds 1 to 2 Physical Damage to Attacks
+{ Suffix Modifier "of Nirvana" (Tier: 1) � Mana }
+64(60-69)% increased Mana Regeneration Rate
+{ Suffix Modifier "of Bandaging" (Tier: 4) � Life }
+4(4-6)% of Damage taken Recouped as Life
+(Only Damage from Hits can be Recouped, over 4 seconds following the Hit)
+--------
+Our flesh longs to move as one.

@@ -1,0 +1,11 @@
+2023/10/08 22:57:33 26181140 cffb0719 [INFO Client 21024] : You have entered Strand.
+2023/04/07 23:54:11 ***** LOG FILE OPENING *****
+2023/04/07 23:54:11 1234109 e4b31bb6 [DEBUG Client 15688] some engine trace
+2023/11/24 16:43:43 165182156 cffb0716 [INFO Client 44888] : Hurauntmai (Marauder) is now level 3
+2020/01/01 00:00:00 1 aaaaaaaa [INFO Client 1] : Failed to apply item: Item has no space for more Mods.
+2020/01/01 00:00:00 1 aaaaaaaa [INFO Client 1] : <Name> has been slain.
+2020/01/01 00:00:00 1 aaaaaaaa [INFO Client 1] [WINDOW] Gained focus
+2020/01/01 00:00:00 1 aaaaaaaa [INFO Client 1] Connecting to instance server at 1.2.3.4:6112
+2020/01/01 00:00:00 1 aaaaaaaa [INFO Client 1] [SCENE] Set Source [The Coast]
+2020/01/01 00:00:00 1 aaaaaaaa [DEBUG Client 1] : You have entered Strand.
+2020/01/01 00:00:00 1 aaaaaaaa [INFO Client 1] Send patching protocol version 6

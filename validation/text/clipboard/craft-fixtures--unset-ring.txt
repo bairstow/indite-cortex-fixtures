@@ -1,0 +1,20 @@
+Item Class: Rings
+Rarity: Magic
+Unset Ring of the Leviathan
+--------
+Requirements:
+Level: 52
+--------
+Sockets: G 
+--------
+Item Level: 87
+--------
+{ Implicit Modifier }
+Has 1 Socket (implicit)
+--------
+{ Suffix Modifier "The Shaper's" (Tier: 3) � Attribute }
+2(2-3)% increased Experience gain
+{ Suffix Modifier "of the Leviathan" (Tier: 3) � Attribute }
++39(38-42) to Strength
+--------
+Shaper Item

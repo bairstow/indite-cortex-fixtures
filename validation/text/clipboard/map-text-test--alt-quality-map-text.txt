@@ -1,0 +1,12 @@
+Item Class: Maps
+Rarity: Rare
+Dread Hunt
+Strand Map (Tier 16)
+--------
+Item Quantity: +110% (augmented)
+Monster Pack Size: +62% (augmented)
+More Currency: +130% (augmented)
+More Scarabs: +95% (augmented)
+More Maps: +90% (augmented)
+--------
+Item Level: 84

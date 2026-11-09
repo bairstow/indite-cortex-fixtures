@@ -1,0 +1,13 @@
+{:manifest/set :spike-misc
+ :manifest/v1-commit "f3354a4"
+ :manifest/note "Loose v1 spike crops: art-rect border check, five faction-currency total crops (cur-0..4), Tujen overlay check frame."
+ :manifest/roles
+ {:frame/raw "Recorded game screen frame or crop (PNG), input to a vision stage."}
+ :manifest/files
+ [{:file "art-rect-check.png" :role :frame/raw :v1-path "resources/capture/spike/art-rect-check.png"}
+  {:file "cur-0.png" :role :frame/raw :v1-path "resources/capture/spike/cur-0.png"}
+  {:file "cur-1.png" :role :frame/raw :v1-path "resources/capture/spike/cur-1.png"}
+  {:file "cur-2.png" :role :frame/raw :v1-path "resources/capture/spike/cur-2.png"}
+  {:file "cur-3.png" :role :frame/raw :v1-path "resources/capture/spike/cur-3.png"}
+  {:file "cur-4.png" :role :frame/raw :v1-path "resources/capture/spike/cur-4.png"}
+  {:file "tujen-overlay-check.png" :role :frame/raw :v1-path "resources/capture/spike/tujen-overlay-check.png"}]}

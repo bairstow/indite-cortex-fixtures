@@ -1,0 +1,24 @@
+Item Class: Heist Cloaks
+Rarity: Rare
+Doom Shroud
+Whisper-woven Cloak
+--------
+Any Heist member can equip this item.
+--------
+Requirements:
+Level 5 in Any Job
+--------
+Item Level: 84
+--------
+{ Implicit Modifier }
+5% reduced raising of Alert Level
+--------
+{ Prefix Modifier "Harmful" (Tier: 4) � Damage }
+32(30-34)% increased Damage
+{ Prefix Modifier "Slowing" (Tier: 4) }
+5(4-5)% increased time before Lockdown
+{ Suffix Modifier "of Surprise" (Tier: 2) � Critical }
+21(20-22)% increased Critical Strike Chance while area is not in Lockdown
+Players have 21(20-22)% increased Critical Strike Chance while area is not in Lockdown
+--------
+Can only be equipped to Heist members.

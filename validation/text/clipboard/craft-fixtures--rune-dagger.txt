@@ -1,0 +1,29 @@
+Item Class: Rune Daggers
+Rarity: Magic
+Flame Shaper's Platinum Kris of Dissolution
+--------
+Rune Dagger
+Quality: +20% (augmented)
+Physical Damage: 29-114 (augmented)
+Critical Strike Chance: 6.50%
+Attacks per Second: 1.20
+Weapon Range: 1 metre
+--------
+Requirements:
+Level: 65
+Dex: 76
+Int: 149
+--------
+Sockets: B 
+--------
+Item Level: 85
+--------
+{ Implicit Modifier � Critical }
+50% increased Global Critical Strike Chance (implicit)
+--------
+{ Prefix Modifier "Flame Shaper's" (Tier: 1) � Elemental, Fire, Caster, Gem }
++1 to Level of all Fire Spell Skill Gems
+{ Suffix Modifier "of Dissolution" (Tier: 1) � Damage }
++24(24-26)% to Damage over Time Multiplier (fractured)
+--------
+Fractured Item

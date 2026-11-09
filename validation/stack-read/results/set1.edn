@@ -1,0 +1,36 @@
+{:set "set1",
+ :n 37,
+ :refs 31,
+ :atlas 10,
+ :type
+ {:A0
+  {:type-acc 0.8648648648648649,
+   :collisions 0,
+   :runtime {:mean 135.85850270270276, :p90 141.4144}},
+  :A1
+  {:type-acc 0.8648648648648649,
+   :collisions 6,
+   :runtime {:mean 134.37012162162162, :p90 136.1213}},
+  :A2
+  {:type-acc 1.0,
+   :collisions 0,
+   :runtime {:mean 127.98516216216217, :p90 129.5144}},
+  :A1+A2
+  {:type-acc 0.9459459459459459,
+   :collisions 0,
+   :runtime {:mean 154.31201891891888, :p90 259.4743}}},
+ :count
+ {:B-tess
+  {:n 37,
+   :exact 15,
+   :exact-rate 0.40540540540540543,
+   :unreadable-n 7,
+   :catastrophic-n 10,
+   :runtime {:mean 178.56512972972973, :p90 181.795}},
+  :B-dt
+  {:n 37,
+   :exact 37,
+   :exact-rate 1.0,
+   :unreadable-n 0,
+   :catastrophic-n 0,
+   :runtime {:mean 132.62409729729728, :p90 138.8437}}}}

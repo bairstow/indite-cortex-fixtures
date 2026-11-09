@@ -1,0 +1,54 @@
+{:manifest/set :stack-read
+ :manifest/v1-commit "f3354a4"
+ :manifest/note "Stack-read spike 37-slot set (set1): character-inventory frame, ground-truth labels, 31 stackable refs, digit atlas, v1 spike metrics. debug/ excluded."
+ :manifest/roles
+ {:frame/raw "Recorded game screen frame or crop (PNG), input to a vision stage."
+ :label/ground-truth "Hand-written EDN ground truth: {:panel kw :slots {[col row] {:type kw :count int}}} per occupied slot of the matching frame."
+ :ref/digit "Digit glyph template (0-9) for the stack-count digit-template reader."
+ :ref/template "Reference image a matcher compares against (item-art ref or template)."
+ :result/v1 "EDN metrics from the v1 spike run over the frame: per-approach type accuracy, collisions, count exact-rate, unreadable/catastrophic counts, runtime mean/p90 (ms)."}
+ :manifest/files
+ [{:file "frames/set1.png" :role :frame/raw :v1-path "resources/capture/spike/stack-read/frames/set1.png"}
+  {:file "labels/set1.edn" :role :label/ground-truth :v1-path "resources/capture/spike/stack-read/labels/set1.edn"}
+  {:file "refs/stackable/accelerating-catalyst.png" :role :ref/template :v1-path "resources/capture/spike/stack-read/refs/stackable/accelerating-catalyst.png"}
+  {:file "refs/stackable/alchemy-shard.png" :role :ref/template :v1-path "resources/capture/spike/stack-read/refs/stackable/alchemy-shard.png"}
+  {:file "refs/stackable/alteration-shard.png" :role :ref/template :v1-path "resources/capture/spike/stack-read/refs/stackable/alteration-shard.png"}
+  {:file "refs/stackable/amber-oil.png" :role :ref/template :v1-path "resources/capture/spike/stack-read/refs/stackable/amber-oil.png"}
+  {:file "refs/stackable/blessed-orb.png" :role :ref/template :v1-path "resources/capture/spike/stack-read/refs/stackable/blessed-orb.png"}
+  {:file "refs/stackable/breach-scarab-of-the-hive.png" :role :ref/template :v1-path "resources/capture/spike/stack-read/refs/stackable/breach-scarab-of-the-hive.png"}
+  {:file "refs/stackable/chaos-orb.png" :role :ref/template :v1-path "resources/capture/spike/stack-read/refs/stackable/chaos-orb.png"}
+  {:file "refs/stackable/deafening-essence-of-anguish.png" :role :ref/template :v1-path "resources/capture/spike/stack-read/refs/stackable/deafening-essence-of-anguish.png"}
+  {:file "refs/stackable/deafening-essence-of-rage.png" :role :ref/template :v1-path "resources/capture/spike/stack-read/refs/stackable/deafening-essence-of-rage.png"}
+  {:file "refs/stackable/deafening-essence-of-spite.png" :role :ref/template :v1-path "resources/capture/spike/stack-read/refs/stackable/deafening-essence-of-spite.png"}
+  {:file "refs/stackable/deafening-essence-of-zeal.png" :role :ref/template :v1-path "resources/capture/spike/stack-read/refs/stackable/deafening-essence-of-zeal.png"}
+  {:file "refs/stackable/divine-orb.png" :role :ref/template :v1-path "resources/capture/spike/stack-read/refs/stackable/divine-orb.png"}
+  {:file "refs/stackable/domination-scarab.png" :role :ref/template :v1-path "resources/capture/spike/stack-read/refs/stackable/domination-scarab.png"}
+  {:file "refs/stackable/exalted-orb.png" :role :ref/template :v1-path "resources/capture/spike/stack-read/refs/stackable/exalted-orb.png"}
+  {:file "refs/stackable/intrinsic-catalyst.png" :role :ref/template :v1-path "resources/capture/spike/stack-read/refs/stackable/intrinsic-catalyst.png"}
+  {:file "refs/stackable/kalguuran-scarab.png" :role :ref/template :v1-path "resources/capture/spike/stack-read/refs/stackable/kalguuran-scarab.png"}
+  {:file "refs/stackable/legion-scarab.png" :role :ref/template :v1-path "resources/capture/spike/stack-read/refs/stackable/legion-scarab.png"}
+  {:file "refs/stackable/orb-of-fusing.png" :role :ref/template :v1-path "resources/capture/spike/stack-read/refs/stackable/orb-of-fusing.png"}
+  {:file "refs/stackable/portal-scroll.png" :role :ref/template :v1-path "resources/capture/spike/stack-read/refs/stackable/portal-scroll.png"}
+  {:file "refs/stackable/regal-orb.png" :role :ref/template :v1-path "resources/capture/spike/stack-read/refs/stackable/regal-orb.png"}
+  {:file "refs/stackable/ritual-scarab-of-selectiveness.png" :role :ref/template :v1-path "resources/capture/spike/stack-read/refs/stackable/ritual-scarab-of-selectiveness.png"}
+  {:file "refs/stackable/rogues-marker.png" :role :ref/template :v1-path "resources/capture/spike/stack-read/refs/stackable/rogues-marker.png"}
+  {:file "refs/stackable/scarab-of-wisps.png" :role :ref/template :v1-path "resources/capture/spike/stack-read/refs/stackable/scarab-of-wisps.png"}
+  {:file "refs/stackable/scroll-of-wisdom.png" :role :ref/template :v1-path "resources/capture/spike/stack-read/refs/stackable/scroll-of-wisdom.png"}
+  {:file "refs/stackable/sepia-oil.png" :role :ref/template :v1-path "resources/capture/spike/stack-read/refs/stackable/sepia-oil.png"}
+  {:file "refs/stackable/simulacrum-splinter.png" :role :ref/template :v1-path "resources/capture/spike/stack-read/refs/stackable/simulacrum-splinter.png"}
+  {:file "refs/stackable/teal-oil.png" :role :ref/template :v1-path "resources/capture/spike/stack-read/refs/stackable/teal-oil.png"}
+  {:file "refs/stackable/tempering-catalyst.png" :role :ref/template :v1-path "resources/capture/spike/stack-read/refs/stackable/tempering-catalyst.png"}
+  {:file "refs/stackable/timeless-templar-splinter.png" :role :ref/template :v1-path "resources/capture/spike/stack-read/refs/stackable/timeless-templar-splinter.png"}
+  {:file "refs/stackable/transmutation-shard.png" :role :ref/template :v1-path "resources/capture/spike/stack-read/refs/stackable/transmutation-shard.png"}
+  {:file "refs/stackable/verdant-oil.png" :role :ref/template :v1-path "resources/capture/spike/stack-read/refs/stackable/verdant-oil.png"}
+  {:file "atlas/digit-0.png" :role :ref/digit :v1-path "resources/capture/spike/stack-read/atlas/digit-0.png"}
+  {:file "atlas/digit-1.png" :role :ref/digit :v1-path "resources/capture/spike/stack-read/atlas/digit-1.png"}
+  {:file "atlas/digit-2.png" :role :ref/digit :v1-path "resources/capture/spike/stack-read/atlas/digit-2.png"}
+  {:file "atlas/digit-3.png" :role :ref/digit :v1-path "resources/capture/spike/stack-read/atlas/digit-3.png"}
+  {:file "atlas/digit-4.png" :role :ref/digit :v1-path "resources/capture/spike/stack-read/atlas/digit-4.png"}
+  {:file "atlas/digit-5.png" :role :ref/digit :v1-path "resources/capture/spike/stack-read/atlas/digit-5.png"}
+  {:file "atlas/digit-6.png" :role :ref/digit :v1-path "resources/capture/spike/stack-read/atlas/digit-6.png"}
+  {:file "atlas/digit-7.png" :role :ref/digit :v1-path "resources/capture/spike/stack-read/atlas/digit-7.png"}
+  {:file "atlas/digit-8.png" :role :ref/digit :v1-path "resources/capture/spike/stack-read/atlas/digit-8.png"}
+  {:file "atlas/digit-9.png" :role :ref/digit :v1-path "resources/capture/spike/stack-read/atlas/digit-9.png"}
+  {:file "results/set1.edn" :role :result/v1 :v1-path "resources/capture/spike/stack-read/results/set1.edn"}]}

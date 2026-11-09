@@ -1,0 +1,9 @@
+Item Class: Rings
+Rarity: Rare
+Dread Loop
+Iron Ring
+--------
+Item Level: 84
+--------
+{ Prefix Modifier "Hale" (Tier: 2) � Life }
++82(80-89) to maximum Life

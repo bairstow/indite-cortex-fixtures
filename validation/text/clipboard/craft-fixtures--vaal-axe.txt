@@ -1,0 +1,28 @@
+Item Class: Two Hand Axes
+Rarity: Magic
+Freezing Vaal Axe of Incision
+--------
+Two Handed Axe
+Physical Damage: 104-174
+Elemental Damage: 49-94 (augmented)
+Critical Strike Chance: 6.85% (augmented)
+Attacks per Second: 1.15
+Weapon Range: 1.3 metres
+--------
+Requirements:
+Level: 64
+Str: 158
+Dex: 76
+--------
+Sockets: G G 
+--------
+Item Level: 83
+--------
+{ Implicit Modifier � Attack }
+25% chance to Maim on Hit (implicit)
+(Maimed enemies have 30% reduced Movement Speed) (implicit)
+--------
+{ Prefix Modifier "Freezing" (Tier: 6) � Damage, Elemental, Cold, Attack }
+Adds 49(41-55) to 94(81-95) Cold Damage
+{ Suffix Modifier "of Incision" (Tier: 1) � Attack, Critical }
+37(35-38)% increased Critical Strike Chance

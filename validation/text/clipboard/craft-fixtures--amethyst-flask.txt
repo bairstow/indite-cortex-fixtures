@@ -1,0 +1,19 @@
+Item Class: Utility Flasks
+Rarity: Magic
+Investigator's Amethyst Flask
+--------
+Quality: +20% (augmented)
+Lasts 9.10 (augmented) Seconds
+Consumes 35 of 65 Charges on use
+Currently has 0 Charges
++35% to Chaos Resistance
+--------
+Requirements:
+Level: 18
+--------
+Item Level: 85
+--------
+{ Prefix Modifier "Investigator's" (Tier: 5) }
+20(16-20)% increased Duration
+--------
+Right click to drink. Can only hold charges while in belt. Refills as you kill monsters.

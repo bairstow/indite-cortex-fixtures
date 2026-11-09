@@ -1,0 +1,43 @@
+Item Class: Maps
+Rarity: Rare
+Eerie Instigation
+Map (Tier 16)
+--------
+Item Quantity: +87% (augmented)
+Item Rarity: +162% (augmented)
+Monster Pack Size: +34% (augmented)
+More Maps: +35% (augmented)
+More Scarabs: +35% (augmented)
+More Currency: +92% (augmented)
+--------
+Item Level: 83
+--------
+Monster Level: 83
+--------
+{ Implicit Modifier }
+Area is Influenced by the Originator's Memories
+--------
+{ Prefix Modifier "Protected" (Tier: 1) }
++50% Monster Physical Damage Reduction
++35% Monster Chaos Resistance
++55% Monster Elemental Resistances
+{ Prefix Modifier "Prismatic" (Tier: 1) }
+Monsters gain 183(180-200)% of their Physical Damage as Extra Damage of a random Element
+{ Prefix Modifier "Magnifying" (Tier: 1) }
+Monsters have 100% increased Area of Effect
+Monsters fire 2 additional Projectiles
+{ Suffix Modifier "of Imbibing" (Tier: 1) }
+Players are targeted by a Meteor when they use a Flask
+{ Suffix Modifier "of the Juggernaut" (Tier: 1) }
+Monsters cannot be Stunned
+Monsters' Action Speed cannot be modified to below Base Value
+Monsters' Movement Speed cannot be modified to below Base Value
+{ Suffix Modifier "of Curses" (Tier: 1) }
+Players are Cursed with Vulnerability
+(Vulnerability is a Hex which increases Physical Damage taken by 15% and causes Hits to have +25% chance to inflict Bleeding on the target. It lasts 8 seconds)
+Players are Cursed with Temporal Chains
+(Temporal Chains is a Hex which reduces Action Speed by 15%, or 9% on Rare or Unique targets, and makes other effects on the target expire 40% slower. It has 50% less effect on Players and lasts 5 seconds)
+Players are Cursed with Elemental Weakness
+(Elemental Weakness is a Hex which inficts -15% to all Elemental Resistances. It lasts 8 seconds)
+--------
+Travel to a Map of this tier or lower by using this in a personal Map Device. Maps can only be used once. 

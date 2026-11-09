@@ -1,0 +1,30 @@
+{:manifest/set :text
+ :manifest/v1-commit "f3354a4"
+ :manifest/note "Clipboard item texts and Client.txt lines extracted from v1 test sources and resources/data/craft-dumps (v1 working tree incl. uncommitted edits as of 2026-11-09), with v1 golden outputs. Identical texts deduplicated; duplicates' sources in :v1-also. craft_author_adapter_test's pre-split line vectors were not extracted (not clipboard bytes)."
+ :manifest/roles
+ {:input/clipboard "PoE advanced-copy (Ctrl+Alt+C) clipboard item text, exact bytes as the v1 Clojure string literal (or craft-dump :raw) encodes them: mixed CRLF / bare LF kept, PoE bullet as U+FFFD (UTF-8). Text from v1 tests is hand-transcribed unless its v1 docstring says verbatim; craft-dump texts are real captures."
+  :input/client-log "Client.txt lines from v1's log-parse tests, one per line (LF), in first-appearance order, deduplicated."
+  :golden/v1 "v1 oracle output. clipboard/golden.edn: [{:input <file> :output <:target/parse map>}] from indite-cortex.model.poe.data.item generate-raw-item-data -> parse-raw-item-data (datamine-dependent :id/:item-type tied to v1's on-disk RePoE reference at the commit). client-log/golden.edn: [{:line <line> :output {:envelope (parse/parse-envelope line) :event (parse/parse-line events/event-defs line)}}]."}
+ :manifest/files
+ [{:file "clipboard/craft-author-command-test--raw-ring.txt" :role :input/clipboard :v1-path "test/indite_cortex/craft_author_command_test.clj"}
+  {:file "clipboard/craft-dump--dump-1783668599030-805156968315300.txt" :role :input/clipboard :v1-path "resources/data/craft-dumps/dump-1783668599030-805156968315300.edn"}
+  {:file "clipboard/craft-dump--dump-1783697009057-833566995025700.txt" :role :input/clipboard :v1-path "resources/data/craft-dumps/dump-1783697009057-833566995025700.edn"}
+  {:file "clipboard/craft-fixtures--amethyst-flask.txt" :role :input/clipboard :v1-path "test/indite_cortex/craft_fixtures.clj"}
+  {:file "clipboard/craft-fixtures--rune-dagger.txt" :role :input/clipboard :v1-path "test/indite_cortex/craft_fixtures.clj"}
+  {:file "clipboard/craft-fixtures--silver-flask.txt" :role :input/clipboard :v1-path "test/indite_cortex/craft_fixtures.clj"}
+  {:file "clipboard/craft-fixtures--topaz-flask.txt" :role :input/clipboard :v1-path "test/indite_cortex/craft_fixtures.clj"}
+  {:file "clipboard/craft-fixtures--unset-ring.txt" :role :input/clipboard :v1-path "test/indite_cortex/craft_fixtures.clj" :v1-also ["test/indite_cortex/model/poe/data/map_tier_test.clj"]}
+  {:file "clipboard/craft-fixtures--vaal-axe.txt" :role :input/clipboard :v1-path "test/indite_cortex/craft_fixtures.clj"}
+  {:file "clipboard/craft-reference-v2-test--paladin-boots-now-parses-test.txt" :role :input/clipboard :v1-path "test/indite_cortex/craft_reference_v2_test.clj"}
+  {:file "clipboard/manual-capture-test--map-text-with.txt" :role :input/clipboard :v1-path "test/indite_cortex/model/poe/craft/manual_capture_test.clj" :note "Template fn instantiated with quantity 60 (first value the test passes)."}
+  {:file "clipboard/manual-capture-test--non-map-text-is-skipped-not-unread.txt" :role :input/clipboard :v1-path "test/indite_cortex/model/poe/craft/manual_capture_test.clj"}
+  {:file "clipboard/map-select-manual-test--stub-map-text.txt" :role :input/clipboard :v1-path "test/indite_cortex/model/poe/command/map_select_manual_test.clj" :note "Template fn instantiated with quantity 100 (the value the test passes)."}
+  {:file "clipboard/map-text-test--alt-quality-map-text.txt" :role :input/clipboard :v1-path "test/indite_cortex/model/poe/craft/map_text_test.clj"}
+  {:file "clipboard/map-text-test--base-map-text.txt" :role :input/clipboard :v1-path "test/indite_cortex/model/poe/craft/map_text_test.clj"}
+  {:file "clipboard/map-text-test--currency-text.txt" :role :input/clipboard :v1-path "test/indite_cortex/model/poe/craft/map_text_test.clj"}
+  {:file "clipboard/map-text-test--real-map-text.txt" :role :input/clipboard :v1-path "test/indite_cortex/model/poe/craft/map_text_test.clj" :v1-also ["test/indite_cortex/model/poe/data/map_tier_test.clj"]}
+  {:file "clipboard/map-text-test--unique-map-text.txt" :role :input/clipboard :v1-path "test/indite_cortex/model/poe/craft/map_text_test.clj"}
+  {:file "clipboard/map-tier-test--named-base-map-text.txt" :role :input/clipboard :v1-path "test/indite_cortex/model/poe/data/map_tier_test.clj"}
+  {:file "clipboard/golden.edn" :role :golden/v1 :v1-path "src/indite_cortex/model/poe/data/item.clj"}
+  {:file "client-log/lines.txt" :role :input/client-log :v1-path "test/indite_cortex/log_parse_test.clj" :v1-also ["test/indite_cortex/log_runtime_test.clj"]}
+  {:file "client-log/golden.edn" :role :golden/v1 :v1-path "src/indite_cortex/model/poe/log/parse.clj"}]}

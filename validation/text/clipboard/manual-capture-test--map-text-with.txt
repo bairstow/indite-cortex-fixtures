@@ -1,0 +1,6 @@
+Item Class: Maps
+Rarity: Rare
+Grim Whisper
+Cemetery Map (Tier 16)
+--------
+Item Quantity: +60% (augmented)

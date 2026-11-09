@@ -1,0 +1,15 @@
+{:manifest/set :shop-frames
+ :manifest/v1-commit "f3354a4"
+ :manifest/note "Faustus shop calibration crops (grid, price overlay short/mid/long) and shop templates. diag/ excluded; full-desktop 7280x2160 dumps excluded (they capture the owner's whole desktop, not only the game)."
+ :manifest/roles
+ {:frame/raw "Recorded game screen frame or crop (PNG), input to a vision stage."
+ :ref/template "Reference image a matcher compares against (item-art ref or template)."}
+ :manifest/files
+ [{:file "calib-grid-now.png" :role :frame/raw :v1-path "resources/capture/shop/calib-grid-now.png"}
+  {:file "calib-grid-region.png" :role :frame/raw :v1-path "resources/capture/shop/calib-grid-region.png"}
+  {:file "calib-overlay-long-region.png" :role :frame/raw :v1-path "resources/capture/shop/calib-overlay-long-region.png"}
+  {:file "calib-overlay-mid-region.png" :role :frame/raw :v1-path "resources/capture/shop/calib-overlay-mid-region.png"}
+  {:file "calib-overlay-short-region.png" :role :frame/raw :v1-path "resources/capture/shop/calib-overlay-short-region.png"}
+  {:file "faustus-shop-empty.png" :role :ref/template :v1-path "resources/capture/shop/faustus-shop-empty.png"}
+  {:file "faustus-shop-landmark.png" :role :ref/template :v1-path "resources/capture/shop/faustus-shop-landmark.png"}
+  {:file "faustus-shop-list-button.png" :role :ref/template :v1-path "resources/capture/shop/faustus-shop-list-button.png"}]}

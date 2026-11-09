@@ -1,0 +1,12 @@
+Item Class: Maps
+Rarity: Rare
+Grim Whisper
+Cemetery Map (Tier 16)
+--------
+Item Quantity: +92% (augmented)
+Item Rarity: +40% (augmented)
+Monster Pack Size: +34% (augmented)
+--------
+Item Level: 84
+--------
+Area contains two Unique Bosses

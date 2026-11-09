@@ -1,0 +1,23 @@
+Item Class: Utility Flasks
+Rarity: Magic
+Abecedarian's Topaz Flask of Imposing
+--------
+Quality: +20% (augmented)
+Lasts 6.80 (augmented) Seconds
+Consumes 20 of 50 Charges on use
+Currently has 0 Charges
++50% to Lightning Resistance
+20% less Lightning Damage taken
+--------
+Requirements:
+Level: 25
+--------
+Item Level: 84
+--------
+{ Prefix Modifier "Abecedarian's" (Tier: 3) }
+35(38-33)% reduced Duration
+25% increased effect
+{ Suffix Modifier "of Imposing" (Tier: 3) � Elemental, Fire, Cold, Lightning, Ailment }
+23(23-26)% chance to Freeze, Shock and Ignite during Effect
+--------
+Right click to drink. Can only hold charges while in belt. Refills as you kill monsters.

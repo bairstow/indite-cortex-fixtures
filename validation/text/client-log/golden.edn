@@ -1,0 +1,167 @@
+[{:line "2023/10/08 22:57:33 26181140 cffb0719 [INFO Client 21024] : You have entered Strand.",
+  :output
+  {:envelope
+   {:log/date "2023/10/08",
+    :log/time "22:57:33",
+    :log/uptime "26181140",
+    :log/thread "cffb0719",
+    :log/level "INFO",
+    :log/pid "21024",
+    :log/body ": You have entered Strand."},
+   :event
+   {:event-type :application/event,
+    :event/id :area/entered,
+    :event/data
+    {:event/category :area,
+     :event/prov :local,
+     :event/fields {:area "Strand"},
+     :event/raw
+     "2023/10/08 22:57:33 26181140 cffb0719 [INFO Client 21024] : You have entered Strand."}}}}
+ {:line "2023/04/07 23:54:11 ***** LOG FILE OPENING *****", :output {:envelope nil, :event nil}}
+ {:line "2023/04/07 23:54:11 1234109 e4b31bb6 [DEBUG Client 15688] some engine trace",
+  :output
+  {:envelope
+   {:log/date "2023/04/07",
+    :log/time "23:54:11",
+    :log/uptime "1234109",
+    :log/thread "e4b31bb6",
+    :log/level "DEBUG",
+    :log/pid "15688",
+    :log/body "some engine trace"},
+   :event nil}}
+ {:line
+  "2023/11/24 16:43:43 165182156 cffb0716 [INFO Client 44888] : Hurauntmai (Marauder) is now level 3",
+  :output
+  {:envelope
+   {:log/date "2023/11/24",
+    :log/time "16:43:43",
+    :log/uptime "165182156",
+    :log/thread "cffb0716",
+    :log/level "INFO",
+    :log/pid "44888",
+    :log/body ": Hurauntmai (Marauder) is now level 3"},
+   :event
+   {:event-type :application/event,
+    :event/id :char/level-up,
+    :event/data
+    {:event/category :progress,
+     :event/prov :local,
+     :event/fields {:character "Hurauntmai", :class "Marauder", :level 3},
+     :event/raw
+     "2023/11/24 16:43:43 165182156 cffb0716 [INFO Client 44888] : Hurauntmai (Marauder) is now level 3"}}}}
+ {:line
+  "2020/01/01 00:00:00 1 aaaaaaaa [INFO Client 1] : Failed to apply item: Item has no space for more Mods.",
+  :output
+  {:envelope
+   {:log/date "2020/01/01",
+    :log/time "00:00:00",
+    :log/uptime "1",
+    :log/thread "aaaaaaaa",
+    :log/level "INFO",
+    :log/pid "1",
+    :log/body ": Failed to apply item: Item has no space for more Mods."},
+   :event
+   {:event-type :application/event,
+    :event/id :craft/apply-failed,
+    :event/data
+    {:event/category :craft,
+     :event/prov :local,
+     :event/fields {:reason "Item has no space for more Mods."},
+     :event/raw
+     "2020/01/01 00:00:00 1 aaaaaaaa [INFO Client 1] : Failed to apply item: Item has no space for more Mods."}}}}
+ {:line "2020/01/01 00:00:00 1 aaaaaaaa [INFO Client 1] : <Name> has been slain.",
+  :output
+  {:envelope
+   {:log/date "2020/01/01",
+    :log/time "00:00:00",
+    :log/uptime "1",
+    :log/thread "aaaaaaaa",
+    :log/level "INFO",
+    :log/pid "1",
+    :log/body ": <Name> has been slain."},
+   :event
+   {:event-type :application/event,
+    :event/id :entity/slain,
+    :event/data
+    {:event/category :entity,
+     :event/prov :local,
+     :event/fields {:name "<Name>"},
+     :event/raw "2020/01/01 00:00:00 1 aaaaaaaa [INFO Client 1] : <Name> has been slain."}}}}
+ {:line "2020/01/01 00:00:00 1 aaaaaaaa [INFO Client 1] [WINDOW] Gained focus",
+  :output
+  {:envelope
+   {:log/date "2020/01/01",
+    :log/time "00:00:00",
+    :log/uptime "1",
+    :log/thread "aaaaaaaa",
+    :log/level "INFO",
+    :log/pid "1",
+    :log/body "[WINDOW] Gained focus"},
+   :event
+   {:event-type :application/event,
+    :event/id :window/focus,
+    :event/data
+    {:event/category :session,
+     :event/prov :local,
+     :event/fields {:state "Gained"},
+     :event/raw "2020/01/01 00:00:00 1 aaaaaaaa [INFO Client 1] [WINDOW] Gained focus"}}}}
+ {:line
+  "2020/01/01 00:00:00 1 aaaaaaaa [INFO Client 1] Connecting to instance server at 1.2.3.4:6112",
+  :output
+  {:envelope
+   {:log/date "2020/01/01",
+    :log/time "00:00:00",
+    :log/uptime "1",
+    :log/thread "aaaaaaaa",
+    :log/level "INFO",
+    :log/pid "1",
+    :log/body "Connecting to instance server at 1.2.3.4:6112"},
+   :event
+   {:event-type :application/event,
+    :event/id :net/instance-connect,
+    :event/data
+    {:event/category :area,
+     :event/prov :local,
+     :event/fields {:endpoint "1.2.3.4:6112"},
+     :event/raw
+     "2020/01/01 00:00:00 1 aaaaaaaa [INFO Client 1] Connecting to instance server at 1.2.3.4:6112"}}}}
+ {:line "2020/01/01 00:00:00 1 aaaaaaaa [INFO Client 1] [SCENE] Set Source [The Coast]",
+  :output
+  {:envelope
+   {:log/date "2020/01/01",
+    :log/time "00:00:00",
+    :log/uptime "1",
+    :log/thread "aaaaaaaa",
+    :log/level "INFO",
+    :log/pid "1",
+    :log/body "[SCENE] Set Source [The Coast]"},
+   :event
+   {:event-type :application/event,
+    :event/id :area/scene-source,
+    :event/data
+    {:event/category :area,
+     :event/prov :local,
+     :event/fields {:source "The Coast"},
+     :event/raw "2020/01/01 00:00:00 1 aaaaaaaa [INFO Client 1] [SCENE] Set Source [The Coast]"}}}}
+ {:line "2020/01/01 00:00:00 1 aaaaaaaa [DEBUG Client 1] : You have entered Strand.",
+  :output
+  {:envelope
+   {:log/date "2020/01/01",
+    :log/time "00:00:00",
+    :log/uptime "1",
+    :log/thread "aaaaaaaa",
+    :log/level "DEBUG",
+    :log/pid "1",
+    :log/body ": You have entered Strand."},
+   :event nil}}
+ {:line "2020/01/01 00:00:00 1 aaaaaaaa [INFO Client 1] Send patching protocol version 6",
+  :output
+  {:envelope
+   {:log/date "2020/01/01",
+    :log/time "00:00:00",
+    :log/uptime "1",
+    :log/thread "aaaaaaaa",
+    :log/level "INFO",
+    :log/pid "1",
+    :log/body "Send patching protocol version 6"},
+   :event nil}}]

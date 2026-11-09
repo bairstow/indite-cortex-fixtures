@@ -1,0 +1,3 @@
+Item Class: Stackable Currency
+Rarity: Currency
+Chaos Orb
