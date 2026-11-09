@@ -1,0 +1,8 @@
+* text=auto eol=lf
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.bmp binary
+*.raw binary
+# Recorded game text keeps its exact bytes (PoE clipboard output mixes CRLF and LF).
+validation/text/** -text
