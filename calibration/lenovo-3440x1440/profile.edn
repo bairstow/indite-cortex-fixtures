@@ -1,0 +1,246 @@
+;; Calibration profile for the developer's Lenovo 3440x1440 ultrawide, PoE fullscreen at
+;; the screen origin. TRANSCRIBED from v1 (commit f3354a4 working tree, 2026-11-09); every
+;; key name and numeric value is as in v1 so the file can be audited against v1 line by
+;; line (see :profile/v1-sources). Renaming happens in the v2 slice that consumes a value.
+;; The only edits: v1 resource paths for template images are rewritten to paths relative
+;; to this profile directory (e.g. "resources/capture/inventory/stash-normal-empty.png"
+;; -> "templates/stash-normal-empty.png").
+;; Not transcribed: v1's :samsung-4k profile (dimension-4k, location-definitions-4k,
+;; VOID-BDIM) -- legacy and broken.
+{:profile/id :lenovo-3440x1440
+
+ :profile/v1-commit "f3354a4"
+ :profile/v1-note "includes uncommitted working-tree edits as of 2026-11-09"
+ :profile/v1-sources
+ [{:file "src/indite_cortex/model/poe/inventory/model.clj" :lines [15 347] :what "panels (9 descriptors) -> :panels"}
+  {:file "src/indite_cortex/model/poe/inventory/model.clj" :lines [402 408] :what "default-art-inset -> :constants"}
+  {:file "src/indite_cortex/model/poe/data/window.clj" :lines [46 70] :what "lenovo-widescreen-data -> :click-profile :lenovo-widescreen-data"}
+  {:file "src/indite_cortex/model/poe/data/window.clj" :lines [75 75] :what "window-reference key for this profile -> :click-profile :v1-window-type"}
+  {:file "src/indite_cortex/model/poe/data/window.clj" :lines [121 121] :what "tab-id-order -> :click-profile :tab-id-order"}
+  {:file "src/indite_cortex/model/poe/data/window.clj" :lines [160 164] :what "stash-tab-menu -> :click-profile :stash-tab-menu"}
+  {:file "resources/capture/minimap/projection.edn" :lines [11 11] :what ":screen-region 3440x1440 -> :display :w/:h"}]
+
+ ;; :w/:h from v1 minimap/projection.edn :screen-region {:width 3440 :height 1440}.
+ ;; :scale 1.0 is NOT a v1 value: v1 never models display scaling; 1.0 records the
+ ;; implicit assumption that screen px == captured px on this monitor.
+ :display {:w 3440 :h 1440 :scale 1.0}
+
+ ;; v1 model.clj `default-art-inset`: px trimmed from each cell edge for the border-free
+ ;; identity/catalogue art crop; a panel overrides it with :grid/inset.
+ :constants {:default-art-inset 2}
+
+ ;; v1 model.clj `panels`. Per-panel thresholds (empty/landmark/highlight/occupancy-sat/
+ ;; marker/list-button) and cursor parks live inside the descriptors, as in v1.
+ :panels
+ {;; 12x12 normal stash tab. Calibrated 2026-07-14 (AHK Window Spy); region anchored at
+  ;; the screen origin so :grid/origin is the grid's screen coords. Empties score
+  ;; 0.90-1.00, filled 0.39-0.41 -> 0.70; landmark open ~1.0 / closed ~0.32 -> 0.9;
+  ;; highlight mean-V bright ~115 / dimmed ~54 -> 85.
+  :stash-normal
+  {:grid/panel       :stash-normal
+   :grid/cols        12
+   :grid/rows        12
+   :grid/slot-w      70.0
+   :grid/slot-h      70.0
+   :grid/origin      [24 180]
+   :grid/art-offset  [-1 -1]
+   :grid/calibrated? true
+   :grid/empty-template  "templates/stash-normal-empty.png"
+   :grid/empty-threshold 0.70
+   :grid/landmark            "templates/stash-normal-landmark.png"
+   :grid/landmark-threshold  0.9
+   :grid/highlight-threshold     85.0
+   :grid/highlight-sat-threshold nil
+   :grid/region      {:top 0 :left 0 :width 900 :height 1060}}
+
+  ;; 12x5 character inventory, right side of the ultrawide. Grid screen
+  ;; (2578,784)->(3418,1134); origin = grid TL (2578,784) - region TL (2560,760).
+  :character-inventory
+  {:grid/panel       :character-inventory
+   :grid/cols        12
+   :grid/rows        5
+   :grid/slot-w      70.0
+   :grid/slot-h      70.0
+   :grid/origin      [18 24]
+   :grid/art-offset  [-4 -1]
+   :grid/art-slot-w  70.333
+   :grid/art-slot-h  70.333
+   :grid/calibrated? true
+   :grid/empty-template  "templates/character-inventory-empty.png"
+   :grid/empty-threshold 0.70
+   :grid/region      {:top 760 :left 2560 :width 880 :height 400}}
+
+  ;; Tujen haggle OFFER grid, 12x11, offer box (854,348)->(1698,1120) = 844x772; measured
+  ;; pitch 844/12 x 772/11. Occupied cells score ~-0.09..-0.18, empty ~+0.31..+1.0 -> 0.15.
+  :tujen-offer
+  {:grid/panel           :tujen-offer
+   :grid/cols            12
+   :grid/rows            11
+   :grid/slot-w          70.333
+   :grid/slot-h          70.182
+   :grid/origin          [0 0]
+   :grid/calibrated?     true
+   :grid/empty-template  "templates/tujen-offer-empty.png"
+   :grid/empty-threshold 0.15
+   :grid/region          {:top 348 :left 854 :width 844 :height 772}
+   :grid/landmark           "templates/tujen-haggle-landmark.png"
+   :grid/landmark-region    {:top 230 :left 1064 :width 436 :height 56}
+   :grid/landmark-threshold 0.9
+   :grid/refresh-button     {:top 1142 :left 1672 :width 56 :height 50}
+   :grid/audit-park         [1800 140]}
+
+  ;; Tujen HAGGLE overlay (spawned by clicking an offer): landmark + fixed screen sub-rects,
+  ;; not a grid. Marker centre travel is [1138,1413]; 1300-1330 is the ~0.6-fraction band.
+  :tujen-haggle
+  {:grid/panel              :tujen-haggle
+   :grid/landmark           "templates/tujen-haggle-overlay-landmark.png"
+   :grid/landmark-region    {:top 256 :left 1040 :width 430 :height 52}
+   :grid/landmark-threshold 0.9
+   :haggle/currency-rect    {:top 864 :left 1228 :width 96 :height 100}
+   :haggle/value-rect       {:top 996 :left 1166 :width 218 :height 40}
+   :haggle/confirm-rect     {:top 1128 :left 1164 :width 222 :height 46}
+   :haggle/slider-track     {:top 1056 :left 1100 :width 356 :height 28}
+   :haggle/slider-marker    "templates/tujen-haggle-slider-marker.png"
+   :haggle/slider-marker-region {:top 1056 :left 1392 :width 42 :height 26}
+   :haggle/marker-w         42
+   :haggle/marker-threshold 0.9
+   :haggle/currency-match   :hybrid
+   :haggle/offer-x-min      1300
+   :haggle/offer-x-max      1330}
+
+  ;; Dannig EXCHANGE offer grid, 12x11, same geometry as :tujen-offer (calibrated
+  ;; 2026-07-20); shares Tujen's empty-slot template; own "Exchange" banner landmark.
+  :dannig-offer
+  {:grid/panel           :dannig-offer
+   :grid/cols            12
+   :grid/rows            11
+   :grid/slot-w          70.333
+   :grid/slot-h          70.182
+   :grid/origin          [0 0]
+   :grid/calibrated?     true
+   :grid/empty-template  "templates/tujen-offer-empty.png"
+   :grid/empty-threshold 0.15
+   :grid/region          {:top 348 :left 854 :width 844 :height 772}
+   :grid/landmark           "templates/dannig-exchange-landmark.png"
+   :grid/landmark-region    {:top 230 :left 1064 :width 436 :height 56}
+   :grid/landmark-threshold 0.9
+   :grid/refresh-button     {:top 1142 :left 1672 :width 56 :height 50}
+   :grid/audit-park         [1800 140]}
+
+  ;; Rog "Deal for Items" grid, 12x11, same geometry as :tujen-offer (calibrated live
+  ;; 2026-07-23). Gear needs the colour signal: empty cells mean-S 38-41, occupied 96-218
+  ;; -> sat threshold 60. Refresh button mirrored from Tujen, unused in v1 Phase 1.
+  :rog-offer
+  {:grid/panel           :rog-offer
+   :grid/cols            12
+   :grid/rows            11
+   :grid/slot-w          70.333
+   :grid/slot-h          70.182
+   :grid/origin          [0 0]
+   :grid/calibrated?     true
+   :grid/empty-template  "templates/tujen-offer-empty.png"
+   :grid/empty-threshold 0.5
+   :grid/occupancy-sat-threshold 60.0
+   :grid/region          {:top 348 :left 854 :width 844 :height 772}
+   :grid/landmark           "templates/rog-deal-landmark.png"
+   :grid/landmark-region    {:top 230 :left 1064 :width 436 :height 56}
+   :grid/landmark-threshold 0.9
+   :grid/refresh-button     {:top 1142 :left 1672 :width 56 :height 50}
+   :grid/audit-park         [1800 140]}
+
+  ;; Dannig per-DEAL confirmation overlay: landmark + Buy-button rect.
+  :dannig-exchange
+  {:grid/panel              :dannig-exchange
+   :grid/landmark           "templates/dannig-exchange-overlay-landmark.png"
+   :grid/landmark-region    {:top 374 :left 1044 :width 430 :height 48}
+   :grid/landmark-threshold 0.9
+   :exchange/buy-rect       {:top 998 :left 1164 :width 224 :height 46}}
+
+  ;; Faustus offline-shop "Merchant" grid, 12x12. Measured live 2026-07-21: grid box
+  ;; (22,224)->(864,1066), pitch 842/12. Empty cells mean-S ~27-28, item cells >=63 -> 45.
+  :faustus-shop
+  {:grid/panel           :faustus-shop
+   :grid/cols            12
+   :grid/rows            12
+   :grid/slot-w          70.17
+   :grid/slot-h          70.17
+   :grid/origin          [22 224]
+   :grid/calibrated?     true
+   :grid/empty-template  "templates/faustus-shop-empty.png"
+   :grid/empty-threshold 0.70
+   :grid/occupancy-sat-threshold 45.0
+   :grid/landmark            "templates/faustus-shop-landmark.png"
+   :grid/landmark-region     {:top 75 :left 280 :width 340 :height 45}
+   :grid/landmark-threshold  0.9
+   :grid/audit-park          [1720 700]
+   :grid/region      {:top 0 :left 0 :width 900 :height 1120}}
+
+  ;; Faustus "Set Item Price" overlay (right-click a shop item): a fixed-x price footer whose
+  ;; y slides with item height; the "list item" button match locates the row. :dy values are
+  ;; relative to the matched button top. Currency option list measured live 2026-07-21:
+  ;; rows (1494,896)-(1792,1340), 14 options, pitch 444/14.
+  :faustus-shop-overlay
+  {:grid/panel                    :faustus-shop-overlay
+   :overlay/footer-region         {:top 830 :left 1410 :width 620 :height 200}
+   :overlay/list-button-template  "templates/faustus-shop-list-button.png"
+   :overlay/list-button-threshold 0.9
+   :overlay/value-rect            {:left 1418 :width 66 :height 46 :dy -3 :invert? false
+                                   :seg-opts {:min-h 50 :max-h 90}}
+   :overlay/currency-rect         {:left 1494 :width 44 :height 46 :dy -3}
+   :overlay/deselect-rect         {:left 1464 :width 14 :height 30 :dy 6}
+   :overlay/list-button-rect      {:left 1847 :width 170 :height 44 :dy 0}
+   :overlay/currency-dropdown-rect {:left 1795 :width 36 :height 30 :dy 6}
+   :overlay/currency-options       {:left 1520 :width 200 :dy 49 :pitch 31.71
+                                    :count 14
+                                    :index {:chaos 0 :divine 1}}
+   :overlay/currency-groups       #{"shop-currency"}
+   :overlay/currency-match        :colour
+   :overlay/cursor-park           [1418 1100]}}
+
+ ;; v1 window.clj click-position data for this monitor.
+ :click-profile
+ {;; v1 `window-reference` key under which lenovo-widescreen-data was registered.
+  :v1-window-type :lenovo-widescreen
+
+  ;; v1 `lenovo-widescreen-data`, verbatim. :tab/craft entries whose 3rd element is a
+  ;; keyword (:box/standard) take their [w h] from :tab/config (v1 substitute-location-data).
+  :lenovo-widescreen-data
+  {:inventory/config {:slot 70
+                      :x-offset 2580
+                      :y-offset 785}
+   :tab/config {:box/standard [50 50]
+                :tab/x-offset 1040
+                :tab/y-offset 155
+                :tab/height 32
+                :tab/stash-normal {:slot 70
+                                   :x-offset 60
+                                   :y-offset 210}}
+   :tab/craft {:craft-slot [390 510 100 200]
+               :armourers-scrap [560 250 :box/standard]
+               :blacksmiths-whetstone [480 250 :box/standard]
+               :chaos-orb [710 345 :box/standard]
+               :enkindling-orb [300 250 :box/standard]
+               :exalted-orb [380 345 :box/standard]
+               :glassblowers-bauble [635 250 :box/standard]
+               :instilling-orb [380 250 :box/standard]
+               :orb-of-alchemy [635 345 :box/standard]
+               :orb-of-alteration [125 345 :box/standard]
+               :orb-of-annulment [200 345 :box/standard]
+               :orb-of-augmentation [280 425 :box/standard]
+               :orb-of-scouring [555 510 :box/standard]
+               :orb-of-transmutation [50 345 :box/standard]
+               :regal-orb [555 345 :box/standard]}}
+
+  ;; v1 `tab-id-order`: stash tab-ids in on-screen menu order (0-based index = row).
+  ;; v1 notes 26 entries vs a reported 27 live rows (unreconciled in v1).
+  :tab-id-order
+  [:quad-00 :currency-affinity :currency-market :currency-craft :norm-tbc :norm-fin :quad-01 :quad-02 :quad-03 :quad-04 :quad-05 :quad-06 :quad-07 :quad-08 :quad-09 :quad-cluster :norm-league :norm-gear :norm-ring :norm-crane :norm-prep :map-affinity :folder-sell :folder-league :folder-base :folder-prop]
+
+  ;; v1 `stash-tab-menu`: selected-tab pointer read. idx = round((y - row0-y) / pitch);
+  ;; calibrated live 2026-07-15 (idx 0/4/6 -> y 139/265/328). 0.9 missed some rows -> 0.8.
+  :stash-tab-menu
+  {:pointer/region    {:top 128 :left 888 :width 32 :height 860}
+   :pointer/template  "templates/tab-pointer.png"
+   :pointer/threshold 0.8
+   :pointer/row0-y    139.0
+   :pointer/pitch     31.5}}}

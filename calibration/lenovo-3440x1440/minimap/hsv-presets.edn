@@ -1,0 +1,6 @@
+{"Dunes"
+ {:wall {:lower [120 60 140], :upper [140 80 200]},
+  :fog {:lower [80 60 140], :upper [110 255 220]}},
+ "Strand"
+ {:wall {:lower [116 40 80], :upper [120 80 220]},
+  :fog {:lower [80 60 140], :upper [110 255 220]}}}
