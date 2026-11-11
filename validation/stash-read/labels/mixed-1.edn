@@ -1,8 +1,8 @@
 {:panel :stash-normal
- :note "Owner-labelled 2026-11-11. Multi-cell items are keyed by their top-left cell with :size [w h] in cells. Void Sceptre's [0 4] and [1 6] cells carry almost no item art (only the blue item background)."
+ :note "Owner-labelled 2026-11-11. Multi-cell items are keyed by their top-left cell with :size [w h] in cells. Void Sceptre's [0 4] and [1 6] cells carry almost no item art (only the blue item background). :name and :group are given for items the calibration gallery lacks, so the catalogue tool can add them."
  :slots {[0 0] {:type :chaos-orb :count 20}
          [0 1] {:type :orb-of-alteration :count 20}
          [0 2] {:type :gemcutters-prism :count 20}
-         [0 3] {:type :intrinsic-catalyst :count 20}
-         [0 4] {:type :void-sceptre :size [2 3]}
-         [0 7] {:type :wyvernscale-gauntlets :size [2 2]}}}
+         [0 3] {:type :intrinsic-catalyst :count 20 :name "Intrinsic Catalyst" :group :currency}
+         [0 4] {:type :void-sceptre :size [2 3] :name "Void Sceptre" :group :gear}
+         [0 7] {:type :wyvernscale-gauntlets :size [2 2] :name "Wyvernscale Gauntlets" :group :gear}}}
