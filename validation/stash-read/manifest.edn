@@ -6,4 +6,6 @@
   :label/ground-truth "Hand-written EDN ground truth: {:panel kw :slots {[col row] {:type kw :count int? :size [w h]? :name s? :group kw?}}}, one entry per item keyed by its top-left cell; :size defaults to [1 1]; :name and :group name an item the gallery lacks."}
  :manifest/files
  [{:file "frames/mixed-1.png" :role :frame/raw}
-  {:file "labels/mixed-1.edn" :role :label/ground-truth}]}
+  {:file "labels/mixed-1.edn" :role :label/ground-truth}
+  {:file "frames/mixed-2.png" :role :frame/raw :source "Owner live capture, 2026-11-12"}
+  {:file "labels/mixed-2.edn" :role :label/ground-truth :source "Planner-labelled from the owner's description, 2026-11-12"}]}
