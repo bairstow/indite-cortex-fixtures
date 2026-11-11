@@ -229,4 +229,7 @@
   {:file "minimap/markers/Strongbox.png" :role :minimap/marker :v1-path "resources/capture/minimap/markers/Strongbox.png"}
   {:file "minimap/markers/Tear.png" :role :minimap/marker :v1-path "resources/capture/minimap/markers/Tear.png"}
   {:file "minimap/hsv-presets.edn" :role :minimap/hsv-presets :v1-path "resources/capture/minimap/hsv-presets.edn"}
-  {:file "minimap/projection.edn" :role :minimap/projection :v1-path "resources/capture/minimap/projection.edn"}]}
+  {:file "minimap/projection.edn" :role :minimap/projection :v1-path "resources/capture/minimap/projection.edn"}
+  {:file "gallery/currency/Intrinsic-Catalyst_1x1.png", :role :gallery/item, :source "validation/stash-read/frames/mixed-1.png [0 3]"}
+  {:file "gallery/gear/Void-Sceptre_2x3.png", :role :gallery/item, :source "validation/stash-read/frames/mixed-1.png [0 4]"}
+  {:file "gallery/gear/Wyvernscale-Gauntlets_2x2.png", :role :gallery/item, :source "validation/stash-read/frames/mixed-1.png [0 7]"}]}
