@@ -1,0 +1,9 @@
+{:manifest/set :stash-read
+ :manifest/source "Owner live capture, 2026-11-11 (not transcribed from v1)"
+ :manifest/note "Live stash-tab frames recorded by the owner (Win+PrtScn, 3440x1440, fullscreen at the origin) with ground-truth labels, for v2's stash reader: occupancy including art-free gear cells, multi-cell footprints, and identity acceptance."
+ :manifest/roles
+ {:frame/raw "Recorded game screen frame or crop (PNG), input to a vision stage."
+  :label/ground-truth "Hand-written EDN ground truth: {:panel kw :slots {[col row] {:type kw :count int? :size [w h]?}}}, one entry per item keyed by its top-left cell; :size defaults to [1 1]."}
+ :manifest/files
+ [{:file "frames/mixed-1.png" :role :frame/raw}
+  {:file "labels/mixed-1.edn" :role :label/ground-truth}]}
