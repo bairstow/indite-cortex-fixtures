@@ -232,4 +232,6 @@
   {:file "minimap/projection.edn" :role :minimap/projection :v1-path "resources/capture/minimap/projection.edn"}
   {:file "gallery/currency/Intrinsic-Catalyst_1x1.png", :role :gallery/item, :source "validation/stash-read/frames/mixed-1.png [0 3]"}
   {:file "gallery/gear/Void-Sceptre_2x3.png", :role :gallery/item, :source "validation/stash-read/frames/mixed-1.png [0 4]"}
-  {:file "gallery/gear/Wyvernscale-Gauntlets_2x2.png", :role :gallery/item, :source "validation/stash-read/frames/mixed-1.png [0 7]"}]}
+  {:file "gallery/gear/Wyvernscale-Gauntlets_2x2.png", :role :gallery/item, :source "validation/stash-read/frames/mixed-1.png [0 7]"}
+  {:file "gallery/gear/Convoking-Wand_1x3.png", :role :gallery/item, :source "validation/stash-read/frames/mixed-2.png [5 2]"}
+  {:file "gallery/gear/Necromancer-Circlet_2x2.png", :role :gallery/item, :source "validation/stash-read/frames/mixed-2.png [6 6]"}]}
