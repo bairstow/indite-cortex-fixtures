@@ -9,4 +9,8 @@
  [{:file "responses/tab5-known.json" :role :api/response}
   {:file "frames/tab5-known.png" :role :frame/raw}
   {:file "responses/tab5-amulet.json" :role :api/response}
-  {:file "frames/tab5-amulet.png" :role :frame/raw}]}
+  {:file "frames/tab5-amulet.png" :role :frame/raw}
+  {:file "frames/20261112-134133.png", :role :frame/raw, :source "Owner live capture via :inventory/label, 20261112-134133"}
+  {:file "labels/20261112-134133.edn", :role :label/ground-truth, :source "Built from GGG's stash API response by :inventory/label, 20261112-134133"}
+  {:file "frames/20261112-135145.png", :role :frame/raw, :source "Owner live capture via :inventory/label, 20261112-135145"}
+  {:file "labels/20261112-135145.edn", :role :label/ground-truth, :source "Built from GGG's stash API response by :inventory/label, 20261112-135145"}]}
