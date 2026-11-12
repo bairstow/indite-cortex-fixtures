@@ -1,0 +1,11 @@
+{:manifest/set :stash-api
+ :manifest/source "Owner live capture, 2026-11-12 (Phase 2b-5a Gate 0: bb poe:stash-sample and Save frame)"
+ :manifest/note "GGG legacy stash API responses (character-window/get-stash-items, raw bodies, unchanged) paired with the frame the v2 reader saved of the same premium tab (index 5), for the 2b-5b label builder and reconcile. tab5-known: the mixed-2 items in new cells (8 items), requested with the tab list (tabs=1; 537 tabs). tab5-amulet: the same layout plus a rare Gold Amulet the gallery lacks at [7 4] (9 items), requested without the tab list. Frames are screen-sized (3440x1440) with only the stash panel's region, black elsewhere."
+ :manifest/roles
+ {:api/response "Raw GGG stash API response body (JSON), as bb poe:stash-sample saved it."
+  :frame/raw "Recorded game screen frame (PNG), input to a vision stage."}
+ :manifest/files
+ [{:file "responses/tab5-known.json" :role :api/response}
+  {:file "frames/tab5-known.png" :role :frame/raw}
+  {:file "responses/tab5-amulet.json" :role :api/response}
+  {:file "frames/tab5-amulet.png" :role :frame/raw}]}
