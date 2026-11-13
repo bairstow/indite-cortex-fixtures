@@ -5,4 +5,6 @@
  {:api/response "Raw GGG stash API response body (JSON), as bb poe:stash-sample saved it."
   :dataset/maps "EDN {:dataset/source :api|:clipboard :dataset/captured-at ms :dataset/records [map record…]}, each record with its raw API item or clipboard text, as :map-select/save-dataset wrote it."}
  :manifest/files
- [{:file "responses/finished-current.json" :role :api/response}]}
+ [{:file "responses/finished-current.json" :role :api/response}
+  {:file "datasets/20261114-005913-api.edn", :role :dataset/maps, :source "Owner capture via :map-select/save-dataset, 20261114-005913"}
+  {:file "datasets/20261114-011200-clipboard.edn", :role :dataset/maps, :source "Owner capture via :map-select/save-dataset, 20261114-011200"}]}
