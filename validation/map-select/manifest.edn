@@ -1,0 +1,8 @@
+{:manifest/set :map-select
+ :manifest/source "Owner live capture, 2026-11-13 (map rolling 4 Task 0: bb poe:stash-sample of the finished tab, Standard league, before 3.30)"
+ :manifest/note "GGG legacy stash API responses of a tab of rolled maps (raw bodies, unchanged), and map datasets saved by :map-select/save-dataset. Before 3.30, so map properties and mods are the old shape: a framework for 3.30's re-fit, not its data. finished-current (tab index 5, 16 items, column-major down columns 0 then 1): 8 rare Originator maps, a normal and a magic Originator map, a rare T16 map, a rare Nightmare map, a rare Conqueror map (Baran), a rare Elder-influenced map, a rare Shaper Guardian map and a unique map (The Coward's Trial)."
+ :manifest/roles
+ {:api/response "Raw GGG stash API response body (JSON), as bb poe:stash-sample saved it."
+  :dataset/maps "EDN {:dataset/source :api|:clipboard :dataset/captured-at ms :dataset/records [map record…]}, each record with its raw API item or clipboard text, as :map-select/save-dataset wrote it."}
+ :manifest/files
+ [{:file "responses/finished-current.json" :role :api/response}]}
