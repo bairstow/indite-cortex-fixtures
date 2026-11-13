@@ -1,0 +1,8 @@
+;; The owner's map rolling 2 gate, 2026-11-13: a 12x12 stash tab of 42 maps,
+;; stash search "charges". :match is the top-left cell [col row] of every map
+;; PoE showed bright, read by the owner's eye (not by the code under test).
+{:panel :stash-normal
+ :search? true
+ :search "charges"
+ :maps 42
+ :match #{[1 11] [2 6]}}

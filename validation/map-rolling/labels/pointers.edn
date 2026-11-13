@@ -1,0 +1,5 @@
+;; The owner's map rolling 2 gate, 2026-11-13: the stash tab list row the owner
+;; clicked by hand (0 = the top tab) before saving each pointer strip.
+{"frames/pointer-row-0.png" 0
+ "frames/pointer-row-12.png" 12
+ "frames/pointer-row-24.png" 24}

@@ -1,0 +1,13 @@
+{:manifest/set :map-rolling
+ :manifest/source "Owner live capture, 2026-11-13 (map rolling 2 gate: :inventory/save-frame and :map-rolling/read-pointer {:save-frame? true})"
+ :manifest/note "Frames are screen-sized (3440x1440), black outside the captured region. search-on: the stash-normal panel of a 42-map tab under the search \"charges\" (2 maps bright, 40 dimmed), mouse off the grid. pointer-row-N: the tab-list pointer strip with tab row N selected; the owner's reads put rows 0, 12 and 24 at pointer y 139, 517 and 895 (31.5 px apart)."
+ :manifest/roles
+ {:frame/raw "Recorded game screen frame (PNG), input to a vision stage."
+  :label/ground-truth "EDN label written from the owner's notes. search-on.edn: {:panel kw :search? true :search s :maps n :match #{[col row]}}. pointers.edn: {\"frames/<file>\" row}."}
+ :manifest/files
+ [{:file "frames/search-on.png" :role :frame/raw}
+  {:file "labels/search-on.edn" :role :label/ground-truth}
+  {:file "frames/pointer-row-0.png" :role :frame/raw}
+  {:file "frames/pointer-row-12.png" :role :frame/raw}
+  {:file "frames/pointer-row-24.png" :role :frame/raw}
+  {:file "labels/pointers.edn" :role :label/ground-truth}]}
