@@ -51,6 +51,11 @@
    :grid/landmark-threshold  0.9
    :grid/highlight-threshold     85.0
    :grid/highlight-sat-threshold nil
+   ;; Map rolling 2: the highlight read's inset centre crop (v1 analyze/inventory.clj
+   ;; cell-hsv-stats, 0.18 per side) and the cursor park for reads, outside the
+   ;; region and the landmark crop.
+   :grid/highlight-inset 0.18
+   :grid/audit-park      [1700 640]
    :grid/region      {:top 0 :left 0 :width 900 :height 1060}}
 
   ;; 12x5 character inventory, right side of the ultrawide. Grid screen
@@ -196,6 +201,28 @@
    :overlay/currency-groups       #{"shop-currency"}
    :overlay/currency-match        :colour
    :overlay/cursor-park           [1418 1100]}}
+
+ ;; Map rolling 2: the stash tab list. The pointer read is v1's stash-tab-menu
+ ;; (kept verbatim in :click-profile); the row click is v1 tab/config (x 1040,
+ ;; y 155 + 32 per row). Both pitches are v1's calibrated values; the stage 2
+ ;; gate re-measures them.
+ :stash/tab-list
+ {:pointer/region    {:top 128 :left 888 :width 32 :height 860}
+  :pointer/template  "templates/tab-pointer.png"
+  :pointer/threshold 0.8
+  :pointer/row0-y    139.0
+  :pointer/pitch     31.5
+  :click/x           1040
+  :click/row0-y      155
+  :click/pitch       32}
+
+ ;; Map rolling 2: fixed click boxes, [x y w h] top-left and size (v1 :tab/craft
+ ;; with :box/standard 50x50, and v1 :inventory/config).
+ :map-rolling/positions
+ {:currency  {:chaos-orb       [710 345 50 50]
+              :orb-of-alchemy  [635 345 50 50]
+              :orb-of-scouring [555 510 50 50]}
+  :inventory {:origin [2580 785] :slot 70 :cols 12 :rows 5}}
 
  ;; v1 window.clj click-position data for this monitor.
  :click-profile
