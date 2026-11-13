@@ -206,7 +206,10 @@
  ;; (kept verbatim in :click-profile); the row click is v1 tab/config (x 1040,
  ;; y 155 + 32 per row). The stage 2 gate (2026-11-13) measured the row pitch:
  ;; pointer y 139, 517 and 895 on rows 0, 12 and 24, exactly 31.5 px apart, so
- ;; the click pitch is 31.5 too (v1's 32 drifted 12 px by row 24).
+ ;; the click pitch is 31.5 too (v1's 32 drifted 12 px by row 24). A row is
+ ;; clicked on the pointer triangle's midpoint, which the owner confirmed is the
+ ;; tab's vertical centre: the triangle fills rows 2..17 of the 28x20 template,
+ ;; so 9.5 px below the match (row 0: 139 + 9.5 = 148.5; v1 clicked 155).
  :stash/tab-list
  {:pointer/region    {:top 128 :left 888 :width 32 :height 860}
   :pointer/template  "templates/tab-pointer.png"
@@ -214,7 +217,7 @@
   :pointer/row0-y    139.0
   :pointer/pitch     31.5
   :click/x           1040
-  :click/row0-y      155
+  :click/row0-y      148.5
   :click/pitch       31.5}
 
  ;; Map rolling 2: fixed click boxes, [x y w h] top-left and size (v1 :tab/craft
