@@ -204,8 +204,9 @@
 
  ;; Map rolling 2: the stash tab list. The pointer read is v1's stash-tab-menu
  ;; (kept verbatim in :click-profile); the row click is v1 tab/config (x 1040,
- ;; y 155 + 32 per row). Both pitches are v1's calibrated values; the stage 2
- ;; gate re-measures them.
+ ;; y 155 + 32 per row). The stage 2 gate (2026-11-13) measured the row pitch:
+ ;; pointer y 139, 517 and 895 on rows 0, 12 and 24, exactly 31.5 px apart, so
+ ;; the click pitch is 31.5 too (v1's 32 drifted 12 px by row 24).
  :stash/tab-list
  {:pointer/region    {:top 128 :left 888 :width 32 :height 860}
   :pointer/template  "templates/tab-pointer.png"
@@ -214,7 +215,7 @@
   :pointer/pitch     31.5
   :click/x           1040
   :click/row0-y      155
-  :click/pitch       32}
+  :click/pitch       31.5}
 
  ;; Map rolling 2: fixed click boxes, [x y w h] top-left and size (v1 :tab/craft
  ;; with :box/standard 50x50, and v1 :inventory/config).
