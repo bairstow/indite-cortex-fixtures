@@ -221,11 +221,13 @@
   :click/pitch       31.5}
 
  ;; Map rolling 2: fixed click boxes, [x y w h] top-left and size (v1 :tab/craft
- ;; with :box/standard 50x50, and v1 :inventory/config).
+ ;; with :box/standard 50x50, and v1 :inventory/config). The currency boxes are the
+ ;; 3.30 currency tab layout (re-measured 2026-11-16 by matching the gallery art on
+ ;; a saved frame): 50x50, centred on each icon in its slot.
  :map-rolling/positions
- {:currency  {:chaos-orb       [710 345 50 50]
-              :orb-of-alchemy  [635 345 50 50]
-              :orb-of-scouring [555 510 50 50]}
+ {:currency  {:chaos-orb       [632 342 50 50]
+              :orb-of-alchemy  [556 342 50 50]
+              :orb-of-scouring [589 511 50 50]}
   :inventory {:origin [2580 785] :slot 70 :cols 12 :rows 5}}
 
  ;; v1 window.clj click-position data for this monitor.
