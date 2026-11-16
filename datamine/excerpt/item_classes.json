@@ -1,0 +1,14 @@
+{
+  "Jewel" : {
+    "category" : "Jewel",
+    "category_id" : "Jewel",
+    "name" : "Jewels",
+    "influence_tags" : null
+  },
+  "Two Hand Axe" : {
+    "category" : "Two Hand Axe",
+    "category_id" : "Two Hand Axe",
+    "name" : "Two Hand Axes",
+    "influence_tags" : [ "2h_axe_crusader", "2h_axe_elder", "2h_axe_basilisk", "2h_axe_eyrie", "2h_axe_shaper", "2h_axe_adjudicator" ]
+  }
+}

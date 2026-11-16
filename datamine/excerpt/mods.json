@@ -1,0 +1,2431 @@
+{
+  "DexMasterIncreasedPhysicalDamageCrafted1" : {
+    "adds_tags" : [ "has_attack_mod" ],
+    "implicit_tags" : [ "physical_damage", "damage", "physical", "attack" ],
+    "spawn_weights" : [ {
+      "tag" : "default",
+      "weight" : 0
+    } ],
+    "is_essence_only" : false,
+    "name" : "Wicked",
+    "text" : "(40-59)% increased Physical Damage",
+    "domain" : "crafted",
+    "grants_effects" : [ ],
+    "type" : "LocalPhysicalDamagePercent",
+    "generation_type" : "prefix",
+    "generation_weights" : [ ],
+    "gold_value" : null,
+    "required_level" : 20,
+    "groups" : [ "LocalPhysicalDamagePercent" ],
+    "stats" : [ {
+      "id" : "local_physical_damage_+%",
+      "max" : 59,
+      "min" : 40
+    } ]
+  },
+  "DexMasterIncreasedPhysicalDamageCrafted2" : {
+    "adds_tags" : [ "has_attack_mod" ],
+    "implicit_tags" : [ "physical_damage", "damage", "physical", "attack" ],
+    "spawn_weights" : [ {
+      "tag" : "default",
+      "weight" : 0
+    } ],
+    "is_essence_only" : false,
+    "name" : "Vicious",
+    "text" : "(60-79)% increased Physical Damage",
+    "domain" : "crafted",
+    "grants_effects" : [ ],
+    "type" : "LocalPhysicalDamagePercent",
+    "generation_type" : "prefix",
+    "generation_weights" : [ ],
+    "gold_value" : null,
+    "required_level" : 30,
+    "groups" : [ "LocalPhysicalDamagePercent" ],
+    "stats" : [ {
+      "id" : "local_physical_damage_+%",
+      "max" : 79,
+      "min" : 60
+    } ]
+  },
+  "EinharMasterLocalIncreasedPhysicalDamage1" : {
+    "adds_tags" : [ "has_attack_mod" ],
+    "implicit_tags" : [ "physical_damage", "damage", "physical", "attack" ],
+    "spawn_weights" : [ ],
+    "is_essence_only" : false,
+    "name" : "Upgraded",
+    "text" : "(40-59)% increased Physical Damage",
+    "domain" : "crafted",
+    "grants_effects" : [ ],
+    "type" : "LocalPhysicalDamagePercent",
+    "generation_type" : "prefix",
+    "generation_weights" : [ ],
+    "gold_value" : null,
+    "required_level" : 20,
+    "groups" : [ "LocalPhysicalDamagePercent" ],
+    "stats" : [ {
+      "id" : "local_physical_damage_+%",
+      "max" : 59,
+      "min" : 40
+    } ]
+  },
+  "EinharMasterLocalIncreasedPhysicalDamage2_" : {
+    "adds_tags" : [ "has_attack_mod" ],
+    "implicit_tags" : [ "physical_damage", "damage", "physical", "attack" ],
+    "spawn_weights" : [ ],
+    "is_essence_only" : false,
+    "name" : "Upgraded",
+    "text" : "(60-79)% increased Physical Damage",
+    "domain" : "crafted",
+    "grants_effects" : [ ],
+    "type" : "LocalPhysicalDamagePercent",
+    "generation_type" : "prefix",
+    "generation_weights" : [ ],
+    "gold_value" : null,
+    "required_level" : 40,
+    "groups" : [ "LocalPhysicalDamagePercent" ],
+    "stats" : [ {
+      "id" : "local_physical_damage_+%",
+      "max" : 79,
+      "min" : 60
+    } ]
+  },
+  "EinharMasterLocalIncreasedPhysicalDamage3" : {
+    "adds_tags" : [ "has_attack_mod" ],
+    "implicit_tags" : [ "physical_damage", "damage", "physical", "attack" ],
+    "spawn_weights" : [ ],
+    "is_essence_only" : false,
+    "name" : "Upgraded",
+    "text" : "(80-99)% increased Physical Damage",
+    "domain" : "crafted",
+    "grants_effects" : [ ],
+    "type" : "LocalPhysicalDamagePercent",
+    "generation_type" : "prefix",
+    "generation_weights" : [ ],
+    "gold_value" : null,
+    "required_level" : 60,
+    "groups" : [ "LocalPhysicalDamagePercent" ],
+    "stats" : [ {
+      "id" : "local_physical_damage_+%",
+      "max" : 99,
+      "min" : 80
+    } ]
+  },
+  "EinharMasterLocalIncreasedPhysicalDamage4___" : {
+    "adds_tags" : [ "has_attack_mod" ],
+    "implicit_tags" : [ "physical_damage", "damage", "physical", "attack" ],
+    "spawn_weights" : [ ],
+    "is_essence_only" : false,
+    "name" : "Upgraded",
+    "text" : "(100-129)% increased Physical Damage",
+    "domain" : "crafted",
+    "grants_effects" : [ ],
+    "type" : "LocalPhysicalDamagePercent",
+    "generation_type" : "prefix",
+    "generation_weights" : [ ],
+    "gold_value" : null,
+    "required_level" : 80,
+    "groups" : [ "LocalPhysicalDamagePercent" ],
+    "stats" : [ {
+      "id" : "local_physical_damage_+%",
+      "max" : 129,
+      "min" : 100
+    } ]
+  },
+  "IncreasedPhysicalDamageReductionRatingEssenceRing5" : {
+    "adds_tags" : [ ],
+    "implicit_tags" : [ "defences", "armour" ],
+    "spawn_weights" : [ {
+      "tag" : "default",
+      "weight" : 0
+    } ],
+    "is_essence_only" : true,
+    "name" : "Essences",
+    "text" : "+(80-120) to Armour",
+    "domain" : "item",
+    "grants_effects" : [ ],
+    "type" : "PhysicalDamageReductionRating",
+    "generation_type" : "prefix",
+    "generation_weights" : [ ],
+    "gold_value" : null,
+    "required_level" : 58,
+    "groups" : [ "IncreasedPhysicalDamageReductionRating" ],
+    "stats" : [ {
+      "id" : "base_physical_damage_reduction_rating",
+      "max" : 120,
+      "min" : 80
+    } ]
+  },
+  "LocalAddedColdDamage1" : {
+    "adds_tags" : [ "has_attack_mod" ],
+    "implicit_tags" : [ "elemental_damage", "damage", "elemental", "cold", "attack" ],
+    "spawn_weights" : [ {
+      "tag" : "two_hand_weapon",
+      "weight" : 0
+    }, {
+      "tag" : "rapier",
+      "weight" : 2000
+    }, {
+      "tag" : "deepwater_sword",
+      "weight" : 0
+    }, {
+      "tag" : "sword",
+      "weight" : 1200
+    }, {
+      "tag" : "axe",
+      "weight" : 1200
+    }, {
+      "tag" : "sceptre",
+      "weight" : 800
+    }, {
+      "tag" : "mace",
+      "weight" : 500
+    }, {
+      "tag" : "wand",
+      "weight" : 500
+    }, {
+      "tag" : "claw",
+      "weight" : 1200
+    }, {
+      "tag" : "dagger",
+      "weight" : 1200
+    }, {
+      "tag" : "default",
+      "weight" : 0
+    } ],
+    "is_essence_only" : false,
+    "name" : "Frosted",
+    "text" : "Adds (1-2) to (3-4) Cold Damage",
+    "domain" : "item",
+    "grants_effects" : [ ],
+    "type" : "LocalColdDamage",
+    "generation_type" : "prefix",
+    "generation_weights" : [ {
+      "tag" : "attack_dagger",
+      "weight" : 100
+    }, {
+      "tag" : "dagger",
+      "weight" : 50
+    }, {
+      "tag" : "warstaff",
+      "weight" : 100
+    }, {
+      "tag" : "staff",
+      "weight" : 50
+    }, {
+      "tag" : "sceptre",
+      "weight" : 50
+    }, {
+      "tag" : "wand_can_roll_caster_modifiers",
+      "weight" : 50
+    }, {
+      "tag" : "default",
+      "weight" : 100
+    } ],
+    "gold_value" : null,
+    "required_level" : 2,
+    "groups" : [ "ColdDamage" ],
+    "stats" : [ {
+      "id" : "local_minimum_added_cold_damage",
+      "max" : 2,
+      "min" : 1
+    }, {
+      "id" : "local_maximum_added_cold_damage",
+      "max" : 4,
+      "min" : 3
+    } ]
+  },
+  "LocalAddedColdDamage10__" : {
+    "adds_tags" : [ "has_attack_mod" ],
+    "implicit_tags" : [ "elemental_damage", "damage", "elemental", "cold", "attack" ],
+    "spawn_weights" : [ {
+      "tag" : "two_hand_weapon",
+      "weight" : 0
+    }, {
+      "tag" : "rapier",
+      "weight" : 180
+    }, {
+      "tag" : "deepwater_sword",
+      "weight" : 0
+    }, {
+      "tag" : "sword",
+      "weight" : 108
+    }, {
+      "tag" : "axe",
+      "weight" : 108
+    }, {
+      "tag" : "sceptre",
+      "weight" : 72
+    }, {
+      "tag" : "mace",
+      "weight" : 45
+    }, {
+      "tag" : "wand",
+      "weight" : 45
+    }, {
+      "tag" : "claw",
+      "weight" : 108
+    }, {
+      "tag" : "dagger",
+      "weight" : 108
+    }, {
+      "tag" : "default",
+      "weight" : 0
+    } ],
+    "is_essence_only" : false,
+    "name" : "Crystalising",
+    "text" : "Adds (81-111) to (163-189) Cold Damage",
+    "domain" : "item",
+    "grants_effects" : [ ],
+    "type" : "LocalColdDamage",
+    "generation_type" : "prefix",
+    "generation_weights" : [ {
+      "tag" : "attack_dagger",
+      "weight" : 100
+    }, {
+      "tag" : "dagger",
+      "weight" : 50
+    }, {
+      "tag" : "warstaff",
+      "weight" : 100
+    }, {
+      "tag" : "staff",
+      "weight" : 50
+    }, {
+      "tag" : "sceptre",
+      "weight" : 50
+    }, {
+      "tag" : "wand_can_roll_caster_modifiers",
+      "weight" : 50
+    }, {
+      "tag" : "default",
+      "weight" : 100
+    } ],
+    "gold_value" : null,
+    "required_level" : 82,
+    "groups" : [ "ColdDamage" ],
+    "stats" : [ {
+      "id" : "local_minimum_added_cold_damage",
+      "max" : 111,
+      "min" : 81
+    }, {
+      "id" : "local_maximum_added_cold_damage",
+      "max" : 189,
+      "min" : 163
+    } ]
+  },
+  "LocalAddedColdDamage2" : {
+    "adds_tags" : [ "has_attack_mod" ],
+    "implicit_tags" : [ "elemental_damage", "damage", "elemental", "cold", "attack" ],
+    "spawn_weights" : [ {
+      "tag" : "two_hand_weapon",
+      "weight" : 0
+    }, {
+      "tag" : "rapier",
+      "weight" : 2000
+    }, {
+      "tag" : "deepwater_sword",
+      "weight" : 0
+    }, {
+      "tag" : "sword",
+      "weight" : 1200
+    }, {
+      "tag" : "axe",
+      "weight" : 1200
+    }, {
+      "tag" : "sceptre",
+      "weight" : 800
+    }, {
+      "tag" : "mace",
+      "weight" : 500
+    }, {
+      "tag" : "wand",
+      "weight" : 500
+    }, {
+      "tag" : "claw",
+      "weight" : 1200
+    }, {
+      "tag" : "dagger",
+      "weight" : 1200
+    }, {
+      "tag" : "default",
+      "weight" : 0
+    } ],
+    "is_essence_only" : false,
+    "name" : "Chilled",
+    "text" : "Adds (7-9) to (14-16) Cold Damage",
+    "domain" : "item",
+    "grants_effects" : [ ],
+    "type" : "LocalColdDamage",
+    "generation_type" : "prefix",
+    "generation_weights" : [ {
+      "tag" : "attack_dagger",
+      "weight" : 100
+    }, {
+      "tag" : "dagger",
+      "weight" : 50
+    }, {
+      "tag" : "warstaff",
+      "weight" : 100
+    }, {
+      "tag" : "staff",
+      "weight" : 50
+    }, {
+      "tag" : "sceptre",
+      "weight" : 50
+    }, {
+      "tag" : "wand_can_roll_caster_modifiers",
+      "weight" : 50
+    }, {
+      "tag" : "default",
+      "weight" : 100
+    } ],
+    "gold_value" : null,
+    "required_level" : 12,
+    "groups" : [ "ColdDamage" ],
+    "stats" : [ {
+      "id" : "local_minimum_added_cold_damage",
+      "max" : 9,
+      "min" : 7
+    }, {
+      "id" : "local_maximum_added_cold_damage",
+      "max" : 16,
+      "min" : 14
+    } ]
+  },
+  "LocalAddedColdDamage3" : {
+    "adds_tags" : [ "has_attack_mod" ],
+    "implicit_tags" : [ "elemental_damage", "damage", "elemental", "cold", "attack" ],
+    "spawn_weights" : [ {
+      "tag" : "two_hand_weapon",
+      "weight" : 0
+    }, {
+      "tag" : "rapier",
+      "weight" : 2000
+    }, {
+      "tag" : "deepwater_sword",
+      "weight" : 0
+    }, {
+      "tag" : "sword",
+      "weight" : 1200
+    }, {
+      "tag" : "axe",
+      "weight" : 1200
+    }, {
+      "tag" : "sceptre",
+      "weight" : 800
+    }, {
+      "tag" : "mace",
+      "weight" : 500
+    }, {
+      "tag" : "wand",
+      "weight" : 500
+    }, {
+      "tag" : "claw",
+      "weight" : 1200
+    }, {
+      "tag" : "dagger",
+      "weight" : 1200
+    }, {
+      "tag" : "default",
+      "weight" : 0
+    } ],
+    "is_essence_only" : false,
+    "name" : "Icy",
+    "text" : "Adds (11-15) to (23-26) Cold Damage",
+    "domain" : "item",
+    "grants_effects" : [ ],
+    "type" : "LocalColdDamage",
+    "generation_type" : "prefix",
+    "generation_weights" : [ {
+      "tag" : "attack_dagger",
+      "weight" : 100
+    }, {
+      "tag" : "dagger",
+      "weight" : 50
+    }, {
+      "tag" : "warstaff",
+      "weight" : 100
+    }, {
+      "tag" : "staff",
+      "weight" : 50
+    }, {
+      "tag" : "sceptre",
+      "weight" : 50
+    }, {
+      "tag" : "wand_can_roll_caster_modifiers",
+      "weight" : 50
+    }, {
+      "tag" : "default",
+      "weight" : 100
+    } ],
+    "gold_value" : null,
+    "required_level" : 19,
+    "groups" : [ "ColdDamage" ],
+    "stats" : [ {
+      "id" : "local_minimum_added_cold_damage",
+      "max" : 15,
+      "min" : 11
+    }, {
+      "id" : "local_maximum_added_cold_damage",
+      "max" : 26,
+      "min" : 23
+    } ]
+  },
+  "LocalAddedColdDamage4" : {
+    "adds_tags" : [ "has_attack_mod" ],
+    "implicit_tags" : [ "elemental_damage", "damage", "elemental", "cold", "attack" ],
+    "spawn_weights" : [ {
+      "tag" : "two_hand_weapon",
+      "weight" : 0
+    }, {
+      "tag" : "rapier",
+      "weight" : 2000
+    }, {
+      "tag" : "deepwater_sword",
+      "weight" : 0
+    }, {
+      "tag" : "sword",
+      "weight" : 1200
+    }, {
+      "tag" : "axe",
+      "weight" : 1200
+    }, {
+      "tag" : "sceptre",
+      "weight" : 800
+    }, {
+      "tag" : "mace",
+      "weight" : 500
+    }, {
+      "tag" : "wand",
+      "weight" : 500
+    }, {
+      "tag" : "claw",
+      "weight" : 1200
+    }, {
+      "tag" : "dagger",
+      "weight" : 1200
+    }, {
+      "tag" : "default",
+      "weight" : 0
+    } ],
+    "is_essence_only" : false,
+    "name" : "Frigid",
+    "text" : "Adds (16-21) to (31-37) Cold Damage",
+    "domain" : "item",
+    "grants_effects" : [ ],
+    "type" : "LocalColdDamage",
+    "generation_type" : "prefix",
+    "generation_weights" : [ {
+      "tag" : "attack_dagger",
+      "weight" : 100
+    }, {
+      "tag" : "dagger",
+      "weight" : 50
+    }, {
+      "tag" : "warstaff",
+      "weight" : 100
+    }, {
+      "tag" : "staff",
+      "weight" : 50
+    }, {
+      "tag" : "sceptre",
+      "weight" : 50
+    }, {
+      "tag" : "wand_can_roll_caster_modifiers",
+      "weight" : 50
+    }, {
+      "tag" : "default",
+      "weight" : 100
+    } ],
+    "gold_value" : null,
+    "required_level" : 27,
+    "groups" : [ "ColdDamage" ],
+    "stats" : [ {
+      "id" : "local_minimum_added_cold_damage",
+      "max" : 21,
+      "min" : 16
+    }, {
+      "id" : "local_maximum_added_cold_damage",
+      "max" : 37,
+      "min" : 31
+    } ]
+  },
+  "LocalAddedColdDamage5" : {
+    "adds_tags" : [ "has_attack_mod" ],
+    "implicit_tags" : [ "elemental_damage", "damage", "elemental", "cold", "attack" ],
+    "spawn_weights" : [ {
+      "tag" : "two_hand_weapon",
+      "weight" : 0
+    }, {
+      "tag" : "rapier",
+      "weight" : 2000
+    }, {
+      "tag" : "deepwater_sword",
+      "weight" : 0
+    }, {
+      "tag" : "sword",
+      "weight" : 1200
+    }, {
+      "tag" : "axe",
+      "weight" : 1200
+    }, {
+      "tag" : "sceptre",
+      "weight" : 800
+    }, {
+      "tag" : "mace",
+      "weight" : 500
+    }, {
+      "tag" : "wand",
+      "weight" : 500
+    }, {
+      "tag" : "claw",
+      "weight" : 1200
+    }, {
+      "tag" : "dagger",
+      "weight" : 1200
+    }, {
+      "tag" : "default",
+      "weight" : 0
+    } ],
+    "is_essence_only" : false,
+    "name" : "Freezing",
+    "text" : "Adds (22-30) to (44-51) Cold Damage",
+    "domain" : "item",
+    "grants_effects" : [ ],
+    "type" : "LocalColdDamage",
+    "generation_type" : "prefix",
+    "generation_weights" : [ {
+      "tag" : "attack_dagger",
+      "weight" : 100
+    }, {
+      "tag" : "dagger",
+      "weight" : 50
+    }, {
+      "tag" : "warstaff",
+      "weight" : 100
+    }, {
+      "tag" : "staff",
+      "weight" : 50
+    }, {
+      "tag" : "sceptre",
+      "weight" : 50
+    }, {
+      "tag" : "wand_can_roll_caster_modifiers",
+      "weight" : 50
+    }, {
+      "tag" : "default",
+      "weight" : 100
+    } ],
+    "gold_value" : null,
+    "required_level" : 34,
+    "groups" : [ "ColdDamage" ],
+    "stats" : [ {
+      "id" : "local_minimum_added_cold_damage",
+      "max" : 30,
+      "min" : 22
+    }, {
+      "id" : "local_maximum_added_cold_damage",
+      "max" : 51,
+      "min" : 44
+    } ]
+  },
+  "LocalAddedColdDamage6" : {
+    "adds_tags" : [ "has_attack_mod" ],
+    "implicit_tags" : [ "elemental_damage", "damage", "elemental", "cold", "attack" ],
+    "spawn_weights" : [ {
+      "tag" : "two_hand_weapon",
+      "weight" : 0
+    }, {
+      "tag" : "rapier",
+      "weight" : 2000
+    }, {
+      "tag" : "deepwater_sword",
+      "weight" : 0
+    }, {
+      "tag" : "sword",
+      "weight" : 1200
+    }, {
+      "tag" : "axe",
+      "weight" : 1200
+    }, {
+      "tag" : "sceptre",
+      "weight" : 800
+    }, {
+      "tag" : "mace",
+      "weight" : 500
+    }, {
+      "tag" : "wand",
+      "weight" : 500
+    }, {
+      "tag" : "claw",
+      "weight" : 1200
+    }, {
+      "tag" : "dagger",
+      "weight" : 1200
+    }, {
+      "tag" : "default",
+      "weight" : 0
+    } ],
+    "is_essence_only" : false,
+    "name" : "Frozen",
+    "text" : "Adds (31-42) to (62-71) Cold Damage",
+    "domain" : "item",
+    "grants_effects" : [ ],
+    "type" : "LocalColdDamage",
+    "generation_type" : "prefix",
+    "generation_weights" : [ {
+      "tag" : "attack_dagger",
+      "weight" : 100
+    }, {
+      "tag" : "dagger",
+      "weight" : 50
+    }, {
+      "tag" : "warstaff",
+      "weight" : 100
+    }, {
+      "tag" : "staff",
+      "weight" : 50
+    }, {
+      "tag" : "sceptre",
+      "weight" : 50
+    }, {
+      "tag" : "wand_can_roll_caster_modifiers",
+      "weight" : 50
+    }, {
+      "tag" : "default",
+      "weight" : 100
+    } ],
+    "gold_value" : null,
+    "required_level" : 43,
+    "groups" : [ "ColdDamage" ],
+    "stats" : [ {
+      "id" : "local_minimum_added_cold_damage",
+      "max" : 42,
+      "min" : 31
+    }, {
+      "id" : "local_maximum_added_cold_damage",
+      "max" : 71,
+      "min" : 62
+    } ]
+  },
+  "LocalAddedColdDamage7" : {
+    "adds_tags" : [ "has_attack_mod" ],
+    "implicit_tags" : [ "elemental_damage", "damage", "elemental", "cold", "attack" ],
+    "spawn_weights" : [ {
+      "tag" : "two_hand_weapon",
+      "weight" : 0
+    }, {
+      "tag" : "rapier",
+      "weight" : 2000
+    }, {
+      "tag" : "deepwater_sword",
+      "weight" : 0
+    }, {
+      "tag" : "sword",
+      "weight" : 1200
+    }, {
+      "tag" : "axe",
+      "weight" : 1200
+    }, {
+      "tag" : "sceptre",
+      "weight" : 800
+    }, {
+      "tag" : "mace",
+      "weight" : 500
+    }, {
+      "tag" : "wand",
+      "weight" : 500
+    }, {
+      "tag" : "claw",
+      "weight" : 1200
+    }, {
+      "tag" : "dagger",
+      "weight" : 1200
+    }, {
+      "tag" : "default",
+      "weight" : 0
+    } ],
+    "is_essence_only" : false,
+    "name" : "Glaciated",
+    "text" : "Adds (41-57) to (83-97) Cold Damage",
+    "domain" : "item",
+    "grants_effects" : [ ],
+    "type" : "LocalColdDamage",
+    "generation_type" : "prefix",
+    "generation_weights" : [ {
+      "tag" : "attack_dagger",
+      "weight" : 100
+    }, {
+      "tag" : "dagger",
+      "weight" : 50
+    }, {
+      "tag" : "warstaff",
+      "weight" : 100
+    }, {
+      "tag" : "staff",
+      "weight" : 50
+    }, {
+      "tag" : "sceptre",
+      "weight" : 50
+    }, {
+      "tag" : "wand_can_roll_caster_modifiers",
+      "weight" : 50
+    }, {
+      "tag" : "default",
+      "weight" : 100
+    } ],
+    "gold_value" : null,
+    "required_level" : 52,
+    "groups" : [ "ColdDamage" ],
+    "stats" : [ {
+      "id" : "local_minimum_added_cold_damage",
+      "max" : 57,
+      "min" : 41
+    }, {
+      "id" : "local_maximum_added_cold_damage",
+      "max" : 97,
+      "min" : 83
+    } ]
+  },
+  "LocalAddedColdDamage8" : {
+    "adds_tags" : [ "has_attack_mod" ],
+    "implicit_tags" : [ "elemental_damage", "damage", "elemental", "cold", "attack" ],
+    "spawn_weights" : [ {
+      "tag" : "two_hand_weapon",
+      "weight" : 0
+    }, {
+      "tag" : "rapier",
+      "weight" : 1600
+    }, {
+      "tag" : "deepwater_sword",
+      "weight" : 0
+    }, {
+      "tag" : "sword",
+      "weight" : 960
+    }, {
+      "tag" : "axe",
+      "weight" : 960
+    }, {
+      "tag" : "sceptre",
+      "weight" : 640
+    }, {
+      "tag" : "mace",
+      "weight" : 400
+    }, {
+      "tag" : "wand",
+      "weight" : 400
+    }, {
+      "tag" : "claw",
+      "weight" : 960
+    }, {
+      "tag" : "dagger",
+      "weight" : 960
+    }, {
+      "tag" : "default",
+      "weight" : 0
+    } ],
+    "is_essence_only" : false,
+    "name" : "Polar",
+    "text" : "Adds (54-74) to (108-126) Cold Damage",
+    "domain" : "item",
+    "grants_effects" : [ ],
+    "type" : "LocalColdDamage",
+    "generation_type" : "prefix",
+    "generation_weights" : [ {
+      "tag" : "attack_dagger",
+      "weight" : 100
+    }, {
+      "tag" : "dagger",
+      "weight" : 50
+    }, {
+      "tag" : "warstaff",
+      "weight" : 100
+    }, {
+      "tag" : "staff",
+      "weight" : 50
+    }, {
+      "tag" : "sceptre",
+      "weight" : 50
+    }, {
+      "tag" : "wand_can_roll_caster_modifiers",
+      "weight" : 50
+    }, {
+      "tag" : "default",
+      "weight" : 100
+    } ],
+    "gold_value" : null,
+    "required_level" : 63,
+    "groups" : [ "ColdDamage" ],
+    "stats" : [ {
+      "id" : "local_minimum_added_cold_damage",
+      "max" : 74,
+      "min" : 54
+    }, {
+      "id" : "local_maximum_added_cold_damage",
+      "max" : 126,
+      "min" : 108
+    } ]
+  },
+  "LocalAddedColdDamage9" : {
+    "adds_tags" : [ "has_attack_mod" ],
+    "implicit_tags" : [ "elemental_damage", "damage", "elemental", "cold", "attack" ],
+    "spawn_weights" : [ {
+      "tag" : "two_hand_weapon",
+      "weight" : 0
+    }, {
+      "tag" : "rapier",
+      "weight" : 700
+    }, {
+      "tag" : "deepwater_sword",
+      "weight" : 0
+    }, {
+      "tag" : "sword",
+      "weight" : 420
+    }, {
+      "tag" : "axe",
+      "weight" : 420
+    }, {
+      "tag" : "sceptre",
+      "weight" : 280
+    }, {
+      "tag" : "mace",
+      "weight" : 175
+    }, {
+      "tag" : "wand",
+      "weight" : 175
+    }, {
+      "tag" : "claw",
+      "weight" : 420
+    }, {
+      "tag" : "dagger",
+      "weight" : 420
+    }, {
+      "tag" : "default",
+      "weight" : 0
+    } ],
+    "is_essence_only" : false,
+    "name" : "Entombing",
+    "text" : "Adds (68-92) to (136-157) Cold Damage",
+    "domain" : "item",
+    "grants_effects" : [ ],
+    "type" : "LocalColdDamage",
+    "generation_type" : "prefix",
+    "generation_weights" : [ {
+      "tag" : "attack_dagger",
+      "weight" : 100
+    }, {
+      "tag" : "dagger",
+      "weight" : 50
+    }, {
+      "tag" : "warstaff",
+      "weight" : 100
+    }, {
+      "tag" : "staff",
+      "weight" : 50
+    }, {
+      "tag" : "sceptre",
+      "weight" : 50
+    }, {
+      "tag" : "wand_can_roll_caster_modifiers",
+      "weight" : 50
+    }, {
+      "tag" : "default",
+      "weight" : 100
+    } ],
+    "gold_value" : null,
+    "required_level" : 75,
+    "groups" : [ "ColdDamage" ],
+    "stats" : [ {
+      "id" : "local_minimum_added_cold_damage",
+      "max" : 92,
+      "min" : 68
+    }, {
+      "id" : "local_maximum_added_cold_damage",
+      "max" : 157,
+      "min" : 136
+    } ]
+  },
+  "LocalAddedColdDamageEssence7" : {
+    "adds_tags" : [ "has_attack_mod" ],
+    "implicit_tags" : [ "elemental_damage", "damage", "elemental", "cold", "attack" ],
+    "spawn_weights" : [ {
+      "tag" : "default",
+      "weight" : 0
+    } ],
+    "is_essence_only" : true,
+    "name" : "Essences",
+    "text" : "Adds (73-100) to (147-170) Cold Damage",
+    "domain" : "item",
+    "grants_effects" : [ ],
+    "type" : "LocalColdDamage",
+    "generation_type" : "prefix",
+    "generation_weights" : [ ],
+    "gold_value" : null,
+    "required_level" : 82,
+    "groups" : [ "ColdDamage" ],
+    "stats" : [ {
+      "id" : "local_minimum_added_cold_damage",
+      "max" : 100,
+      "min" : 73
+    }, {
+      "id" : "local_maximum_added_cold_damage",
+      "max" : 170,
+      "min" : 147
+    } ]
+  },
+  "LocalAddedColdDamageTwoHand1" : {
+    "adds_tags" : [ "has_attack_mod" ],
+    "implicit_tags" : [ "elemental_damage", "damage", "elemental", "cold", "attack" ],
+    "spawn_weights" : [ {
+      "tag" : "one_hand_weapon",
+      "weight" : 0
+    }, {
+      "tag" : "bow",
+      "weight" : 1400
+    }, {
+      "tag" : "sword",
+      "weight" : 1200
+    }, {
+      "tag" : "axe",
+      "weight" : 1200
+    }, {
+      "tag" : "mace",
+      "weight" : 500
+    }, {
+      "tag" : "staff",
+      "weight" : 600
+    }, {
+      "tag" : "default",
+      "weight" : 0
+    } ],
+    "is_essence_only" : false,
+    "name" : "Frosted",
+    "text" : "Adds (2-3) to (6-7) Cold Damage",
+    "domain" : "item",
+    "grants_effects" : [ ],
+    "type" : "LocalColdDamageTwoHand",
+    "generation_type" : "prefix",
+    "generation_weights" : [ {
+      "tag" : "attack_dagger",
+      "weight" : 100
+    }, {
+      "tag" : "dagger",
+      "weight" : 50
+    }, {
+      "tag" : "warstaff",
+      "weight" : 100
+    }, {
+      "tag" : "staff",
+      "weight" : 50
+    }, {
+      "tag" : "sceptre",
+      "weight" : 50
+    }, {
+      "tag" : "wand_can_roll_caster_modifiers",
+      "weight" : 50
+    }, {
+      "tag" : "default",
+      "weight" : 100
+    } ],
+    "gold_value" : null,
+    "required_level" : 2,
+    "groups" : [ "ColdDamage" ],
+    "stats" : [ {
+      "id" : "local_minimum_added_cold_damage",
+      "max" : 3,
+      "min" : 2
+    }, {
+      "id" : "local_maximum_added_cold_damage",
+      "max" : 7,
+      "min" : 6
+    } ]
+  },
+  "LocalAddedColdDamageTwoHand10" : {
+    "adds_tags" : [ "has_attack_mod" ],
+    "implicit_tags" : [ "elemental_damage", "damage", "elemental", "cold", "attack" ],
+    "spawn_weights" : [ {
+      "tag" : "one_hand_weapon",
+      "weight" : 0
+    }, {
+      "tag" : "bow",
+      "weight" : 126
+    }, {
+      "tag" : "sword",
+      "weight" : 108
+    }, {
+      "tag" : "axe",
+      "weight" : 108
+    }, {
+      "tag" : "mace",
+      "weight" : 45
+    }, {
+      "tag" : "staff",
+      "weight" : 54
+    }, {
+      "tag" : "default",
+      "weight" : 0
+    } ],
+    "is_essence_only" : false,
+    "name" : "Crystalising",
+    "text" : "Adds (149-204) to (300-348) Cold Damage",
+    "domain" : "item",
+    "grants_effects" : [ ],
+    "type" : "LocalColdDamageTwoHand",
+    "generation_type" : "prefix",
+    "generation_weights" : [ {
+      "tag" : "attack_dagger",
+      "weight" : 100
+    }, {
+      "tag" : "dagger",
+      "weight" : 50
+    }, {
+      "tag" : "warstaff",
+      "weight" : 100
+    }, {
+      "tag" : "staff",
+      "weight" : 50
+    }, {
+      "tag" : "sceptre",
+      "weight" : 50
+    }, {
+      "tag" : "wand_can_roll_caster_modifiers",
+      "weight" : 50
+    }, {
+      "tag" : "default",
+      "weight" : 100
+    } ],
+    "gold_value" : null,
+    "required_level" : 82,
+    "groups" : [ "ColdDamage" ],
+    "stats" : [ {
+      "id" : "local_minimum_added_cold_damage",
+      "max" : 204,
+      "min" : 149
+    }, {
+      "id" : "local_maximum_added_cold_damage",
+      "max" : 348,
+      "min" : 300
+    } ]
+  },
+  "LocalAddedColdDamageTwoHand2" : {
+    "adds_tags" : [ "has_attack_mod" ],
+    "implicit_tags" : [ "elemental_damage", "damage", "elemental", "cold", "attack" ],
+    "spawn_weights" : [ {
+      "tag" : "one_hand_weapon",
+      "weight" : 0
+    }, {
+      "tag" : "bow",
+      "weight" : 1400
+    }, {
+      "tag" : "sword",
+      "weight" : 1200
+    }, {
+      "tag" : "axe",
+      "weight" : 1200
+    }, {
+      "tag" : "mace",
+      "weight" : 500
+    }, {
+      "tag" : "staff",
+      "weight" : 600
+    }, {
+      "tag" : "default",
+      "weight" : 0
+    } ],
+    "is_essence_only" : false,
+    "name" : "Chilled",
+    "text" : "Adds (12-17) to (26-30) Cold Damage",
+    "domain" : "item",
+    "grants_effects" : [ ],
+    "type" : "LocalColdDamageTwoHand",
+    "generation_type" : "prefix",
+    "generation_weights" : [ {
+      "tag" : "attack_dagger",
+      "weight" : 100
+    }, {
+      "tag" : "dagger",
+      "weight" : 50
+    }, {
+      "tag" : "warstaff",
+      "weight" : 100
+    }, {
+      "tag" : "staff",
+      "weight" : 50
+    }, {
+      "tag" : "sceptre",
+      "weight" : 50
+    }, {
+      "tag" : "wand_can_roll_caster_modifiers",
+      "weight" : 50
+    }, {
+      "tag" : "default",
+      "weight" : 100
+    } ],
+    "gold_value" : null,
+    "required_level" : 12,
+    "groups" : [ "ColdDamage" ],
+    "stats" : [ {
+      "id" : "local_minimum_added_cold_damage",
+      "max" : 17,
+      "min" : 12
+    }, {
+      "id" : "local_maximum_added_cold_damage",
+      "max" : 30,
+      "min" : 26
+    } ]
+  },
+  "LocalAddedColdDamageTwoHand3" : {
+    "adds_tags" : [ "has_attack_mod" ],
+    "implicit_tags" : [ "elemental_damage", "damage", "elemental", "cold", "attack" ],
+    "spawn_weights" : [ {
+      "tag" : "one_hand_weapon",
+      "weight" : 0
+    }, {
+      "tag" : "bow",
+      "weight" : 1400
+    }, {
+      "tag" : "sword",
+      "weight" : 1200
+    }, {
+      "tag" : "axe",
+      "weight" : 1200
+    }, {
+      "tag" : "mace",
+      "weight" : 500
+    }, {
+      "tag" : "staff",
+      "weight" : 600
+    }, {
+      "tag" : "default",
+      "weight" : 0
+    } ],
+    "is_essence_only" : false,
+    "name" : "Icy",
+    "text" : "Adds (21-28) to (42-48) Cold Damage",
+    "domain" : "item",
+    "grants_effects" : [ ],
+    "type" : "LocalColdDamageTwoHand",
+    "generation_type" : "prefix",
+    "generation_weights" : [ {
+      "tag" : "attack_dagger",
+      "weight" : 100
+    }, {
+      "tag" : "dagger",
+      "weight" : 50
+    }, {
+      "tag" : "warstaff",
+      "weight" : 100
+    }, {
+      "tag" : "staff",
+      "weight" : 50
+    }, {
+      "tag" : "sceptre",
+      "weight" : 50
+    }, {
+      "tag" : "wand_can_roll_caster_modifiers",
+      "weight" : 50
+    }, {
+      "tag" : "default",
+      "weight" : 100
+    } ],
+    "gold_value" : null,
+    "required_level" : 19,
+    "groups" : [ "ColdDamage" ],
+    "stats" : [ {
+      "id" : "local_minimum_added_cold_damage",
+      "max" : 28,
+      "min" : 21
+    }, {
+      "id" : "local_maximum_added_cold_damage",
+      "max" : 48,
+      "min" : 42
+    } ]
+  },
+  "LocalAddedColdDamageTwoHand4" : {
+    "adds_tags" : [ "has_attack_mod" ],
+    "implicit_tags" : [ "elemental_damage", "damage", "elemental", "cold", "attack" ],
+    "spawn_weights" : [ {
+      "tag" : "one_hand_weapon",
+      "weight" : 0
+    }, {
+      "tag" : "bow",
+      "weight" : 1400
+    }, {
+      "tag" : "sword",
+      "weight" : 1200
+    }, {
+      "tag" : "axe",
+      "weight" : 1200
+    }, {
+      "tag" : "mace",
+      "weight" : 500
+    }, {
+      "tag" : "staff",
+      "weight" : 600
+    }, {
+      "tag" : "default",
+      "weight" : 0
+    } ],
+    "is_essence_only" : false,
+    "name" : "Frigid",
+    "text" : "Adds (29-40) to (58-68) Cold Damage",
+    "domain" : "item",
+    "grants_effects" : [ ],
+    "type" : "LocalColdDamageTwoHand",
+    "generation_type" : "prefix",
+    "generation_weights" : [ {
+      "tag" : "attack_dagger",
+      "weight" : 100
+    }, {
+      "tag" : "dagger",
+      "weight" : 50
+    }, {
+      "tag" : "warstaff",
+      "weight" : 100
+    }, {
+      "tag" : "staff",
+      "weight" : 50
+    }, {
+      "tag" : "sceptre",
+      "weight" : 50
+    }, {
+      "tag" : "wand_can_roll_caster_modifiers",
+      "weight" : 50
+    }, {
+      "tag" : "default",
+      "weight" : 100
+    } ],
+    "gold_value" : null,
+    "required_level" : 27,
+    "groups" : [ "ColdDamage" ],
+    "stats" : [ {
+      "id" : "local_minimum_added_cold_damage",
+      "max" : 40,
+      "min" : 29
+    }, {
+      "id" : "local_maximum_added_cold_damage",
+      "max" : 68,
+      "min" : 58
+    } ]
+  },
+  "LocalAddedColdDamageTwoHand5" : {
+    "adds_tags" : [ "has_attack_mod" ],
+    "implicit_tags" : [ "elemental_damage", "damage", "elemental", "cold", "attack" ],
+    "spawn_weights" : [ {
+      "tag" : "one_hand_weapon",
+      "weight" : 0
+    }, {
+      "tag" : "bow",
+      "weight" : 1400
+    }, {
+      "tag" : "sword",
+      "weight" : 1200
+    }, {
+      "tag" : "axe",
+      "weight" : 1200
+    }, {
+      "tag" : "mace",
+      "weight" : 500
+    }, {
+      "tag" : "staff",
+      "weight" : 600
+    }, {
+      "tag" : "default",
+      "weight" : 0
+    } ],
+    "is_essence_only" : false,
+    "name" : "Freezing",
+    "text" : "Adds (41-55) to (81-95) Cold Damage",
+    "domain" : "item",
+    "grants_effects" : [ ],
+    "type" : "LocalColdDamageTwoHand",
+    "generation_type" : "prefix",
+    "generation_weights" : [ {
+      "tag" : "attack_dagger",
+      "weight" : 100
+    }, {
+      "tag" : "dagger",
+      "weight" : 50
+    }, {
+      "tag" : "warstaff",
+      "weight" : 100
+    }, {
+      "tag" : "staff",
+      "weight" : 50
+    }, {
+      "tag" : "sceptre",
+      "weight" : 50
+    }, {
+      "tag" : "wand_can_roll_caster_modifiers",
+      "weight" : 50
+    }, {
+      "tag" : "default",
+      "weight" : 100
+    } ],
+    "gold_value" : null,
+    "required_level" : 34,
+    "groups" : [ "ColdDamage" ],
+    "stats" : [ {
+      "id" : "local_minimum_added_cold_damage",
+      "max" : 55,
+      "min" : 41
+    }, {
+      "id" : "local_maximum_added_cold_damage",
+      "max" : 95,
+      "min" : 81
+    } ]
+  },
+  "LocalAddedColdDamageTwoHand6" : {
+    "adds_tags" : [ "has_attack_mod" ],
+    "implicit_tags" : [ "elemental_damage", "damage", "elemental", "cold", "attack" ],
+    "spawn_weights" : [ {
+      "tag" : "one_hand_weapon",
+      "weight" : 0
+    }, {
+      "tag" : "bow",
+      "weight" : 1400
+    }, {
+      "tag" : "sword",
+      "weight" : 1200
+    }, {
+      "tag" : "axe",
+      "weight" : 1200
+    }, {
+      "tag" : "mace",
+      "weight" : 500
+    }, {
+      "tag" : "staff",
+      "weight" : 600
+    }, {
+      "tag" : "default",
+      "weight" : 0
+    } ],
+    "is_essence_only" : false,
+    "name" : "Frozen",
+    "text" : "Adds (57-77) to (114-132) Cold Damage",
+    "domain" : "item",
+    "grants_effects" : [ ],
+    "type" : "LocalColdDamageTwoHand",
+    "generation_type" : "prefix",
+    "generation_weights" : [ {
+      "tag" : "attack_dagger",
+      "weight" : 100
+    }, {
+      "tag" : "dagger",
+      "weight" : 50
+    }, {
+      "tag" : "warstaff",
+      "weight" : 100
+    }, {
+      "tag" : "staff",
+      "weight" : 50
+    }, {
+      "tag" : "sceptre",
+      "weight" : 50
+    }, {
+      "tag" : "wand_can_roll_caster_modifiers",
+      "weight" : 50
+    }, {
+      "tag" : "default",
+      "weight" : 100
+    } ],
+    "gold_value" : null,
+    "required_level" : 43,
+    "groups" : [ "ColdDamage" ],
+    "stats" : [ {
+      "id" : "local_minimum_added_cold_damage",
+      "max" : 77,
+      "min" : 57
+    }, {
+      "id" : "local_maximum_added_cold_damage",
+      "max" : 132,
+      "min" : 114
+    } ]
+  },
+  "LocalAddedColdDamageTwoHand7" : {
+    "adds_tags" : [ "has_attack_mod" ],
+    "implicit_tags" : [ "elemental_damage", "damage", "elemental", "cold", "attack" ],
+    "spawn_weights" : [ {
+      "tag" : "one_hand_weapon",
+      "weight" : 0
+    }, {
+      "tag" : "bow",
+      "weight" : 1400
+    }, {
+      "tag" : "sword",
+      "weight" : 1200
+    }, {
+      "tag" : "axe",
+      "weight" : 1200
+    }, {
+      "tag" : "mace",
+      "weight" : 500
+    }, {
+      "tag" : "staff",
+      "weight" : 600
+    }, {
+      "tag" : "default",
+      "weight" : 0
+    } ],
+    "is_essence_only" : false,
+    "name" : "Glaciated",
+    "text" : "Adds (77-104) to (154-178) Cold Damage",
+    "domain" : "item",
+    "grants_effects" : [ ],
+    "type" : "LocalColdDamageTwoHand",
+    "generation_type" : "prefix",
+    "generation_weights" : [ {
+      "tag" : "attack_dagger",
+      "weight" : 100
+    }, {
+      "tag" : "dagger",
+      "weight" : 50
+    }, {
+      "tag" : "warstaff",
+      "weight" : 100
+    }, {
+      "tag" : "staff",
+      "weight" : 50
+    }, {
+      "tag" : "sceptre",
+      "weight" : 50
+    }, {
+      "tag" : "wand_can_roll_caster_modifiers",
+      "weight" : 50
+    }, {
+      "tag" : "default",
+      "weight" : 100
+    } ],
+    "gold_value" : null,
+    "required_level" : 52,
+    "groups" : [ "ColdDamage" ],
+    "stats" : [ {
+      "id" : "local_minimum_added_cold_damage",
+      "max" : 104,
+      "min" : 77
+    }, {
+      "id" : "local_maximum_added_cold_damage",
+      "max" : 178,
+      "min" : 154
+    } ]
+  },
+  "LocalAddedColdDamageTwoHand8" : {
+    "adds_tags" : [ "has_attack_mod" ],
+    "implicit_tags" : [ "elemental_damage", "damage", "elemental", "cold", "attack" ],
+    "spawn_weights" : [ {
+      "tag" : "one_hand_weapon",
+      "weight" : 0
+    }, {
+      "tag" : "bow",
+      "weight" : 1120
+    }, {
+      "tag" : "sword",
+      "weight" : 960
+    }, {
+      "tag" : "axe",
+      "weight" : 960
+    }, {
+      "tag" : "mace",
+      "weight" : 400
+    }, {
+      "tag" : "staff",
+      "weight" : 480
+    }, {
+      "tag" : "default",
+      "weight" : 0
+    } ],
+    "is_essence_only" : false,
+    "name" : "Polar",
+    "text" : "Adds (99-136) to (200-232) Cold Damage",
+    "domain" : "item",
+    "grants_effects" : [ ],
+    "type" : "LocalColdDamageTwoHand",
+    "generation_type" : "prefix",
+    "generation_weights" : [ {
+      "tag" : "attack_dagger",
+      "weight" : 100
+    }, {
+      "tag" : "dagger",
+      "weight" : 50
+    }, {
+      "tag" : "warstaff",
+      "weight" : 100
+    }, {
+      "tag" : "staff",
+      "weight" : 50
+    }, {
+      "tag" : "sceptre",
+      "weight" : 50
+    }, {
+      "tag" : "wand_can_roll_caster_modifiers",
+      "weight" : 50
+    }, {
+      "tag" : "default",
+      "weight" : 100
+    } ],
+    "gold_value" : null,
+    "required_level" : 63,
+    "groups" : [ "ColdDamage" ],
+    "stats" : [ {
+      "id" : "local_minimum_added_cold_damage",
+      "max" : 136,
+      "min" : 99
+    }, {
+      "id" : "local_maximum_added_cold_damage",
+      "max" : 232,
+      "min" : 200
+    } ]
+  },
+  "LocalAddedColdDamageTwoHand9" : {
+    "adds_tags" : [ "has_attack_mod" ],
+    "implicit_tags" : [ "elemental_damage", "damage", "elemental", "cold", "attack" ],
+    "spawn_weights" : [ {
+      "tag" : "one_hand_weapon",
+      "weight" : 0
+    }, {
+      "tag" : "bow",
+      "weight" : 490
+    }, {
+      "tag" : "sword",
+      "weight" : 420
+    }, {
+      "tag" : "axe",
+      "weight" : 420
+    }, {
+      "tag" : "mace",
+      "weight" : 175
+    }, {
+      "tag" : "staff",
+      "weight" : 210
+    }, {
+      "tag" : "default",
+      "weight" : 0
+    } ],
+    "is_essence_only" : false,
+    "name" : "Entombing",
+    "text" : "Adds (124-170) to (250-290) Cold Damage",
+    "domain" : "item",
+    "grants_effects" : [ ],
+    "type" : "LocalColdDamageTwoHand",
+    "generation_type" : "prefix",
+    "generation_weights" : [ {
+      "tag" : "attack_dagger",
+      "weight" : 100
+    }, {
+      "tag" : "dagger",
+      "weight" : 50
+    }, {
+      "tag" : "warstaff",
+      "weight" : 100
+    }, {
+      "tag" : "staff",
+      "weight" : 50
+    }, {
+      "tag" : "sceptre",
+      "weight" : 50
+    }, {
+      "tag" : "wand_can_roll_caster_modifiers",
+      "weight" : 50
+    }, {
+      "tag" : "default",
+      "weight" : 100
+    } ],
+    "gold_value" : null,
+    "required_level" : 75,
+    "groups" : [ "ColdDamage" ],
+    "stats" : [ {
+      "id" : "local_minimum_added_cold_damage",
+      "max" : 170,
+      "min" : 124
+    }, {
+      "id" : "local_maximum_added_cold_damage",
+      "max" : 290,
+      "min" : 250
+    } ]
+  },
+  "LocalAddedColdDamageTwoHandEssence7" : {
+    "adds_tags" : [ "has_attack_mod" ],
+    "implicit_tags" : [ "elemental_damage", "damage", "elemental", "cold", "attack" ],
+    "spawn_weights" : [ {
+      "tag" : "default",
+      "weight" : 0
+    } ],
+    "is_essence_only" : true,
+    "name" : "Essences",
+    "text" : "Adds (134-184) to (270-313) Cold Damage",
+    "domain" : "item",
+    "grants_effects" : [ ],
+    "type" : "LocalColdDamageTwoHand",
+    "generation_type" : "prefix",
+    "generation_weights" : [ ],
+    "gold_value" : null,
+    "required_level" : 82,
+    "groups" : [ "ColdDamage" ],
+    "stats" : [ {
+      "id" : "local_minimum_added_cold_damage",
+      "max" : 184,
+      "min" : 134
+    }, {
+      "id" : "local_maximum_added_cold_damage",
+      "max" : 313,
+      "min" : 270
+    } ]
+  },
+  "LocalIncreasedPhysicalDamagePercent1" : {
+    "adds_tags" : [ "has_attack_mod" ],
+    "implicit_tags" : [ "physical_damage", "damage", "physical", "attack" ],
+    "spawn_weights" : [ {
+      "tag" : "weapon",
+      "weight" : 1000
+    }, {
+      "tag" : "default",
+      "weight" : 0
+    } ],
+    "is_essence_only" : false,
+    "name" : "Heavy",
+    "text" : "(40-49)% increased Physical Damage",
+    "domain" : "item",
+    "grants_effects" : [ ],
+    "type" : "LocalPhysicalDamagePercent",
+    "generation_type" : "prefix",
+    "generation_weights" : [ {
+      "tag" : "attack_dagger",
+      "weight" : 100
+    }, {
+      "tag" : "dagger",
+      "weight" : 50
+    }, {
+      "tag" : "warstaff",
+      "weight" : 100
+    }, {
+      "tag" : "staff",
+      "weight" : 50
+    }, {
+      "tag" : "sceptre",
+      "weight" : 50
+    }, {
+      "tag" : "wand_can_roll_caster_modifiers",
+      "weight" : 50
+    }, {
+      "tag" : "default",
+      "weight" : 100
+    } ],
+    "gold_value" : null,
+    "required_level" : 1,
+    "groups" : [ "LocalPhysicalDamagePercent" ],
+    "stats" : [ {
+      "id" : "local_physical_damage_+%",
+      "max" : 49,
+      "min" : 40
+    } ]
+  },
+  "LocalIncreasedPhysicalDamagePercent2" : {
+    "adds_tags" : [ "has_attack_mod" ],
+    "implicit_tags" : [ "physical_damage", "damage", "physical", "attack" ],
+    "spawn_weights" : [ {
+      "tag" : "weapon",
+      "weight" : 1000
+    }, {
+      "tag" : "default",
+      "weight" : 0
+    } ],
+    "is_essence_only" : false,
+    "name" : "Serrated",
+    "text" : "(50-64)% increased Physical Damage",
+    "domain" : "item",
+    "grants_effects" : [ ],
+    "type" : "LocalPhysicalDamagePercent",
+    "generation_type" : "prefix",
+    "generation_weights" : [ {
+      "tag" : "attack_dagger",
+      "weight" : 100
+    }, {
+      "tag" : "dagger",
+      "weight" : 50
+    }, {
+      "tag" : "warstaff",
+      "weight" : 100
+    }, {
+      "tag" : "staff",
+      "weight" : 50
+    }, {
+      "tag" : "sceptre",
+      "weight" : 50
+    }, {
+      "tag" : "wand_can_roll_caster_modifiers",
+      "weight" : 50
+    }, {
+      "tag" : "default",
+      "weight" : 100
+    } ],
+    "gold_value" : null,
+    "required_level" : 11,
+    "groups" : [ "LocalPhysicalDamagePercent" ],
+    "stats" : [ {
+      "id" : "local_physical_damage_+%",
+      "max" : 64,
+      "min" : 50
+    } ]
+  },
+  "LocalIncreasedPhysicalDamagePercent3" : {
+    "adds_tags" : [ "has_attack_mod" ],
+    "implicit_tags" : [ "physical_damage", "damage", "physical", "attack" ],
+    "spawn_weights" : [ {
+      "tag" : "weapon",
+      "weight" : 1000
+    }, {
+      "tag" : "default",
+      "weight" : 0
+    } ],
+    "is_essence_only" : false,
+    "name" : "Wicked",
+    "text" : "(65-84)% increased Physical Damage",
+    "domain" : "item",
+    "grants_effects" : [ ],
+    "type" : "LocalPhysicalDamagePercent",
+    "generation_type" : "prefix",
+    "generation_weights" : [ {
+      "tag" : "attack_dagger",
+      "weight" : 100
+    }, {
+      "tag" : "dagger",
+      "weight" : 50
+    }, {
+      "tag" : "warstaff",
+      "weight" : 100
+    }, {
+      "tag" : "staff",
+      "weight" : 50
+    }, {
+      "tag" : "sceptre",
+      "weight" : 50
+    }, {
+      "tag" : "wand_can_roll_caster_modifiers",
+      "weight" : 50
+    }, {
+      "tag" : "default",
+      "weight" : 100
+    } ],
+    "gold_value" : null,
+    "required_level" : 23,
+    "groups" : [ "LocalPhysicalDamagePercent" ],
+    "stats" : [ {
+      "id" : "local_physical_damage_+%",
+      "max" : 84,
+      "min" : 65
+    } ]
+  },
+  "LocalIncreasedPhysicalDamagePercent4" : {
+    "adds_tags" : [ "has_attack_mod" ],
+    "implicit_tags" : [ "physical_damage", "damage", "physical", "attack" ],
+    "spawn_weights" : [ {
+      "tag" : "weapon",
+      "weight" : 400
+    }, {
+      "tag" : "default",
+      "weight" : 0
+    } ],
+    "is_essence_only" : false,
+    "name" : "Vicious",
+    "text" : "(85-109)% increased Physical Damage",
+    "domain" : "item",
+    "grants_effects" : [ ],
+    "type" : "LocalPhysicalDamagePercent",
+    "generation_type" : "prefix",
+    "generation_weights" : [ {
+      "tag" : "attack_dagger",
+      "weight" : 100
+    }, {
+      "tag" : "dagger",
+      "weight" : 50
+    }, {
+      "tag" : "warstaff",
+      "weight" : 100
+    }, {
+      "tag" : "staff",
+      "weight" : 50
+    }, {
+      "tag" : "sceptre",
+      "weight" : 50
+    }, {
+      "tag" : "wand_can_roll_caster_modifiers",
+      "weight" : 50
+    }, {
+      "tag" : "default",
+      "weight" : 100
+    } ],
+    "gold_value" : null,
+    "required_level" : 35,
+    "groups" : [ "LocalPhysicalDamagePercent" ],
+    "stats" : [ {
+      "id" : "local_physical_damage_+%",
+      "max" : 109,
+      "min" : 85
+    } ]
+  },
+  "LocalIncreasedPhysicalDamagePercent5" : {
+    "adds_tags" : [ "has_attack_mod" ],
+    "implicit_tags" : [ "physical_damage", "damage", "physical", "attack" ],
+    "spawn_weights" : [ {
+      "tag" : "weapon",
+      "weight" : 200
+    }, {
+      "tag" : "default",
+      "weight" : 0
+    } ],
+    "is_essence_only" : false,
+    "name" : "Bloodthirsty",
+    "text" : "(110-134)% increased Physical Damage",
+    "domain" : "item",
+    "grants_effects" : [ ],
+    "type" : "LocalPhysicalDamagePercent",
+    "generation_type" : "prefix",
+    "generation_weights" : [ {
+      "tag" : "attack_dagger",
+      "weight" : 100
+    }, {
+      "tag" : "dagger",
+      "weight" : 50
+    }, {
+      "tag" : "warstaff",
+      "weight" : 100
+    }, {
+      "tag" : "staff",
+      "weight" : 50
+    }, {
+      "tag" : "sceptre",
+      "weight" : 50
+    }, {
+      "tag" : "wand_can_roll_caster_modifiers",
+      "weight" : 50
+    }, {
+      "tag" : "default",
+      "weight" : 100
+    } ],
+    "gold_value" : null,
+    "required_level" : 46,
+    "groups" : [ "LocalPhysicalDamagePercent" ],
+    "stats" : [ {
+      "id" : "local_physical_damage_+%",
+      "max" : 134,
+      "min" : 110
+    } ]
+  },
+  "LocalIncreasedPhysicalDamagePercent6" : {
+    "adds_tags" : [ "has_attack_mod" ],
+    "implicit_tags" : [ "physical_damage", "damage", "physical", "attack" ],
+    "spawn_weights" : [ {
+      "tag" : "weapon",
+      "weight" : 100
+    }, {
+      "tag" : "default",
+      "weight" : 0
+    } ],
+    "is_essence_only" : false,
+    "name" : "Cruel",
+    "text" : "(135-154)% increased Physical Damage",
+    "domain" : "item",
+    "grants_effects" : [ ],
+    "type" : "LocalPhysicalDamagePercent",
+    "generation_type" : "prefix",
+    "generation_weights" : [ {
+      "tag" : "attack_dagger",
+      "weight" : 100
+    }, {
+      "tag" : "dagger",
+      "weight" : 50
+    }, {
+      "tag" : "warstaff",
+      "weight" : 100
+    }, {
+      "tag" : "staff",
+      "weight" : 50
+    }, {
+      "tag" : "sceptre",
+      "weight" : 50
+    }, {
+      "tag" : "wand_can_roll_caster_modifiers",
+      "weight" : 50
+    }, {
+      "tag" : "default",
+      "weight" : 100
+    } ],
+    "gold_value" : null,
+    "required_level" : 60,
+    "groups" : [ "LocalPhysicalDamagePercent" ],
+    "stats" : [ {
+      "id" : "local_physical_damage_+%",
+      "max" : 154,
+      "min" : 135
+    } ]
+  },
+  "LocalIncreasedPhysicalDamagePercent7" : {
+    "adds_tags" : [ "has_attack_mod" ],
+    "implicit_tags" : [ "physical_damage", "damage", "physical", "attack" ],
+    "spawn_weights" : [ {
+      "tag" : "weapon",
+      "weight" : 50
+    }, {
+      "tag" : "default",
+      "weight" : 0
+    } ],
+    "is_essence_only" : false,
+    "name" : "Tyrannical",
+    "text" : "(155-169)% increased Physical Damage",
+    "domain" : "item",
+    "grants_effects" : [ ],
+    "type" : "LocalPhysicalDamagePercent",
+    "generation_type" : "prefix",
+    "generation_weights" : [ {
+      "tag" : "attack_dagger",
+      "weight" : 100
+    }, {
+      "tag" : "dagger",
+      "weight" : 50
+    }, {
+      "tag" : "warstaff",
+      "weight" : 100
+    }, {
+      "tag" : "staff",
+      "weight" : 50
+    }, {
+      "tag" : "sceptre",
+      "weight" : 50
+    }, {
+      "tag" : "wand_can_roll_caster_modifiers",
+      "weight" : 50
+    }, {
+      "tag" : "default",
+      "weight" : 100
+    } ],
+    "gold_value" : null,
+    "required_level" : 73,
+    "groups" : [ "LocalPhysicalDamagePercent" ],
+    "stats" : [ {
+      "id" : "local_physical_damage_+%",
+      "max" : 169,
+      "min" : 155
+    } ]
+  },
+  "LocalIncreasedPhysicalDamagePercent8" : {
+    "adds_tags" : [ "has_attack_mod" ],
+    "implicit_tags" : [ "physical_damage", "damage", "physical", "attack" ],
+    "spawn_weights" : [ {
+      "tag" : "weapon",
+      "weight" : 25
+    }, {
+      "tag" : "default",
+      "weight" : 0
+    } ],
+    "is_essence_only" : false,
+    "name" : "Merciless",
+    "text" : "(170-179)% increased Physical Damage",
+    "domain" : "item",
+    "grants_effects" : [ ],
+    "type" : "LocalPhysicalDamagePercent",
+    "generation_type" : "prefix",
+    "generation_weights" : [ {
+      "tag" : "attack_dagger",
+      "weight" : 100
+    }, {
+      "tag" : "dagger",
+      "weight" : 50
+    }, {
+      "tag" : "warstaff",
+      "weight" : 100
+    }, {
+      "tag" : "staff",
+      "weight" : 50
+    }, {
+      "tag" : "sceptre",
+      "weight" : 50
+    }, {
+      "tag" : "wand_can_roll_caster_modifiers",
+      "weight" : 50
+    }, {
+      "tag" : "default",
+      "weight" : 100
+    } ],
+    "gold_value" : null,
+    "required_level" : 83,
+    "groups" : [ "LocalPhysicalDamagePercent" ],
+    "stats" : [ {
+      "id" : "local_physical_damage_+%",
+      "max" : 179,
+      "min" : 170
+    } ]
+  },
+  "LocalIncreasedPhysicalDamagePercentUniqueTwoHandAxe3" : {
+    "adds_tags" : [ "has_attack_mod" ],
+    "implicit_tags" : [ "physical_damage", "damage", "physical", "attack" ],
+    "spawn_weights" : [ ],
+    "is_essence_only" : false,
+    "name" : "",
+    "text" : "(80-100)% increased Physical Damage",
+    "domain" : "item",
+    "grants_effects" : [ ],
+    "type" : "LocalPhysicalDamagePercent",
+    "generation_type" : "unique",
+    "generation_weights" : [ ],
+    "gold_value" : null,
+    "required_level" : 1,
+    "groups" : [ "LocalPhysicalDamagePercent" ],
+    "stats" : [ {
+      "id" : "local_physical_damage_+%",
+      "max" : 100,
+      "min" : 80
+    } ]
+  },
+  "LocalLightRadiusAndAccuracy1" : {
+    "adds_tags" : [ "has_attack_mod" ],
+    "implicit_tags" : [ "attack" ],
+    "spawn_weights" : [ {
+      "tag" : "weapon",
+      "weight" : 0
+    }, {
+      "tag" : "default",
+      "weight" : 0
+    } ],
+    "is_essence_only" : false,
+    "name" : "of Shining",
+    "text" : "(10-15)% increased Light Radius\n+(10-20) to Accuracy Rating",
+    "domain" : "item",
+    "grants_effects" : [ ],
+    "type" : "LocalLightRadiusAndAccuracy",
+    "generation_type" : "suffix",
+    "generation_weights" : [ ],
+    "gold_value" : null,
+    "required_level" : 8,
+    "groups" : [ "LightRadiusAndAccuracy" ],
+    "stats" : [ {
+      "id" : "light_radius_+%",
+      "max" : 15,
+      "min" : 10
+    }, {
+      "id" : "local_accuracy_rating",
+      "max" : 20,
+      "min" : 10
+    } ]
+  },
+  "LocalLightRadiusAndAccuracy2" : {
+    "adds_tags" : [ "has_attack_mod" ],
+    "implicit_tags" : [ "attack" ],
+    "spawn_weights" : [ {
+      "tag" : "weapon",
+      "weight" : 0
+    }, {
+      "tag" : "default",
+      "weight" : 0
+    } ],
+    "is_essence_only" : false,
+    "name" : "of Light",
+    "text" : "(16-20)% increased Light Radius\n+(21-40) to Accuracy Rating",
+    "domain" : "item",
+    "grants_effects" : [ ],
+    "type" : "LocalLightRadiusAndAccuracy",
+    "generation_type" : "suffix",
+    "generation_weights" : [ ],
+    "gold_value" : null,
+    "required_level" : 15,
+    "groups" : [ "LightRadiusAndAccuracy" ],
+    "stats" : [ {
+      "id" : "light_radius_+%",
+      "max" : 20,
+      "min" : 16
+    }, {
+      "id" : "local_accuracy_rating",
+      "max" : 40,
+      "min" : 21
+    } ]
+  },
+  "LocalLightRadiusAndAccuracy3" : {
+    "adds_tags" : [ "has_attack_mod" ],
+    "implicit_tags" : [ "attack" ],
+    "spawn_weights" : [ {
+      "tag" : "weapon",
+      "weight" : 500
+    }, {
+      "tag" : "default",
+      "weight" : 0
+    } ],
+    "is_essence_only" : false,
+    "name" : "of Radiance",
+    "text" : "(10-15)% increased Light Radius\n(16-20)% increased Global Accuracy Rating",
+    "domain" : "item",
+    "grants_effects" : [ ],
+    "type" : "LocalLightRadiusAndAccuracyPercent",
+    "generation_type" : "suffix",
+    "generation_weights" : [ ],
+    "gold_value" : null,
+    "required_level" : 30,
+    "groups" : [ "LightRadiusAndAccuracy" ],
+    "stats" : [ {
+      "id" : "light_radius_+%",
+      "max" : 15,
+      "min" : 10
+    }, {
+      "id" : "accuracy_rating_+%",
+      "max" : 20,
+      "min" : 16
+    } ]
+  },
+  "LocalLightRadiusAndAccuracyNew1_" : {
+    "adds_tags" : [ "has_attack_mod" ],
+    "implicit_tags" : [ "attack" ],
+    "spawn_weights" : [ {
+      "tag" : "weapon",
+      "weight" : 500
+    }, {
+      "tag" : "default",
+      "weight" : 0
+    } ],
+    "is_essence_only" : false,
+    "name" : "of Shining",
+    "text" : "(16-20)% increased Light Radius\n(9-11)% increased Global Accuracy Rating",
+    "domain" : "item",
+    "grants_effects" : [ ],
+    "type" : "LocalLightRadiusAndAccuracyPercent",
+    "generation_type" : "suffix",
+    "generation_weights" : [ {
+      "tag" : "attack_dagger",
+      "weight" : 100
+    }, {
+      "tag" : "dagger",
+      "weight" : 50
+    }, {
+      "tag" : "warstaff",
+      "weight" : 100
+    }, {
+      "tag" : "staff",
+      "weight" : 50
+    }, {
+      "tag" : "sceptre",
+      "weight" : 50
+    }, {
+      "tag" : "wand_can_roll_caster_modifiers",
+      "weight" : 50
+    }, {
+      "tag" : "default",
+      "weight" : 100
+    } ],
+    "gold_value" : null,
+    "required_level" : 8,
+    "groups" : [ "LightRadiusAndAccuracy" ],
+    "stats" : [ {
+      "id" : "light_radius_+%",
+      "max" : 20,
+      "min" : 16
+    }, {
+      "id" : "accuracy_rating_+%",
+      "max" : 11,
+      "min" : 9
+    } ]
+  },
+  "LocalLightRadiusAndAccuracyNew2" : {
+    "adds_tags" : [ "has_attack_mod" ],
+    "implicit_tags" : [ "attack" ],
+    "spawn_weights" : [ {
+      "tag" : "weapon",
+      "weight" : 500
+    }, {
+      "tag" : "default",
+      "weight" : 0
+    } ],
+    "is_essence_only" : false,
+    "name" : "of Light",
+    "text" : "(21-30)% increased Light Radius\n(12-15)% increased Global Accuracy Rating",
+    "domain" : "item",
+    "grants_effects" : [ ],
+    "type" : "LocalLightRadiusAndAccuracyPercent",
+    "generation_type" : "suffix",
+    "generation_weights" : [ {
+      "tag" : "attack_dagger",
+      "weight" : 100
+    }, {
+      "tag" : "dagger",
+      "weight" : 50
+    }, {
+      "tag" : "warstaff",
+      "weight" : 100
+    }, {
+      "tag" : "staff",
+      "weight" : 50
+    }, {
+      "tag" : "sceptre",
+      "weight" : 50
+    }, {
+      "tag" : "wand_can_roll_caster_modifiers",
+      "weight" : 50
+    }, {
+      "tag" : "default",
+      "weight" : 100
+    } ],
+    "gold_value" : null,
+    "required_level" : 15,
+    "groups" : [ "LightRadiusAndAccuracy" ],
+    "stats" : [ {
+      "id" : "light_radius_+%",
+      "max" : 30,
+      "min" : 21
+    }, {
+      "id" : "accuracy_rating_+%",
+      "max" : 15,
+      "min" : 12
+    } ]
+  },
+  "LocalMaimOnHit2HImplicit_1" : {
+    "adds_tags" : [ ],
+    "implicit_tags" : [ "attack" ],
+    "spawn_weights" : [ ],
+    "is_essence_only" : false,
+    "name" : "",
+    "text" : "25% chance to Maim on Hit",
+    "domain" : "item",
+    "grants_effects" : [ ],
+    "type" : "LocalMaimOnHitChance",
+    "generation_type" : "unique",
+    "generation_weights" : [ ],
+    "gold_value" : null,
+    "required_level" : 1,
+    "groups" : [ "LocalMaimOnHit" ],
+    "stats" : [ {
+      "id" : "local_maim_on_hit_%",
+      "max" : 25,
+      "min" : 25
+    } ]
+  },
+  "PercentIncreasedLifeJewel" : {
+    "adds_tags" : [ ],
+    "implicit_tags" : [ "resource", "life" ],
+    "spawn_weights" : [ {
+      "tag" : "not_str",
+      "weight" : 350
+    }, {
+      "tag" : "default",
+      "weight" : 500
+    } ],
+    "is_essence_only" : false,
+    "name" : "Vivid",
+    "text" : "(5-7)% increased maximum Life",
+    "domain" : "misc",
+    "grants_effects" : [ ],
+    "type" : "PercentIncreasedLifeForJewel",
+    "generation_type" : "prefix",
+    "generation_weights" : [ ],
+    "gold_value" : null,
+    "required_level" : 1,
+    "groups" : [ "MaximumLifeIncreasePercent" ],
+    "stats" : [ {
+      "id" : "maximum_life_+%",
+      "max" : 7,
+      "min" : 5
+    } ]
+  },
+  "StrDexMasterIncreasedPhysicalCrafted1" : {
+    "adds_tags" : [ "has_attack_mod" ],
+    "implicit_tags" : [ "physical_damage", "damage", "physical", "attack" ],
+    "spawn_weights" : [ {
+      "tag" : "default",
+      "weight" : 0
+    } ],
+    "is_essence_only" : false,
+    "name" : "Wicked",
+    "text" : "(40-59)% increased Physical Damage",
+    "domain" : "crafted",
+    "grants_effects" : [ ],
+    "type" : "LocalPhysicalDamagePercent",
+    "generation_type" : "prefix",
+    "generation_weights" : [ ],
+    "gold_value" : null,
+    "required_level" : 20,
+    "groups" : [ "LocalPhysicalDamagePercent" ],
+    "stats" : [ {
+      "id" : "local_physical_damage_+%",
+      "max" : 59,
+      "min" : 40
+    } ]
+  },
+  "StrDexMasterIncreasedPhysicalCrafted2_" : {
+    "adds_tags" : [ "has_attack_mod" ],
+    "implicit_tags" : [ "physical_damage", "damage", "physical", "attack" ],
+    "spawn_weights" : [ {
+      "tag" : "default",
+      "weight" : 0
+    } ],
+    "is_essence_only" : false,
+    "name" : "Vicious",
+    "text" : "(60-79)% increased Physical Damage",
+    "domain" : "crafted",
+    "grants_effects" : [ ],
+    "type" : "LocalPhysicalDamagePercent",
+    "generation_type" : "prefix",
+    "generation_weights" : [ ],
+    "gold_value" : null,
+    "required_level" : 30,
+    "groups" : [ "LocalPhysicalDamagePercent" ],
+    "stats" : [ {
+      "id" : "local_physical_damage_+%",
+      "max" : 79,
+      "min" : 60
+    } ]
+  },
+  "TormentHauntedMonsterShavronne" : {
+    "adds_tags" : [ ],
+    "implicit_tags" : [ "defences", "energy_shield" ],
+    "spawn_weights" : [ {
+      "tag" : "default",
+      "weight" : 1000
+    } ],
+    "is_essence_only" : false,
+    "name" : "Shavronne's Grip",
+    "text" : null,
+    "domain" : "monster",
+    "grants_effects" : [ ],
+    "type" : "TormentSpiritShavronne",
+    "generation_type" : "torment",
+    "generation_weights" : [ ],
+    "gold_value" : null,
+    "required_level" : 1,
+    "groups" : [ "Torment" ],
+    "stats" : [ {
+      "id" : "maximum_life_%_to_add_as_maximum_energy_shield",
+      "max" : 100,
+      "min" : 100
+    }, {
+      "id" : "chaos_damage_does_not_bypass_energy_shield",
+      "max" : 1,
+      "min" : 1
+    } ]
+  },
+  "V2AddedLightningDamageToBowAttacksCorrupted1_" : {
+    "adds_tags" : [ ],
+    "implicit_tags" : [ "elemental_damage", "damage", "elemental", "lightning", "attack" ],
+    "spawn_weights" : [ {
+      "tag" : "quiver",
+      "weight" : 1000
+    }, {
+      "tag" : "default",
+      "weight" : 0
+    } ],
+    "is_essence_only" : false,
+    "name" : "",
+    "text" : "(1-3) to (38-39) Added Lightning Damage with Bow Attacks",
+    "domain" : "item",
+    "grants_effects" : [ ],
+    "type" : "AddedLightningDamageToBowAttacksCorrupted",
+    "generation_type" : "corrupted",
+    "generation_weights" : [ ],
+    "gold_value" : null,
+    "required_level" : 1,
+    "groups" : [ "AddedLightningDamageToBowAttacksCorrupted" ],
+    "stats" : [ {
+      "id" : "attack_minimum_added_lightning_damage_with_bows",
+      "max" : 3,
+      "min" : 1
+    }, {
+      "id" : "attack_maximum_added_lightning_damage_with_bows",
+      "max" : 39,
+      "min" : 38
+    } ]
+  }
+}

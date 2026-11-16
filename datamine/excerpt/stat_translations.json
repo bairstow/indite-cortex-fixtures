@@ -1,0 +1,528 @@
+[ {
+  "trade_stats" : [ {
+    "id" : "crafted.stat_1509134228",
+    "text" : "#% increased Physical Damage",
+    "type" : "crafted",
+    "option" : null
+  }, {
+    "id" : "enchant.stat_1509134228",
+    "text" : "#% increased Physical Damage",
+    "type" : "enchant",
+    "option" : null
+  }, {
+    "id" : "explicit.stat_1509134228",
+    "text" : "#% increased Physical Damage",
+    "type" : "explicit",
+    "option" : null
+  }, {
+    "id" : "fractured.stat_1509134228",
+    "text" : "#% increased Physical Damage",
+    "type" : "fractured",
+    "option" : null
+  }, {
+    "id" : "implicit.stat_1509134228",
+    "text" : "#% increased Physical Damage",
+    "type" : "implicit",
+    "option" : null
+  } ],
+  "ids" : [ "local_physical_damage_+%", "local_weapon_no_physical_damage" ],
+  "hidden" : null,
+  "English" : [ {
+    "condition" : [ {
+      "min" : null,
+      "max" : null,
+      "negated" : null
+    }, {
+      "min" : 1,
+      "max" : null,
+      "negated" : null
+    } ],
+    "format" : [ "ignore", "ignore" ],
+    "index_handlers" : [ [ ], [ ] ],
+    "string" : "No Physical Damage",
+    "reminder_text" : null,
+    "is_markup" : null
+  }, {
+    "condition" : [ {
+      "min" : null,
+      "max" : null,
+      "negated" : null
+    }, {
+      "min" : null,
+      "max" : -1,
+      "negated" : null
+    } ],
+    "format" : [ "ignore", "ignore" ],
+    "index_handlers" : [ [ ], [ ] ],
+    "string" : "No Physical Damage",
+    "reminder_text" : null,
+    "is_markup" : null
+  }, {
+    "condition" : [ {
+      "min" : null,
+      "max" : -100,
+      "negated" : null
+    }, {
+      "min" : null,
+      "max" : null,
+      "negated" : null
+    } ],
+    "format" : [ "ignore", "ignore" ],
+    "index_handlers" : [ [ ], [ ] ],
+    "string" : "No Physical Damage",
+    "reminder_text" : null,
+    "is_markup" : null
+  }, {
+    "condition" : [ {
+      "min" : 1,
+      "max" : null,
+      "negated" : null
+    }, {
+      "min" : 0,
+      "max" : 0,
+      "negated" : null
+    } ],
+    "format" : [ "#", "ignore" ],
+    "index_handlers" : [ [ ], [ ] ],
+    "string" : "{0}% increased Physical Damage",
+    "reminder_text" : null,
+    "is_markup" : null
+  }, {
+    "condition" : [ {
+      "min" : -99,
+      "max" : -1,
+      "negated" : null
+    }, {
+      "min" : 0,
+      "max" : 0,
+      "negated" : null
+    } ],
+    "format" : [ "#", "ignore" ],
+    "index_handlers" : [ [ "negate" ], [ ] ],
+    "string" : "{0}% reduced Physical Damage",
+    "reminder_text" : null,
+    "is_markup" : null
+  } ]
+}, {
+  "trade_stats" : [ {
+    "id" : "crafted.stat_1037193709",
+    "text" : "Adds # to # Cold Damage (Local)",
+    "type" : "crafted",
+    "option" : null
+  }, {
+    "id" : "enchant.stat_1037193709",
+    "text" : "Adds # to # Cold Damage (Local)",
+    "type" : "enchant",
+    "option" : null
+  }, {
+    "id" : "explicit.stat_1037193709",
+    "text" : "Adds # to # Cold Damage (Local)",
+    "type" : "explicit",
+    "option" : null
+  }, {
+    "id" : "fractured.stat_1037193709",
+    "text" : "Adds # to # Cold Damage (Local)",
+    "type" : "fractured",
+    "option" : null
+  }, {
+    "id" : "implicit.stat_1037193709",
+    "text" : "Adds # to # Cold Damage (Local)",
+    "type" : "implicit",
+    "option" : null
+  }, {
+    "id" : "scourge.stat_1037193709",
+    "text" : "Adds # to # Cold Damage (Local)",
+    "type" : "scourge",
+    "option" : null
+  } ],
+  "ids" : [ "local_minimum_added_cold_damage", "local_maximum_added_cold_damage" ],
+  "hidden" : null,
+  "English" : [ {
+    "condition" : [ {
+      "min" : null,
+      "max" : null,
+      "negated" : null
+    }, {
+      "min" : null,
+      "max" : null,
+      "negated" : null
+    } ],
+    "format" : [ "#", "#" ],
+    "index_handlers" : [ [ ], [ ] ],
+    "string" : "Adds {0} to {1} Cold Damage",
+    "reminder_text" : null,
+    "is_markup" : null
+  } ]
+}, {
+  "trade_stats" : [ {
+    "id" : "enchant.stat_624954515",
+    "text" : "#% increased Global Accuracy Rating",
+    "type" : "enchant",
+    "option" : null
+  }, {
+    "id" : "explicit.stat_624954515",
+    "text" : "#% increased Global Accuracy Rating",
+    "type" : "explicit",
+    "option" : null
+  }, {
+    "id" : "fractured.stat_624954515",
+    "text" : "#% increased Global Accuracy Rating",
+    "type" : "fractured",
+    "option" : null
+  }, {
+    "id" : "implicit.stat_624954515",
+    "text" : "#% increased Global Accuracy Rating",
+    "type" : "implicit",
+    "option" : null
+  }, {
+    "id" : "scourge.stat_624954515",
+    "text" : "#% increased Global Accuracy Rating",
+    "type" : "scourge",
+    "option" : null
+  } ],
+  "ids" : [ "accuracy_rating_+%" ],
+  "hidden" : null,
+  "English" : [ {
+    "condition" : [ {
+      "min" : 1,
+      "max" : null,
+      "negated" : null
+    } ],
+    "format" : [ "#" ],
+    "index_handlers" : [ [ ] ],
+    "string" : "{0}% increased Global Accuracy Rating",
+    "reminder_text" : null,
+    "is_markup" : null
+  }, {
+    "condition" : [ {
+      "min" : null,
+      "max" : -1,
+      "negated" : null
+    } ],
+    "format" : [ "#" ],
+    "index_handlers" : [ [ "negate" ] ],
+    "string" : "{0}% reduced Global Accuracy Rating",
+    "reminder_text" : null,
+    "is_markup" : null
+  } ]
+}, {
+  "trade_stats" : [ {
+    "id" : "crafted.stat_809229260",
+    "text" : "+# to Armour",
+    "type" : "crafted",
+    "option" : null
+  }, {
+    "id" : "explicit.stat_809229260",
+    "text" : "+# to Armour",
+    "type" : "explicit",
+    "option" : null
+  }, {
+    "id" : "fractured.stat_809229260",
+    "text" : "+# to Armour",
+    "type" : "fractured",
+    "option" : null
+  } ],
+  "ids" : [ "base_physical_damage_reduction_rating" ],
+  "hidden" : null,
+  "English" : [ {
+    "condition" : [ {
+      "min" : null,
+      "max" : null,
+      "negated" : null
+    } ],
+    "format" : [ "+#" ],
+    "index_handlers" : [ [ ] ],
+    "string" : "{0} to Armour",
+    "reminder_text" : null,
+    "is_markup" : null
+  } ]
+}, {
+  "trade_stats" : [ {
+    "id" : "crafted.stat_983749596",
+    "text" : "#% increased maximum Life",
+    "type" : "crafted",
+    "option" : null
+  }, {
+    "id" : "enchant.stat_983749596",
+    "text" : "#% increased maximum Life",
+    "type" : "enchant",
+    "option" : null
+  }, {
+    "id" : "explicit.stat_983749596",
+    "text" : "#% increased maximum Life",
+    "type" : "explicit",
+    "option" : null
+  }, {
+    "id" : "fractured.stat_983749596",
+    "text" : "#% increased maximum Life",
+    "type" : "fractured",
+    "option" : null
+  }, {
+    "id" : "implicit.stat_983749596",
+    "text" : "#% increased maximum Life",
+    "type" : "implicit",
+    "option" : null
+  }, {
+    "id" : "scourge.stat_983749596",
+    "text" : "#% increased maximum Life",
+    "type" : "scourge",
+    "option" : null
+  } ],
+  "ids" : [ "maximum_life_+%" ],
+  "hidden" : null,
+  "English" : [ {
+    "condition" : [ {
+      "min" : 1,
+      "max" : null,
+      "negated" : null
+    } ],
+    "format" : [ "#" ],
+    "index_handlers" : [ [ ] ],
+    "string" : "{0}% increased maximum Life",
+    "reminder_text" : null,
+    "is_markup" : null
+  }, {
+    "condition" : [ {
+      "min" : null,
+      "max" : -1,
+      "negated" : null
+    } ],
+    "format" : [ "#" ],
+    "index_handlers" : [ [ "negate" ] ],
+    "string" : "{0}% reduced maximum Life",
+    "reminder_text" : null,
+    "is_markup" : null
+  } ]
+}, {
+  "trade_stats" : [ {
+    "id" : "crafted.stat_691932474",
+    "text" : "+# to Accuracy Rating (Local)",
+    "type" : "crafted",
+    "option" : null
+  }, {
+    "id" : "explicit.stat_691932474",
+    "text" : "+# to Accuracy Rating (Local)",
+    "type" : "explicit",
+    "option" : null
+  }, {
+    "id" : "fractured.stat_691932474",
+    "text" : "+# to Accuracy Rating (Local)",
+    "type" : "fractured",
+    "option" : null
+  }, {
+    "id" : "implicit.stat_691932474",
+    "text" : "+# to Accuracy Rating (Local)",
+    "type" : "implicit",
+    "option" : null
+  } ],
+  "ids" : [ "local_accuracy_rating" ],
+  "hidden" : null,
+  "English" : [ {
+    "condition" : [ {
+      "min" : null,
+      "max" : null,
+      "negated" : null
+    } ],
+    "format" : [ "+#" ],
+    "index_handlers" : [ [ ] ],
+    "string" : "{0} to Accuracy Rating",
+    "reminder_text" : null,
+    "is_markup" : null
+  } ]
+}, {
+  "trade_stats" : [ {
+    "id" : "explicit.stat_1040269876",
+    "text" : "# to # Added Lightning Damage with Bow Attacks",
+    "type" : "explicit",
+    "option" : null
+  }, {
+    "id" : "fractured.stat_1040269876",
+    "text" : "# to # Added Lightning Damage with Bow Attacks",
+    "type" : "fractured",
+    "option" : null
+  }, {
+    "id" : "implicit.stat_1040269876",
+    "text" : "# to # Added Lightning Damage with Bow Attacks",
+    "type" : "implicit",
+    "option" : null
+  } ],
+  "ids" : [ "attack_minimum_added_lightning_damage_with_bows", "attack_maximum_added_lightning_damage_with_bows" ],
+  "hidden" : null,
+  "English" : [ {
+    "condition" : [ {
+      "min" : null,
+      "max" : null,
+      "negated" : null
+    }, {
+      "min" : null,
+      "max" : null,
+      "negated" : null
+    } ],
+    "format" : [ "#", "#" ],
+    "index_handlers" : [ [ ], [ ] ],
+    "string" : "{0} to {1} Added Lightning Damage with Bow Attacks",
+    "reminder_text" : null,
+    "is_markup" : null
+  } ]
+}, {
+  "trade_stats" : [ {
+    "id" : "enchant.stat_1263695895",
+    "text" : "#% increased Light Radius",
+    "type" : "enchant",
+    "option" : null
+  }, {
+    "id" : "explicit.stat_1263695895",
+    "text" : "#% increased Light Radius",
+    "type" : "explicit",
+    "option" : null
+  }, {
+    "id" : "fractured.stat_1263695895",
+    "text" : "#% increased Light Radius",
+    "type" : "fractured",
+    "option" : null
+  }, {
+    "id" : "implicit.stat_1263695895",
+    "text" : "#% increased Light Radius",
+    "type" : "implicit",
+    "option" : null
+  }, {
+    "id" : "scourge.stat_1263695895",
+    "text" : "#% increased Light Radius",
+    "type" : "scourge",
+    "option" : null
+  } ],
+  "ids" : [ "light_radius_+%" ],
+  "hidden" : null,
+  "English" : [ {
+    "condition" : [ {
+      "min" : 1,
+      "max" : null,
+      "negated" : null
+    } ],
+    "format" : [ "#" ],
+    "index_handlers" : [ [ ] ],
+    "string" : "{0}% increased Light Radius",
+    "reminder_text" : null,
+    "is_markup" : null
+  }, {
+    "condition" : [ {
+      "min" : null,
+      "max" : -1,
+      "negated" : null
+    } ],
+    "format" : [ "#" ],
+    "index_handlers" : [ [ "negate" ] ],
+    "string" : "{0}% reduced Light Radius",
+    "reminder_text" : null,
+    "is_markup" : null
+  } ]
+}, {
+  "trade_stats" : [ {
+    "id" : "explicit.stat_1119465199",
+    "text" : "Chaos Damage taken does not bypass Energy Shield",
+    "type" : "explicit",
+    "option" : null
+  }, {
+    "id" : "explicit.stat_1865744989",
+    "text" : "Chaos Damage taken does not bypass Energy Shield",
+    "type" : "explicit",
+    "option" : null
+  }, {
+    "id" : "implicit.stat_1865744989",
+    "text" : "Chaos Damage taken does not bypass Energy Shield",
+    "type" : "implicit",
+    "option" : null
+  } ],
+  "ids" : [ "chaos_damage_does_not_bypass_energy_shield" ],
+  "hidden" : null,
+  "English" : [ {
+    "condition" : [ {
+      "min" : null,
+      "max" : null,
+      "negated" : null
+    } ],
+    "format" : [ "ignore" ],
+    "index_handlers" : [ [ ] ],
+    "string" : "Chaos Damage taken does not bypass Energy Shield",
+    "reminder_text" : null,
+    "is_markup" : null
+  } ]
+}, {
+  "trade_stats" : [ {
+    "id" : "explicit.stat_2763429652",
+    "text" : "#% chance to Maim on Hit",
+    "type" : "explicit",
+    "option" : null
+  }, {
+    "id" : "fractured.stat_2763429652",
+    "text" : "#% chance to Maim on Hit",
+    "type" : "fractured",
+    "option" : null
+  }, {
+    "id" : "implicit.stat_2763429652",
+    "text" : "#% chance to Maim on Hit",
+    "type" : "implicit",
+    "option" : null
+  } ],
+  "ids" : [ "local_maim_on_hit_%" ],
+  "hidden" : null,
+  "English" : [ {
+    "condition" : [ {
+      "min" : 1,
+      "max" : 99,
+      "negated" : null
+    } ],
+    "format" : [ "#" ],
+    "index_handlers" : [ [ ] ],
+    "string" : "{0}% chance to Maim on Hit",
+    "reminder_text" : "(Maimed enemies have 30% reduced Movement Speed)",
+    "is_markup" : null
+  }, {
+    "condition" : [ {
+      "min" : 100,
+      "max" : null,
+      "negated" : null
+    } ],
+    "format" : [ "ignore" ],
+    "index_handlers" : [ [ ] ],
+    "string" : "Maim on Hit",
+    "reminder_text" : "(Maimed enemies have 30% reduced Movement Speed)",
+    "is_markup" : null
+  } ]
+}, {
+  "trade_stats" : [ {
+    "id" : "crafted.stat_67280387",
+    "text" : "Gain #% of Maximum Life as Extra Maximum Energy Shield",
+    "type" : "crafted",
+    "option" : null
+  }, {
+    "id" : "explicit.stat_67280387",
+    "text" : "Gain #% of Maximum Life as Extra Maximum Energy Shield",
+    "type" : "explicit",
+    "option" : null
+  }, {
+    "id" : "fractured.stat_67280387",
+    "text" : "Gain #% of Maximum Life as Extra Maximum Energy Shield",
+    "type" : "fractured",
+    "option" : null
+  }, {
+    "id" : "implicit.stat_67280387",
+    "text" : "Gain #% of Maximum Life as Extra Maximum Energy Shield",
+    "type" : "implicit",
+    "option" : null
+  } ],
+  "ids" : [ "maximum_life_%_to_add_as_maximum_energy_shield" ],
+  "hidden" : null,
+  "English" : [ {
+    "condition" : [ {
+      "min" : null,
+      "max" : null,
+      "negated" : null
+    } ],
+    "format" : [ "#" ],
+    "index_handlers" : [ [ ] ],
+    "string" : "Gain {0}% of Maximum Life as Extra Maximum Energy Shield",
+    "reminder_text" : null,
+    "is_markup" : null
+  } ]
+} ]
