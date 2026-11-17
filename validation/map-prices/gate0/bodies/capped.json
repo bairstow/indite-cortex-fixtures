@@ -1,0 +1,17 @@
+{
+  "query": {
+    "status": {"option": "securable"},
+    "stats": [
+      {"type": "and", "filters": [
+        {"id": "implicit.stat_2696470877"},
+        {"id": "pseudo.pseudo_map_more_currency_drops", "value": {"max": 0}}
+      ]}
+    ],
+    "filters": {
+      "type_filters": {"filters": {"category": {"option": "map"}, "rarity": {"option": "rare"}}},
+      "map_filters": {"filters": {"map_tier": {"min": 16, "max": 16}}},
+      "misc_filters": {"filters": {"identified": {"option": "true"}, "corrupted": {"option": "false"}}}
+    }
+  },
+  "sort": {"price": "asc"}
+}
