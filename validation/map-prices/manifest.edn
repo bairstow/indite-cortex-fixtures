@@ -5,7 +5,8 @@
  {:trade/response "Raw GGG trade API response body (JSON), as bb poe:trade-sample saved it."
   :trade/meta "EDN metadata of one trade API response: method, url, status, sent-at, whitelisted rate-limit headers; for searches :auth and :request."
   :trade/request "A trade search request body (JSON) written by the planner from data/ ids."
-  :trade/notes "Markdown notes: the ids found and Gate 0's answers."}
+  :trade/notes "Markdown notes: the ids found and Gate 0's answers."
+  :map-prices/run "A map price collector run file (EDN) from bb poe:map-prices: rules, plan, steps with their query, total and listings (seller ordinals, no seller names)."}
  :manifest/files
  [{:file "gate0/data/20261117-103111-data/filters.json" :role :trade/response}
   {:file "gate0/data/20261117-103111-data/filters.meta.edn" :role :trade/meta}
