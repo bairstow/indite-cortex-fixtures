@@ -1,0 +1,22 @@
+{:manifest/set :map-prices
+ :manifest/source "Owner live capture, 2026-11-17 (map price collector Gate 0: bb poe:trade-sample --data, then --search with the planner's bodies)"
+ :manifest/note "GGG trade API responses for indite-cortex-v2's map price collector (docs/plans/2026-11-17-map-price-collector.md). data/: data/filters and data/stats (no rate-limit headers on either). search/: an anonymous instant-buyout search for Covens T16 rare identified uncorrupted Originator maps sorted by price (total 8081), a fetch of its 10 cheapest, and the same search with More Currency capped at max 0 (total 0: a max-only filter drops maps without the stat). Each response is the raw body (.json) beside a meta (.meta.edn) holding method, url, status, send time, the x-rate-limit-* and retry-after headers only, and for searches the request body and auth. floor-fetch.json is redacted: every listing's account.name and lastCharacterName, stash.name and the names in whisper are replaced by per-file stand-ins (seller-N, seller-N-character, seller-N-tab-M; an empty tab name stays empty), re-serialised compact; everything else is GGG's body unchanged. ids.md records every id read from data/ and the step-4 answers; bodies/ are the two request bodies."
+ :manifest/roles
+ {:trade/response "Raw GGG trade API response body (JSON), as bb poe:trade-sample saved it."
+  :trade/meta "EDN metadata of one trade API response: method, url, status, sent-at, whitelisted rate-limit headers; for searches :auth and :request."
+  :trade/request "A trade search request body (JSON) written by the planner from data/ ids."
+  :trade/notes "Markdown notes: the ids found and Gate 0's answers."}
+ :manifest/files
+ [{:file "gate0/data/20261117-103111-data/filters.json" :role :trade/response}
+  {:file "gate0/data/20261117-103111-data/filters.meta.edn" :role :trade/meta}
+  {:file "gate0/data/20261117-103111-data/stats.json" :role :trade/response}
+  {:file "gate0/data/20261117-103111-data/stats.meta.edn" :role :trade/meta}
+  {:file "gate0/bodies/floor.json" :role :trade/request}
+  {:file "gate0/bodies/capped.json" :role :trade/request}
+  {:file "gate0/search/20261117-104807-search/floor-search.json" :role :trade/response}
+  {:file "gate0/search/20261117-104807-search/floor-search.meta.edn" :role :trade/meta}
+  {:file "gate0/search/20261117-104807-search/floor-fetch.json" :role :trade/response :source "Owner live capture 2026-11-17, seller fields redacted by the planner"}
+  {:file "gate0/search/20261117-104807-search/floor-fetch.meta.edn" :role :trade/meta}
+  {:file "gate0/search/20261117-104807-search/capped-search.json" :role :trade/response}
+  {:file "gate0/search/20261117-104807-search/capped-search.meta.edn" :role :trade/meta}
+  {:file "gate0/ids.md" :role :trade/notes}]}

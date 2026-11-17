@@ -1,0 +1,1 @@
+{:method :get, :url "https://www.pathofexile.com/api/trade/data/stats", :status 200, :sent-at 1794871891292, :headers {}}
