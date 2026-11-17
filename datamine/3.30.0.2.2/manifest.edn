@@ -1,4 +1,4 @@
-{:manifest/note "The v2 crafting datamine reference for RePoE fork 3.30.0.2.2, written by v2's `bb poe:datamine --raw <full download of 2026-11-17> --out datamine` (indite.game.poe.datamine.fetch, rules games/poe/resources/poe/rules/datamine.edn at v2 commit 1301354). Tests read it instead of downloading 55 MB of RePoE JSON. Regenerate it, never hand-edit it."
+{:manifest/note "The v2 crafting datamine reference for RePoE fork 3.30.0.2.2, written by v2's `bb poe:datamine --raw <full download of 2026-11-17> --out datamine` (indite.game.poe.datamine.fetch, rules games/poe/resources/poe/rules/datamine.edn at v2 commit 2391638 (heist translations included)). Tests read it instead of downloading 55 MB of RePoE JSON. Regenerate it, never hand-edit it."
  :manifest/roles {:reference/datamine "indite.game.poe.schema.datamine/Reference as EDN, one mod, base, class and translation per line, sorted."
                   :reference/version "VERSION.edn: {:version :source :fetched-at}."}
  :manifest/files [{:file "reference.edn" :role :reference/datamine}
