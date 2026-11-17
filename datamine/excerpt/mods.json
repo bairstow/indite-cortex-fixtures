@@ -2427,5 +2427,101 @@
       "max" : 39,
       "min" : 38
     } ]
+  },
+  "LocalIncreasedAttackSpeed2Royale____" : {
+    "adds_tags" : [ "has_attack_mod" ],
+    "implicit_tags" : [ "attack", "speed" ],
+    "spawn_weights" : [ {
+      "tag" : "weapon",
+      "weight" : 1000
+    }, {
+      "tag" : "default",
+      "weight" : 0
+    } ],
+    "is_essence_only" : false,
+    "name" : "of Ease",
+    "text" : "(15-25)% increased Attack Speed",
+    "domain" : "item",
+    "grants_effects" : [ ],
+    "type" : "LocalIncreasedAttackSpeed",
+    "generation_type" : "suffix",
+    "generation_weights" : [ {
+      "tag" : "attack_dagger",
+      "weight" : 100
+    }, {
+      "tag" : "dagger",
+      "weight" : 50
+    }, {
+      "tag" : "warstaff",
+      "weight" : 100
+    }, {
+      "tag" : "staff",
+      "weight" : 50
+    }, {
+      "tag" : "sceptre",
+      "weight" : 50
+    }, {
+      "tag" : "wand_can_roll_caster_modifiers",
+      "weight" : 50
+    }, {
+      "tag" : "default",
+      "weight" : 100
+    } ],
+    "gold_value" : null,
+    "required_level" : 4,
+    "groups" : [ "IncreasedAttackSpeed" ],
+    "stats" : [ {
+      "id" : "local_attack_speed_+%",
+      "max" : 25,
+      "min" : 15
+    } ]
+  },
+  "LocalIncreasedAttackSpeed1" : {
+    "adds_tags" : [ "has_attack_mod" ],
+    "implicit_tags" : [ "attack", "speed" ],
+    "spawn_weights" : [ {
+      "tag" : "weapon",
+      "weight" : 1000
+    }, {
+      "tag" : "default",
+      "weight" : 0
+    } ],
+    "is_essence_only" : false,
+    "name" : "of Skill",
+    "text" : "(5-7)% increased Attack Speed",
+    "domain" : "item",
+    "grants_effects" : [ ],
+    "type" : "LocalIncreasedAttackSpeed",
+    "generation_type" : "suffix",
+    "generation_weights" : [ {
+      "tag" : "attack_dagger",
+      "weight" : 100
+    }, {
+      "tag" : "dagger",
+      "weight" : 50
+    }, {
+      "tag" : "warstaff",
+      "weight" : 100
+    }, {
+      "tag" : "staff",
+      "weight" : 50
+    }, {
+      "tag" : "sceptre",
+      "weight" : 50
+    }, {
+      "tag" : "wand_can_roll_caster_modifiers",
+      "weight" : 50
+    }, {
+      "tag" : "default",
+      "weight" : 100
+    } ],
+    "gold_value" : null,
+    "required_level" : 1,
+    "groups" : [ "IncreasedAttackSpeed" ],
+    "stats" : [ {
+      "id" : "local_attack_speed_+%",
+      "max" : 7,
+      "min" : 5
+    } ]
   }
 }

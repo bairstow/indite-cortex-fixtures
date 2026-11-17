@@ -97,5 +97,52 @@
     "item_class" : "Two Hand Axe",
     "inherits_from" : "Metadata/Items/Weapons/TwoHandWeapons/TwoHandAxes/AbstractTwoHandAxe",
     "inventory_width" : 2
+  },
+  "Metadata/Items/Jewels/JewelPassiveTreeExpansionLarge" : {
+    "properties" : {
+      "range" : null,
+      "movement_speed" : null,
+      "armour" : null,
+      "block" : null,
+      "attack_time" : null,
+      "critical_strike_chance" : null,
+      "charges_per_use" : null,
+      "full_stack_turns_into" : null,
+      "energy_shield" : null,
+      "life_per_use" : null,
+      "stack_size" : null,
+      "duration" : null,
+      "monster_category" : null,
+      "cooldown_ms" : null,
+      "directions" : null,
+      "stack_size_currency_tab" : null,
+      "charges_max" : null,
+      "monster_id" : null,
+      "physical_damage_max" : null,
+      "mana_burn_ms" : null,
+      "ward" : null,
+      "mana_per_use" : null,
+      "monster_ability_text" : null,
+      "description" : null,
+      "evasion" : null,
+      "physical_damage_min" : null
+    },
+    "drop_level" : 1,
+    "requirements" : null,
+    "inventory_height" : 1,
+    "grants_buff" : null,
+    "tags" : [ "jewel", "not_for_sale", "expansion_jewel_large", "default" ],
+    "skills_granted" : null,
+    "release_state" : "released",
+    "name" : "Large Cluster Jewel",
+    "visual_identity" : {
+      "dds_file" : "Art/2DItems/Jewels/NewGemBase3.dds",
+      "id" : "ClusterJewelLarge"
+    },
+    "domain" : "affliction_jewel",
+    "implicits" : [ ],
+    "item_class" : "Jewel",
+    "inherits_from" : "Metadata/Items/Jewels/AbstractJewel",
+    "inventory_width" : 1
   }
 }
