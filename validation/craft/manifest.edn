@@ -1,0 +1,7 @@
+{:manifest/set :craft
+ :manifest/source "Owner screenshot, 2026-11-19 (craft C3: the 3.30 currency tab, craft slot empty)"
+ :manifest/note "Screen-sized (3440x1440), black outside the stash panel (x 0-879, y 0-759). The source of calibration/lenovo-3440x1440/profile.edn :craft/positions; that entry's comment records the method and scores."
+ :manifest/roles
+ {:frame/raw "Recorded game screen frame (PNG), input to a vision stage."}
+ :manifest/files
+ [{:file "frames/currency-tab-330.png" :role :frame/raw}]}

@@ -230,6 +230,27 @@
               :orb-of-scouring [589 511 50 50]}
   :inventory {:origin [2580 785] :slot 70 :cols 12 :rows 5}}
 
+ ;; Craft C3: the currency tab's craft slot and the craft catalogue's currencies,
+ ;; [x y w h]. Measured 2026-11-19 on validation/craft/frames/currency-tab-330.png
+ ;; (3.30 currency tab). Currency boxes are 50x50, centred on the icon found by
+ ;; matching its art (gallery/currency at scale 0.73-0.82, centre crop; annulment,
+ ;; which has no gallery art, from v1's confirm/currency reference at 0.53).
+ ;; TM_CCOEFF_NORMED best / next-best: transmutation 0.65/0.41, augmentation
+ ;; 0.55/0.45, alteration 0.54/0.40, regal 0.86/0.55, alchemy 0.57/0.51, scouring
+ ;; 0.87/0.62, annulment 0.94/0.32; stack digits and the cell background lower
+ ;; the scores, and every best match was checked by eye against its art. Alchemy
+ ;; and scouring keep the map rolling boxes above (within 1 px). The slot's
+ ;; border spans x 382-504, y 495-732; the box is 100x200 centred in it.
+ :craft/positions
+ {:slot     [393 513 100 200]
+  :currency {:orb-of-transmutation [87 343 50 50]
+             :orb-of-alteration    [164 343 50 50]
+             :orb-of-augmentation  [242 342 50 50]
+             :regal-orb            [240 420 50 50]
+             :orb-of-annulment     [380 422 50 50]
+             :orb-of-alchemy       [556 342 50 50]
+             :orb-of-scouring      [589 511 50 50]}}
+
  ;; v1 window.clj click-position data for this monitor.
  :click-profile
  {;; v1 `window-reference` key under which lenovo-widescreen-data was registered.
