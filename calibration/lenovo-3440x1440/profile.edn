@@ -238,7 +238,9 @@
  ;; TM_CCOEFF_NORMED best / next-best: transmutation 0.65/0.41, augmentation
  ;; 0.55/0.45, alteration 0.54/0.40, regal 0.86/0.55, alchemy 0.57/0.51, scouring
  ;; 0.87/0.62, annulment 0.94/0.32; stack digits and the cell background lower
- ;; the scores, and every best match was checked by eye against its art. Alchemy
+ ;; the scores, and every best match was checked by eye against its art. Exalted
+ ;; Orb added 2026-11-21 (v2 craft authored plans) the same way: 0.84/0.58 at scale
+ ;; 0.80, checked by eye. Alchemy
  ;; and scouring keep the map rolling boxes above (within 1 px). The slot's
  ;; border spans x 382-504, y 495-732; the box is 100x200 centred in it.
  :craft/positions
@@ -248,6 +250,7 @@
              :orb-of-augmentation  [242 342 50 50]
              :regal-orb            [240 420 50 50]
              :orb-of-annulment     [380 422 50 50]
+             :exalted-orb          [454 420 50 50]
              :orb-of-alchemy       [556 342 50 50]
              :orb-of-scouring      [589 511 50 50]}}
 
