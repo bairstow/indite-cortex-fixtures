@@ -220,6 +220,23 @@
   :click/row0-y      148.5
   :click/pitch       31.5}
 
+ ;; Shop 2: the Faustus shop's tab list, the stash tab-list widget pinned beside the
+ ;; Merchant panel, 16 rows (v1 shop/tabs.clj shop-tab-menu, measured 2026-07-21: strip
+ ;; (888,178) 32x504, the stash pointer template; pointer y 185, 343 and 658 on rows 0,
+ ;; 5 and 15 solve to row0-y 185.5 at pitch 31.5). Clicks follow the stash rule: the
+ ;; triangle's midpoint, 9.5 px below the match (185.5 + 9.5 = 195.0; v1 clicked the
+ ;; row centre 193.75), at v1's x 960, clear of the pointer column (ends 920).
+ ;; To confirm at the shop 2 gate.
+ :shop/tab-list
+ {:pointer/region    {:top 178 :left 888 :width 32 :height 504}
+  :pointer/template  "templates/tab-pointer.png"
+  :pointer/threshold 0.8
+  :pointer/row0-y    185.5
+  :pointer/pitch     31.5
+  :click/x           960
+  :click/row0-y      195.0
+  :click/pitch       31.5}
+
  ;; Map rolling 2: fixed click boxes, [x y w h] top-left and size (v1 :tab/craft
  ;; with :box/standard 50x50, and v1 :inventory/config). The currency boxes are the
  ;; 3.30 currency tab layout (re-measured 2026-11-16 by matching the gallery art on
