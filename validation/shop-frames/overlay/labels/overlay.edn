@@ -1,0 +1,19 @@
+;; The owner's shop 3 Gate 0, 2026-11-24/25: each Set Item Price overlay's
+;; footer region (screen-sized, black elsewhere), saved by :shop/save-overlay-frame
+;; with the REPL focused, so the value is deselected. :height is the item's height
+;; in cells; :price and :currency are the listing the owner read off the overlay.
+{"overlay/frames/divine-1-h1.png" {:height 1 :price 1 :currency :divine}
+ "overlay/frames/chaos-10-h1.png" {:height 1 :price 10 :currency :chaos}
+ "overlay/frames/chaos-23-h1.png" {:height 1 :price 23 :currency :chaos}
+ "overlay/frames/chaos-45-h1.png" {:height 1 :price 45 :currency :chaos}
+ "overlay/frames/chaos-67-h1.png" {:height 1 :price 67 :currency :chaos}
+ "overlay/frames/chaos-89-h1.png" {:height 1 :price 89 :currency :chaos}
+ "overlay/frames/chaos-150-h2.png" {:height 2 :price 150 :currency :chaos}
+ "overlay/frames/chaos-346-h2.png" {:height 2 :price 346 :currency :chaos}
+ "overlay/frames/chaos-789-h2.png" {:height 2 :price 789 :currency :chaos}
+ "overlay/frames/divine-12-h2.png" {:height 2 :price 12 :currency :divine}
+ "overlay/frames/divine-5-h2.png" {:height 2 :price 5 :currency :divine}
+ "overlay/frames/chaos-50-h1.png" {:height 1 :price 50 :currency :chaos}
+ "overlay/frames/chaos-20-h2.png" {:height 2 :price 20 :currency :chaos}
+ "overlay/frames/chaos-6-h3.png" {:height 3 :price 6 :currency :chaos}
+ "overlay/frames/chaos-30-h4.png" {:height 4 :price 30 :currency :chaos}}

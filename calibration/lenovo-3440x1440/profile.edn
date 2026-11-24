@@ -186,23 +186,40 @@
   ;; y slides with item height; the "list item" button match locates the row. :dy values are
   ;; relative to the matched button top. Currency option list measured live 2026-07-21:
   ;; rows (1494,896)-(1792,1340), 14 options, pitch 444/14.
+  ;; Re-measured at the v2 shop 3 Gate 0, 2026-11-24/25, in the game font (the owner's
+  ;; custom font override is gone; validation/shop-frames/overlay/). The button template is
+  ;; re-cut tight to the button's frame, so its match top is 1 px above v1's: every :dy is
+  ;; v1's + 1, the same screen rows. Button top: 841, 847, 879, 912 for items 1, 2, 3 and 4
+  ;; cells tall. Its score: 1.00, 0.891 on the 3-tall frame (the text sits a sub-pixel over),
+  ;; at most 0.45 off the overlay (v1's sans button, grids, stash frames) -> 0.8.
+  ;; The value is read deselected with digit-atlas-serif/ at 4x: glyphs 61-72 px tall,
+  ;; 24 ("1") to 49 ("0") wide, as little as 2 px apart; the field's border ring 264x181 and
+  ;; the caret fall outside :min-h..:max-h. :merged "refuse": no width split (it cuts a
+  ;; "0" in two when 1s are the median width, 110 -> 1100); a glyph-height blob wider
+  ;; than :max-aspect (two digits touching) makes the read nil.
+  ;; The currency is its name in the field: each template scores 1.00 on its own currency
+  ;; and 0.61-0.62 on the other's, so an unlisted currency reads nil rather than near.
+  ;; The park box is below the footer region, where v1 parked ([1418 1100]).
   :faustus-shop-overlay
   {:grid/panel                    :faustus-shop-overlay
    :overlay/footer-region         {:top 830 :left 1410 :width 620 :height 200}
-   :overlay/list-button-template  "templates/faustus-shop-list-button.png"
-   :overlay/list-button-threshold 0.9
-   :overlay/value-rect            {:left 1418 :width 66 :height 46 :dy -3 :invert? false
-                                   :seg-opts {:min-h 50 :max-h 90}}
-   :overlay/currency-rect         {:left 1494 :width 44 :height 46 :dy -3}
-   :overlay/deselect-rect         {:left 1464 :width 14 :height 30 :dy 6}
-   :overlay/list-button-rect      {:left 1847 :width 170 :height 44 :dy 0}
-   :overlay/currency-dropdown-rect {:left 1795 :width 36 :height 30 :dy 6}
-   :overlay/currency-options       {:left 1520 :width 200 :dy 49 :pitch 31.71
+   :overlay/list-button-template  "templates/faustus-shop-list-button-serif.png"
+   :overlay/list-button-threshold 0.8
+   :overlay/value-rect            {:left 1418 :width 66 :height 46 :dy -2}
+   :overlay/digit-atlas           "digit-atlas-serif/"
+   :overlay/digit-scale           4.0
+   :overlay/digit-seg             {:min-h 50 :max-h 90 :max-aspect 0.9 :min-area 500 :merged "refuse"}
+   :overlay/currency-name-rect    {:left 1500 :width 300 :height 48 :dy -4}
+   :overlay/currency-names        {:chaos  "templates/faustus-shop-currency-chaos.png"
+                                   :divine "templates/faustus-shop-currency-divine.png"}
+   :overlay/currency-name-threshold 0.9
+   :overlay/deselect-rect         {:left 1464 :width 14 :height 30 :dy 7}
+   :overlay/list-button-rect      {:left 1847 :width 170 :height 44 :dy 1}
+   :overlay/currency-dropdown-rect {:left 1795 :width 36 :height 30 :dy 7}
+   :overlay/currency-options       {:left 1520 :width 200 :dy 50 :pitch 31.71
                                     :count 14
                                     :index {:chaos 0 :divine 1}}
-   :overlay/currency-groups       #{"shop-currency"}
-   :overlay/currency-match        :colour
-   :overlay/cursor-park           [1418 1100]}}
+   :overlay/park-box              [1400 1080 160 60]}}
 
  ;; Map rolling 2: the stash tab list. The pointer read is v1's stash-tab-menu
  ;; (kept verbatim in :click-profile); the row click is v1 tab/config (x 1040,

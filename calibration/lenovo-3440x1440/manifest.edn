@@ -10,6 +10,9 @@
   {:file "templates/faustus-shop-landmark.png" :role :template/landmark :v1-path "resources/capture/shop/faustus-shop-landmark.png"}
   {:file "templates/faustus-shop-landmark-serif.png" :role :template/landmark :source "owner capture 2026-11-24 (v2 shop 2 live gate, frame shop-grid-20261124-224350, the landmark region): the game now draws the title in its serif, and v1's capture scores 0.70 there. v1's file stays for the sidecar's v1 golden tests"}
   {:file "templates/faustus-shop-list-button.png" :role :template/button :v1-path "resources/capture/shop/faustus-shop-list-button.png"}
+  {:file "templates/faustus-shop-list-button-serif.png" :role :template/button :source "owner capture, shop 3 Gate 0 2026-11-24/25 (validation/shop-frames/overlay/): the List Item button's frame and face in the game font, cut at (1844, 841) 178x43 from chaos-10-h1; v1's file stays for the v1 golden tests"}
+  {:file "templates/faustus-shop-currency-chaos.png" :role :template/label :source "owner capture, shop 3 Gate 0 2026-11-24/25 (validation/shop-frames/overlay/): the currency field's name text, cut from chaos-10-h1"}
+  {:file "templates/faustus-shop-currency-divine.png" :role :template/label :source "owner capture, shop 3 Gate 0 2026-11-24/25 (validation/shop-frames/overlay/): the currency field's name text, cut from divine-1-h1"}
   {:file "templates/rog-deal-landmark.png" :role :template/landmark :v1-path "resources/capture/inventory/rog-deal-landmark.png"}
   {:file "templates/stash-normal-empty.png" :role :template/empty :v1-path "resources/capture/inventory/stash-normal-empty.png"}
   {:file "templates/stash-normal-landmark.png" :role :template/landmark :v1-path "resources/capture/inventory/stash-normal-landmark.png"}
@@ -216,6 +219,16 @@
   {:file "digit-atlas-italic/digit-7.png" :role :atlas/digit-italic :v1-path "resources/capture/inventory/digit-atlas-italic/digit-7.png"}
   {:file "digit-atlas-italic/digit-8.png" :role :atlas/digit-italic :v1-path "resources/capture/inventory/digit-atlas-italic/digit-8.png"}
   {:file "digit-atlas-italic/digit-9.png" :role :atlas/digit-italic :v1-path "resources/capture/inventory/digit-atlas-italic/digit-9.png"}
+  {:file "digit-atlas-serif/digit-0.png" :role :atlas/digit :source "owner capture, shop 3 Gate 0 2026-11-24/25 (validation/shop-frames/overlay/): the deselected price digit in the game font, segmented and binarised by indite_sidecar.percept.rects at scale 4"}
+  {:file "digit-atlas-serif/digit-1.png" :role :atlas/digit :source "owner capture, shop 3 Gate 0 2026-11-24/25 (validation/shop-frames/overlay/): the deselected price digit in the game font, segmented and binarised by indite_sidecar.percept.rects at scale 4"}
+  {:file "digit-atlas-serif/digit-2.png" :role :atlas/digit :source "owner capture, shop 3 Gate 0 2026-11-24/25 (validation/shop-frames/overlay/): the deselected price digit in the game font, segmented and binarised by indite_sidecar.percept.rects at scale 4"}
+  {:file "digit-atlas-serif/digit-3.png" :role :atlas/digit :source "owner capture, shop 3 Gate 0 2026-11-24/25 (validation/shop-frames/overlay/): the deselected price digit in the game font, segmented and binarised by indite_sidecar.percept.rects at scale 4"}
+  {:file "digit-atlas-serif/digit-4.png" :role :atlas/digit :source "owner capture, shop 3 Gate 0 2026-11-24/25 (validation/shop-frames/overlay/): the deselected price digit in the game font, segmented and binarised by indite_sidecar.percept.rects at scale 4"}
+  {:file "digit-atlas-serif/digit-5.png" :role :atlas/digit :source "owner capture, shop 3 Gate 0 2026-11-24/25 (validation/shop-frames/overlay/): the deselected price digit in the game font, segmented and binarised by indite_sidecar.percept.rects at scale 4"}
+  {:file "digit-atlas-serif/digit-6.png" :role :atlas/digit :source "owner capture, shop 3 Gate 0 2026-11-24/25 (validation/shop-frames/overlay/): the deselected price digit in the game font, segmented and binarised by indite_sidecar.percept.rects at scale 4"}
+  {:file "digit-atlas-serif/digit-7.png" :role :atlas/digit :source "owner capture, shop 3 Gate 0 2026-11-24/25 (validation/shop-frames/overlay/): the deselected price digit in the game font, segmented and binarised by indite_sidecar.percept.rects at scale 4"}
+  {:file "digit-atlas-serif/digit-8.png" :role :atlas/digit :source "owner capture, shop 3 Gate 0 2026-11-24/25 (validation/shop-frames/overlay/): the deselected price digit in the game font, segmented and binarised by indite_sidecar.percept.rects at scale 4"}
+  {:file "digit-atlas-serif/digit-9.png" :role :atlas/digit :source "owner capture, shop 3 Gate 0 2026-11-24/25 (validation/shop-frames/overlay/): the deselected price digit in the game font, segmented and binarised by indite_sidecar.percept.rects at scale 4"}
   {:file "minimap/markers/Arena.png" :role :minimap/marker :v1-path "resources/capture/minimap/markers/Arena.png"}
   {:file "minimap/markers/Breach.png" :role :minimap/marker :v1-path "resources/capture/minimap/markers/Breach.png"}
   {:file "minimap/markers/Cache.png" :role :minimap/marker :v1-path "resources/capture/minimap/markers/Cache.png"}
