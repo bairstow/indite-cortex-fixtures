@@ -163,6 +163,8 @@
 
   ;; Faustus offline-shop "Merchant" grid, 12x12. Measured live 2026-07-21: grid box
   ;; (22,224)->(864,1066), pitch 842/12. Empty cells mean-S ~27-28, item cells >=63 -> 45.
+  ;; Re-measured at the v2 shop 2 live gate, 2026-11-24: empty cells mean-S 53-56, and item
+  ;; cells the empty template still matches (0.96, the dark-blue backdrop) 215-218 -> 100.
   :faustus-shop
   {:grid/panel           :faustus-shop
    :grid/cols            12
@@ -173,7 +175,7 @@
    :grid/calibrated?     true
    :grid/empty-template  "templates/faustus-shop-empty.png"
    :grid/empty-threshold 0.70
-   :grid/occupancy-sat-threshold 45.0
+   :grid/occupancy-sat-threshold 100.0
    :grid/landmark            "templates/faustus-shop-landmark.png"
    :grid/landmark-region     {:top 75 :left 280 :width 340 :height 45}
    :grid/landmark-threshold  0.9

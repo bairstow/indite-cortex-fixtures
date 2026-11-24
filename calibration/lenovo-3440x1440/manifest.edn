@@ -7,7 +7,7 @@
   {:file "templates/dannig-exchange-landmark.png" :role :template/landmark :v1-path "resources/capture/inventory/dannig-exchange-landmark.png"}
   {:file "templates/dannig-exchange-overlay-landmark.png" :role :template/landmark :v1-path "resources/capture/inventory/dannig-exchange-overlay-landmark.png"}
   {:file "templates/faustus-shop-empty.png" :role :template/empty :v1-path "resources/capture/shop/faustus-shop-empty.png"}
-  {:file "templates/faustus-shop-landmark.png" :role :template/landmark :v1-path "resources/capture/shop/faustus-shop-landmark.png"}
+  {:file "templates/faustus-shop-landmark.png" :role :template/landmark :source "owner capture 2026-11-24 (shop 2 live gate, frame shop-grid-20261124-224350, the landmark region): the game now draws the title in its serif; v1's capture scored 0.70"}
   {:file "templates/faustus-shop-list-button.png" :role :template/button :v1-path "resources/capture/shop/faustus-shop-list-button.png"}
   {:file "templates/rog-deal-landmark.png" :role :template/landmark :v1-path "resources/capture/inventory/rog-deal-landmark.png"}
   {:file "templates/stash-normal-empty.png" :role :template/empty :v1-path "resources/capture/inventory/stash-normal-empty.png"}
