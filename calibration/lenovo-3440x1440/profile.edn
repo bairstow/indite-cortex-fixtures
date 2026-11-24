@@ -176,7 +176,7 @@
    :grid/empty-template  "templates/faustus-shop-empty.png"
    :grid/empty-threshold 0.70
    :grid/occupancy-sat-threshold 100.0
-   :grid/landmark            "templates/faustus-shop-landmark.png"
+   :grid/landmark            "templates/faustus-shop-landmark-serif.png"
    :grid/landmark-region     {:top 75 :left 280 :width 340 :height 45}
    :grid/landmark-threshold  0.9
    :grid/audit-park          [1720 700]
