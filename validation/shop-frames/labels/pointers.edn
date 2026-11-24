@@ -1,0 +1,5 @@
+;; The owner's shop 2 gate, 2026-11-24: the shop tab list row the owner
+;; selected by hand (0 = the top tab) before saving each pointer strip.
+{"frames/pointer-row-0.png" 0
+ "frames/pointer-row-5.png" 5
+ "frames/pointer-row-15.png" 15}
