@@ -1,10 +1,10 @@
 {:manifest/set :shop-frames
  :manifest/v1-commit "f3354a4"
- :manifest/note "Faustus shop calibration crops (grid, price overlay short/mid/long) and shop templates from v1 (diag/ excluded; full-desktop 7280x2160 dumps excluded: they capture the owner's whole desktop, not only the game). frames/ and labels/ are the owner's v2 shop 2 gate captures, 2026-11-24: screen-sized (3440x1440), black outside the captured region. pointer-row-N: the shop tab-list pointer strip with row N selected. grid-maps and grid-armour: the Merchant panel's grid region, mouse off the grid. overlay/ is the owner's shop 3 Gate 0, 2026-11-24/25: the Set Item Price overlay's footer region in the game font (the owner's custom font override is gone), the value deselected (the REPL had focus); each frame is named <currency>-<price>-h<item height in cells>."
+ :manifest/note "Faustus shop calibration crops (grid, price overlay short/mid/long) and shop templates from v1 (diag/ excluded; full-desktop 7280x2160 dumps excluded: they capture the owner's whole desktop, not only the game). frames/ and labels/ are the owner's v2 shop 2 gate captures, 2026-11-24: screen-sized (3440x1440), black outside the captured region. pointer-row-N: the shop tab-list pointer strip with row N selected. grid-maps and grid-armour: the Merchant panel's grid region, mouse off the grid. overlay/ is the owner's shop 3 Gate 0, 2026-11-24/25: the Set Item Price overlay's footer region in the game font (the owner's custom font override is gone), the value deselected (the REPL had focus); each frame is named <currency>-<price>-h<item height in cells>. live-* are the shop 3 hard gate's two reads of one item through :shop/read-overlay with the game focused: -open with the value selected, -read deselected with the text caret after it."
  :manifest/roles
  {:frame/raw "Recorded game screen frame or crop (PNG), input to a vision stage."
   :ref/template "Reference image a matcher compares against (item-art ref or template)."
-  :label/ground-truth "EDN label from the owner's gate notes. pointers.edn: {\"frames/<file>\" row}. grids.edn: {\"frames/<file>\" {:size [w h] :occupied #{[col row]} :targets [[col row]]}}. overlay/labels/overlay.edn: {\"overlay/frames/<file>\" {:height h :price n :currency kw}}."}
+  :label/ground-truth "EDN label from the owner's gate notes. pointers.edn: {\"frames/<file>\" row}. grids.edn: {\"frames/<file>\" {:size [w h] :occupied #{[col row]} :targets [[col row]]}}. overlay/labels/overlay.edn: {\"overlay/frames/<file>\" {:height h :price n :currency kw}}, :selected? true on a frame whose value is selected (only the button is read from it)."}
  :manifest/files
  [{:file "calib-grid-now.png" :role :frame/raw :v1-path "resources/capture/shop/calib-grid-now.png"}
   {:file "calib-grid-region.png" :role :frame/raw :v1-path "resources/capture/shop/calib-grid-region.png"}
@@ -36,4 +36,6 @@
   {:file "overlay/frames/chaos-20-h2.png" :role :frame/raw :source "owner live capture, shop 3 Gate 0 (:shop/save-overlay-frame)"}
   {:file "overlay/frames/chaos-6-h3.png" :role :frame/raw :source "owner live capture, shop 3 Gate 0 (:shop/save-overlay-frame)"}
   {:file "overlay/frames/chaos-30-h4.png" :role :frame/raw :source "owner live capture, shop 3 Gate 0 (:shop/save-overlay-frame)"}
-  {:file "overlay/labels/overlay.edn" :role :label/ground-truth :source "owner's shop 3 Gate 0 notes, 2026-11-24/25"}]}
+  {:file "overlay/frames/live-chaos-5-h2-open.png" :role :frame/raw :source "owner live capture, shop 3 hard gate, 2026-11-26 (:shop/read-overlay {:cell [2 6] :save-frames? true}): the first read, value selected"}
+  {:file "overlay/frames/live-chaos-5-h2-read.png" :role :frame/raw :source "owner live capture, shop 3 hard gate, 2026-11-26 (:shop/read-overlay {:cell [2 6] :save-frames? true}): the second read, deselected, the text caret after the value"}
+  {:file "overlay/labels/overlay.edn" :role :label/ground-truth :source "owner's shop 3 Gate 0 and hard gate notes, 2026-11-24/26"}]}

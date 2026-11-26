@@ -2,6 +2,10 @@
 ;; footer region (screen-sized, black elsewhere), saved by :shop/save-overlay-frame
 ;; with the REPL focused, so the value is deselected. :height is the item's height
 ;; in cells; :price and :currency are the listing the owner read off the overlay.
+;; live-*: the shop 3 hard gate, 2026-11-26, one item's two reads through
+;; :shop/read-overlay {:save-frames? true} with the game focused. -open has the
+;; value selected (:selected? true: the read only locates the button on it);
+;; -read is deselected, with the text caret after the value.
 {"overlay/frames/divine-1-h1.png" {:height 1 :price 1 :currency :divine}
  "overlay/frames/chaos-10-h1.png" {:height 1 :price 10 :currency :chaos}
  "overlay/frames/chaos-23-h1.png" {:height 1 :price 23 :currency :chaos}
@@ -16,4 +20,6 @@
  "overlay/frames/chaos-50-h1.png" {:height 1 :price 50 :currency :chaos}
  "overlay/frames/chaos-20-h2.png" {:height 2 :price 20 :currency :chaos}
  "overlay/frames/chaos-6-h3.png" {:height 3 :price 6 :currency :chaos}
- "overlay/frames/chaos-30-h4.png" {:height 4 :price 30 :currency :chaos}}
+ "overlay/frames/chaos-30-h4.png" {:height 4 :price 30 :currency :chaos}
+ "overlay/frames/live-chaos-5-h2-open.png" {:height 2 :price 5 :currency :chaos :selected? true}
+ "overlay/frames/live-chaos-5-h2-read.png" {:height 2 :price 5 :currency :chaos}}
