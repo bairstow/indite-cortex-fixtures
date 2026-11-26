@@ -6,6 +6,10 @@
 ;; :shop/read-overlay {:save-frames? true} with the game focused. -open has the
 ;; value selected (:selected? true: the read only locates the button on it);
 ;; -read is deselected, with the text caret after the value.
+;; live-chaos-{12,23,34,67,89,1080}-h2-read: shop 4 Gate A, 2026-11-26, tinctures
+;; (1x2), the same read. In the 12 frame the caret touches the 2 and makes one
+;; blob taller than the digit window: the read must refuse it (:price nil), not
+;; drop the 2 (it read 1 live). 1080 shows a thousands separator.
 {"overlay/frames/divine-1-h1.png" {:height 1 :price 1 :currency :divine}
  "overlay/frames/chaos-10-h1.png" {:height 1 :price 10 :currency :chaos}
  "overlay/frames/chaos-23-h1.png" {:height 1 :price 23 :currency :chaos}
@@ -22,4 +26,10 @@
  "overlay/frames/chaos-6-h3.png" {:height 3 :price 6 :currency :chaos}
  "overlay/frames/chaos-30-h4.png" {:height 4 :price 30 :currency :chaos}
  "overlay/frames/live-chaos-5-h2-open.png" {:height 2 :price 5 :currency :chaos :selected? true}
- "overlay/frames/live-chaos-5-h2-read.png" {:height 2 :price 5 :currency :chaos}}
+ "overlay/frames/live-chaos-5-h2-read.png" {:height 2 :price 5 :currency :chaos}
+ "overlay/frames/live-chaos-12-h2-read.png" {:height 2 :price nil :currency :chaos}
+ "overlay/frames/live-chaos-23-h2-read.png" {:height 2 :price 23 :currency :chaos}
+ "overlay/frames/live-chaos-34-h2-read.png" {:height 2 :price 34 :currency :chaos}
+ "overlay/frames/live-chaos-67-h2-read.png" {:height 2 :price 67 :currency :chaos}
+ "overlay/frames/live-chaos-89-h2-read.png" {:height 2 :price 89 :currency :chaos}
+ "overlay/frames/live-chaos-1080-h2-read.png" {:height 2 :price 1080 :currency :chaos}}

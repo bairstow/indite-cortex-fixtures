@@ -38,4 +38,10 @@
   {:file "overlay/frames/chaos-30-h4.png" :role :frame/raw :source "owner live capture, shop 3 Gate 0 (:shop/save-overlay-frame)"}
   {:file "overlay/frames/live-chaos-5-h2-open.png" :role :frame/raw :source "owner live capture, shop 3 hard gate, 2026-11-26 (:shop/read-overlay {:cell [2 6] :save-frames? true}): the first read, value selected"}
   {:file "overlay/frames/live-chaos-5-h2-read.png" :role :frame/raw :source "owner live capture, shop 3 hard gate, 2026-11-26 (:shop/read-overlay {:cell [2 6] :save-frames? true}): the second read, deselected, the text caret after the value"}
-  {:file "overlay/labels/overlay.edn" :role :label/ground-truth :source "owner's shop 3 Gate 0 and hard gate notes, 2026-11-24/26"}]}
+  {:file "overlay/frames/live-chaos-12-h2-read.png" :role :frame/raw :source "owner live capture, shop 4 Gate A, 2026-11-26 (:shop/read-overlay {:save-frames? true}): the second read, deselected, the text caret after the value; the caret touches the 2"}
+  {:file "overlay/frames/live-chaos-23-h2-read.png" :role :frame/raw :source "owner live capture, shop 4 Gate A, 2026-11-26 (:shop/read-overlay {:save-frames? true}): the second read, deselected, the text caret after the value"}
+  {:file "overlay/frames/live-chaos-34-h2-read.png" :role :frame/raw :source "owner live capture, shop 4 Gate A, 2026-11-26 (:shop/read-overlay {:save-frames? true}): the second read, deselected, the text caret after the value"}
+  {:file "overlay/frames/live-chaos-67-h2-read.png" :role :frame/raw :source "owner live capture, shop 4 Gate A, 2026-11-26 (:shop/read-overlay {:save-frames? true}): the second read, deselected, the text caret after the value"}
+  {:file "overlay/frames/live-chaos-89-h2-read.png" :role :frame/raw :source "owner live capture, shop 4 Gate A, 2026-11-26 (:shop/read-overlay {:save-frames? true}): the second read, deselected, the text caret after the value"}
+  {:file "overlay/frames/live-chaos-1080-h2-read.png" :role :frame/raw :source "owner live capture, shop 4 Gate A, 2026-11-26 (:shop/read-overlay {:save-frames? true}): the second read, deselected, the text caret after the value; a thousands separator"}
+  {:file "overlay/labels/overlay.edn" :role :label/ground-truth :source "owner's shop 3 Gate 0 and hard gate and shop 4 Gate A notes, 2026-11-24/26"}]}
