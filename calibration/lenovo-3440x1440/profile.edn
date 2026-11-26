@@ -197,6 +197,9 @@
   ;; the caret fall outside :min-h..:max-h. :merged "refuse": no width split (it cuts a
   ;; "0" in two when 1s are the median width, 110 -> 1100); a glyph-height blob wider
   ;; than :max-aspect (two digits touching) makes the read nil.
+  ;; :caret-w (shop 4 Gate A, 2026-11-26): the text caret alone is 6 px wide at 4x and
+  ;; 116-118 tall, ignored; merged with a "2" it is 46 wide, which makes the read nil
+  ;; (12 read as 1 before). A tall blob wider than :max-aspect is the ring, ignored.
   ;; The currency is its name in the field: each template scores 1.00 on its own currency
   ;; and 0.61-0.62 on the other's, so an unlisted currency reads nil rather than near.
   ;; The park box is below the footer region, where v1 parked ([1418 1100]).
@@ -208,7 +211,7 @@
    :overlay/value-rect            {:left 1418 :width 66 :height 46 :dy -2}
    :overlay/digit-atlas           "digit-atlas-serif/"
    :overlay/digit-scale           4.0
-   :overlay/digit-seg             {:min-h 50 :max-h 90 :max-aspect 0.9 :min-area 500 :merged "refuse"}
+   :overlay/digit-seg             {:min-h 50 :max-h 90 :max-aspect 0.9 :min-area 500 :merged "refuse" :caret-w 12}
    :overlay/currency-name-rect    {:left 1500 :width 300 :height 48 :dy -4}
    :overlay/currency-names        {:chaos  "templates/faustus-shop-currency-chaos.png"
                                    :divine "templates/faustus-shop-currency-divine.png"}
