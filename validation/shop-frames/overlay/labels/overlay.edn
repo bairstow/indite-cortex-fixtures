@@ -10,6 +10,9 @@
 ;; (1x2), the same read. In the 12 frame the caret touches the 2 and makes one
 ;; blob taller than the digit window: the read must refuse it (:price nil), not
 ;; drop the 2 (it read 1 live). 1080 shows a thousands separator.
+;; live-chaos-5-h2-lower-*, live-chaos-3-h2-verify: shop 4 Gate B, 2026-11-26,
+;; one :shop/lower-one {:save-frames? true} from 5 to 3 chaos: its open and read,
+;; then the verify read of the typed value (cursor parked, the field focused).
 {"overlay/frames/divine-1-h1.png" {:height 1 :price 1 :currency :divine}
  "overlay/frames/chaos-10-h1.png" {:height 1 :price 10 :currency :chaos}
  "overlay/frames/chaos-23-h1.png" {:height 1 :price 23 :currency :chaos}
@@ -32,4 +35,7 @@
  "overlay/frames/live-chaos-34-h2-read.png" {:height 2 :price 34 :currency :chaos}
  "overlay/frames/live-chaos-67-h2-read.png" {:height 2 :price 67 :currency :chaos}
  "overlay/frames/live-chaos-89-h2-read.png" {:height 2 :price 89 :currency :chaos}
- "overlay/frames/live-chaos-1080-h2-read.png" {:height 2 :price 1080 :currency :chaos}}
+ "overlay/frames/live-chaos-1080-h2-read.png" {:height 2 :price 1080 :currency :chaos}
+ "overlay/frames/live-chaos-5-h2-lower-open.png" {:height 2 :price 5 :currency :chaos :selected? true}
+ "overlay/frames/live-chaos-5-h2-lower-read.png" {:height 2 :price 5 :currency :chaos}
+ "overlay/frames/live-chaos-3-h2-verify.png" {:height 2 :price 3 :currency :chaos}}
