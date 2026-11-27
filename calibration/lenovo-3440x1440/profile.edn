@@ -251,7 +251,7 @@
  ;; To confirm at the shop 2 gate.
  :shop/tab-list
  {:pointer/region    {:top 178 :left 888 :width 32 :height 504}
-  :pointer/template  "templates/tab-pointer.png"
+  :pointer/template  "templates/tab-pointer-masked.png"
   :pointer/threshold 0.8
   :pointer/row0-y    185.5
   :pointer/pitch     31.5

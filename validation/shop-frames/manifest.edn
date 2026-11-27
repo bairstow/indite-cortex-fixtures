@@ -17,9 +17,10 @@
   {:file "frames/pointer-row-0.png" :role :frame/raw :source "owner live capture, shop 2 gate, 2026-11-24 (:shop/read-pointer {:save-frame? true})"}
   {:file "frames/pointer-row-5.png" :role :frame/raw :source "owner live capture, shop 2 gate, 2026-11-24 (:shop/read-pointer {:save-frame? true})"}
   {:file "frames/pointer-row-15.png" :role :frame/raw :source "owner live capture, shop 2 gate, 2026-11-24 (:shop/read-pointer {:save-frame? true})"}
+  {:file "frames/pointer-row-11.png" :role :frame/raw :source "owner live capture after shop 6 Gate D, 2026-11-27 (:shop/read-pointer {:save-frame? true}): row 11 selected over light stone, where the unmasked template scored 0.72"}
   {:file "frames/grid-maps.png" :role :frame/raw :source "owner live capture, shop 2 gate, 2026-11-24 (:shop/read-grid {:save-frame? true}, tab row 12)"}
   {:file "frames/grid-armour.png" :role :frame/raw :source "owner live capture, shop 2 gate, 2026-11-24 (:shop/read-grid {:save-frame? true}, tab row 7)"}
-  {:file "labels/pointers.edn" :role :label/ground-truth :source "owner's shop 2 gate notes, 2026-11-24"}
+  {:file "labels/pointers.edn" :role :label/ground-truth :source "owner's shop 2 gate notes, 2026-11-24; row 11 from the owner's live run, 2026-11-27"}
   {:file "labels/grids.edn" :role :label/ground-truth :source "owner's shop 2 gate notes and audit output, 2026-11-24"}
   {:file "overlay/frames/divine-1-h1.png" :role :frame/raw :source "owner live capture, shop 3 Gate 0 (:shop/save-overlay-frame)"}
   {:file "overlay/frames/chaos-10-h1.png" :role :frame/raw :source "owner live capture, shop 3 Gate 0 (:shop/save-overlay-frame)"}

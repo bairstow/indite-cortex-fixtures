@@ -17,6 +17,7 @@
   {:file "templates/stash-normal-empty.png" :role :template/empty :v1-path "resources/capture/inventory/stash-normal-empty.png"}
   {:file "templates/stash-normal-landmark.png" :role :template/landmark :v1-path "resources/capture/inventory/stash-normal-landmark.png"}
   {:file "templates/tab-pointer.png" :role :template/pointer :v1-path "resources/capture/stash/tab-pointer.png"}
+  {:file "templates/tab-pointer-masked.png" :role :template/pointer :source "owner capture, shop 2 gate 2026-11-24 (validation/shop-frames/frames/pointer-row-0.png): the shop tab-list pointer cut at (890, 185) 28x20, RGBA with alpha 255 where its gray is over 30 (186 of 560 pixels), so the translucent strip's background is not matched (v2 shop 7)"}
   {:file "templates/tujen-haggle-landmark.png" :role :template/landmark :v1-path "resources/capture/inventory/tujen-haggle-landmark.png"}
   {:file "templates/tujen-haggle-overlay-landmark.png" :role :template/landmark :v1-path "resources/capture/inventory/tujen-haggle-overlay-landmark.png"}
   {:file "templates/tujen-haggle-slider-marker.png" :role :template/marker :v1-path "resources/capture/inventory/tujen-haggle-slider-marker.png"}
