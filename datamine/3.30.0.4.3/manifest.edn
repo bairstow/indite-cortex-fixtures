@@ -1,0 +1,5 @@
+{:manifest/note "The v2 crafting datamine reference for RePoE fork 3.30.0.4.3, written by v2's `bb poe:datamine --raw <full download of 2026-11-28, the planner's> --out datamine` (indite.game.poe.datamine.fetch, rules games/poe/resources/poe/rules/datamine.edn, at the v2 commit that adds :mod/grants: the branch claude/craft-c7c, on top of 2cf738b). Each mod that grants a support the text names keeps :mod/grants ({:effect :level :name}, in RePoE's grants_effects order; hidden effects the text does not name are left out). Tests read it instead of downloading 55 MB of RePoE JSON. Regenerate it, never hand-edit it."
+ :manifest/roles {:reference/datamine "indite.game.poe.schema.datamine/Reference as EDN, one mod, base, class, cluster base and translation per line, sorted."
+                  :reference/version "VERSION.edn: {:version :source :fetched-at}."}
+ :manifest/files [{:file "reference.edn" :role :reference/datamine}
+                  {:file "VERSION.edn" :role :reference/version}]}
